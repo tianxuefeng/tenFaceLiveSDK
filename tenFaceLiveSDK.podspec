@@ -28,15 +28,26 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/xiao fu/tenFaceLiveSDK.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '10.0'
+  s.ios.deployment_target = '11.0'
 
   s.source_files = 'tenFaceLiveSDK/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'tenFaceLiveSDK' => ['tenFaceLiveSDK/Assets/*.png']
-  # }
+#s.resource_bundles = { 'ASMessenger' => ['Pod/Assets/**/*'] }
+   
+   s.resources = "tenFaceLiveSDK/Assets/**/*"
+
+   #s.resource_bundles = {
+       #'tenFaceLiveSDK' => ['tenFaceLiveSDK/*/*.{wav,gif,xcassets}'] }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  
+  s.static_framework = true
+  
+   s.dependency 'AFNetworking', '~> 2.3'
+   s.dependency 'WHToast','~>0.1.0'
+   s.dependency 'Masonry'
+   s.dependency 'NTESLiveDetect', '= 3.1.2'
+   s.dependency 'MBProgressHUD'
+   
 end

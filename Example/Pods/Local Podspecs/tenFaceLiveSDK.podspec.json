@@ -1,0 +1,45 @@
+{
+  "name": "tenFaceLiveSDK",
+  "version": "0.1.0",
+  "summary": "A short description of tenFaceLiveSDK.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/xiao fu/tenFaceLiveSDK",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "xiao fu": "tianxuefeng2010@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/xiao fu/tenFaceLiveSDK.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "source_files": "tenFaceLiveSDK/Classes/**/*",
+  "resource_bundles": {
+    "tenFaceLiveSDK": [
+      "tenFaceLiveSDK/Assets/**/*"
+    ]
+  },
+  "static_framework": true,
+  "dependencies": {
+    "AFNetworking": [
+      "~> 2.3"
+    ],
+    "WHToast": [
+      "~>0.1.0"
+    ],
+    "Masonry": [
+
+    ],
+    "NTESLiveDetect": [
+      "= 3.1.2"
+    ],
+    "MBProgressHUD": [
+
+    ]
+  }
+}

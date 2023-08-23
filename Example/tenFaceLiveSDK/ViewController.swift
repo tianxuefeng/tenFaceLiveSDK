@@ -7,12 +7,33 @@
 //
 
 import UIKit
+import tenFaceLiveSDK
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, TeneasyLiveDetectDelegate {
+    
+    @IBAction func gotoFaceDetect(){
+        
+        let vc = NTESLDMainViewController()
+        vc.delegate = self
+        vc.faceBusinessID = "6dfd0b99eb5b4bd698ca63d76c85ef5e"
+        self.navigationController?.pushViewController(vc, animated: true)
+        //下面的可以
+        //self.present(vc, animated: true)
+    }
+    
+    func success(_ token: String) {
+        print("成功")
+    }
+    
+    func failed() {
+        print("失败")
+    }
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+     
     }
 
     override func didReceiveMemoryWarning() {
