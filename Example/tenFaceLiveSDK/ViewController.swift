@@ -7,7 +7,7 @@
 //
 
 import UIKit
-import tenFaceLiveSDK
+import TenFaceLiveSDK
 
 class ViewController: UIViewController, TeneasyLiveDetectDelegate {
     
@@ -15,7 +15,7 @@ class ViewController: UIViewController, TeneasyLiveDetectDelegate {
         
         let vc = NTESLDMainViewController()
         vc.delegate = self
-        vc.faceBusinessID = "6dfd0b99eb5b4bd698ca63d76c85ef5e"
+        vc.faceBusinessID = "测试ID"
         //需要把vc添加进navigation controller才可以push
         //self.navigationController?.pushViewController(vc, animated: true)
         //下面的可以

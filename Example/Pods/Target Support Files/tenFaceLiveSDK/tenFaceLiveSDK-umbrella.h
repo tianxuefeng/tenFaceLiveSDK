@@ -24,6 +24,6 @@
 #import "NTESTimeoutToastView.h"
 #import "UIImageView+NTESLDGif.h"
 
-FOUNDATION_EXPORT double tenFaceLiveSDKVersionNumber;
-FOUNDATION_EXPORT const unsigned char tenFaceLiveSDKVersionString[];
+FOUNDATION_EXPORT double TenFaceLiveSDKVersionNumber;
+FOUNDATION_EXPORT const unsigned char TenFaceLiveSDKVersionString[];
 

@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double Pods_tenFaceLiveSDK_TestsVersionNumber;
-FOUNDATION_EXPORT const unsigned char Pods_tenFaceLiveSDK_TestsVersionString[];
+FOUNDATION_EXPORT double Pods_TenFaceLiveSDK_TestsVersionNumber;
+FOUNDATION_EXPORT const unsigned char Pods_TenFaceLiveSDK_TestsVersionString[];
 

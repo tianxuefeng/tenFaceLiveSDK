@@ -2,10 +2,10 @@ use_frameworks!
 
 platform :ios, '11.0'
 
-target 'tenFaceLiveSDK_Example' do
-  pod 'tenFaceLiveSDK', :path => '../'
-
-  target 'tenFaceLiveSDK_Tests' do
+target 'TenFaceLiveSDK_Example' do
+  pod 'TenFaceLiveSDK', :path => '../'
+#  pod 'TenFaceLiveSDK', :git => 'https://github.com/tianxuefeng/TenFaceLiveSDK.git'
+  target 'TenFaceLiveSDK_Tests' do
     inherit! :search_paths
 
     #pod 'FBSnapshotTestCase' , '~> 2.1.4'

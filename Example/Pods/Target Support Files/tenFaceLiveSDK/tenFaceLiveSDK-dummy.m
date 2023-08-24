@@ -1,5 +1,5 @@
 #import <Foundation/Foundation.h>
-@interface PodsDummy_tenFaceLiveSDK : NSObject
+@interface PodsDummy_TenFaceLiveSDK : NSObject
 @end
-@implementation PodsDummy_tenFaceLiveSDK
+@implementation PodsDummy_TenFaceLiveSDK
 @end

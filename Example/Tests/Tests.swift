@@ -1,5 +1,5 @@
 import XCTest
-import tenFaceLiveSDK
+import TenFaceLiveSDK
 
 class Tests: XCTestCase {
     

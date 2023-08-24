@@ -23,7 +23,7 @@
 			buildPhases = (
 			);
 			dependencies = (
-				97FA936A1A588AEF04AB8CB1E9DBF87C /* PBXTargetDependency */,
+				34C9E1582596713A67F04F9FD000FD82 /* PBXTargetDependency */,
 			);
 			name = NTESLiveDetect;
 			productName = NTESLiveDetect;
@@ -31,441 +31,453 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		004DD49B2AC4F7DA020C430CABCF5739 /* SceneDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 44BFF1D7E753863376A1CEFC22809DA6 /* SceneDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0097064E7F7D3F413161738CC5C25EEC /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C095CDA9615F4BBA930DC1F3B797F1E /* MBProgressHUD.m */; };
+		024C05A9AAB69D5AC14F8A71493ECC6F /* UIImageView+NTESLDGif.h in Headers */ = {isa = PBXBuildFile; fileRef = 4EAC8FD471AD6A731D098699384C409C /* UIImageView+NTESLDGif.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		056DDAB5F33D617C977BAE5F25ECD98C /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = FF7065651B6EED75D3A54180BFAABAEE /* AFHTTPRequestOperation.m */; };
-		062AE9C3A609FC7D09C4B262453520AD /* WHToast.m in Sources */ = {isa = PBXBuildFile; fileRef = 66B48DF561851797C6B6EE2DCD50C95F /* WHToast.m */; };
-		0A2E160F42FEF4D743492840464DE273 /* NTESDottedLineProgress.h in Headers */ = {isa = PBXBuildFile; fileRef = 813DD9902AD573C55BAD6B9F34358835 /* NTESDottedLineProgress.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0A9E35313EBD14723B0F8C453C76ACB6 /* NTESToastView.h in Headers */ = {isa = PBXBuildFile; fileRef = 5827D960175A4968B1F8E38ACF5D7C7E /* NTESToastView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0AA33EBB857A5205F87C09CCB99EAC74 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA65C3B39AE870586DEDD0129ACEA48C /* Foundation.framework */; };
+		0D095C43B0B060E4DA0A48D1FEAE7A78 /* NTESToastView.m in Sources */ = {isa = PBXBuildFile; fileRef = EB57561DF77D386D0CE2272C55687D7A /* NTESToastView.m */; };
 		0E8CCAE597756C61B2D7B60EEF4A29E4 /* MASUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 68D4CDDED4323E97F48A166B9F4B3106 /* MASUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0F5680893697DCD762345A72BE90A107 /* UIProgressView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 219BCBBD0E8D3E57CD7E5095CE3FBCA2 /* UIProgressView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0FF92B7CA2702E3FB545DBC76EB8F7DD /* UIActivityIndicatorView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 083B6B49521495B310CBDACC0373321A /* UIActivityIndicatorView+AFNetworking.m */; };
+		156455F8ECAAA8E5E1A23128205EF3BA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA65C3B39AE870586DEDD0129ACEA48C /* Foundation.framework */; };
+		189934040EF5E82B9CB316B7D9878714 /* NTESLiveDetectView.m in Sources */ = {isa = PBXBuildFile; fileRef = A84803E7D9B1D740BFC15EB9C1D7A521 /* NTESLiveDetectView.m */; };
 		19300CF68F5718C6F9C3476F1A98C1DC /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BE77BEE398F777CB9141FFF4901880B /* MASCompositeConstraint.m */; };
+		19BE6EEB00B7B3916F1C7FF7A693AF65 /* WHToast-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9538B38181884811FBA6430F6679065E /* WHToast-dummy.m */; };
 		1A18FCCEB1D3BF943E9E049EC19EA46D /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 6525D05FDA7840152FBCF9D1494682AE /* AFURLResponseSerialization.m */; };
 		1B433A1BF92BBD5811F61A000E4771C2 /* MASConstraintMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E6216A4F937BE7DA7B5E35372B30A1A /* MASConstraintMaker.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1B54ACAE6F2279FAD0D564BFD75184FE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA65C3B39AE870586DEDD0129ACEA48C /* Foundation.framework */; };
-		1F05F5288D636430197AC7FD849BB3B1 /* NTESToastView.m in Sources */ = {isa = PBXBuildFile; fileRef = 42376BB9C50A7C2618A3106CCD570281 /* NTESToastView.m */; };
+		1B843B52FDF56974837DB53AF6979D04 /* open-eyes.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9C9BDA2E3126662CAB4A591AAA67FAEE /* open-eyes.wav */; };
+		1CADB9306480BE2A11BA0BECF42D3B9E /* NTESBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A79F0389577A3AC3E9E2EEA1289B0818 /* NTESBaseViewController.m */; };
 		1F74418A1A844AD6F2D0BE55DB5A565B /* AFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2133387FA0EC2BDDCA00C44140819253 /* AFNetworkActivityIndicatorManager.m */; };
+		207D9FFEFD8CE2B33FE85C888625EDC9 /* NTESLDMainViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F93473ACA823B749402FCF426541839 /* NTESLDMainViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		211C7075C87454B901D601DFCB462C41 /* NTESLDSuccessViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC774B8F20A370D39F6282155C16B31B /* NTESLDSuccessViewController.m */; };
+		213DBF242FA440088DCEC74EE3FCB7CB /* NTESTimeoutToastView.m in Sources */ = {isa = PBXBuildFile; fileRef = D55FC5A329797EB0CE417FC4AC39BD92 /* NTESTimeoutToastView.m */; };
+		21EE6DF71AFAE9C08C78066F92FDE72C /* NTESTimeoutToastView.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FB12F0C752548F72A649AF5FBEB0FBD /* NTESTimeoutToastView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		22BAE8994ADCD5A6A4D71352BA0D0954 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DE49BA67339EB6B84F0B9B7648C8050 /* SystemConfiguration.framework */; };
-		27FB3ED58CD1171A82F6E3C3B152DD5C /* Pods-tenFaceLiveSDK_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D6E5957A059AE0217695E9D74F29F36 /* Pods-tenFaceLiveSDK_Tests-dummy.m */; };
+		2646298F13CA2C1DC21A19F30F7E5199 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA65C3B39AE870586DEDD0129ACEA48C /* Foundation.framework */; };
 		2839E3707C14798138E8A0C72ACE4C25 /* MASLayoutConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 37C422B8781FE469287F5A5800F92AED /* MASLayoutConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2921ACB9BA038E23AD06882CA0726C09 /* AFSecurityPolicy.h in Headers */ = {isa = PBXBuildFile; fileRef = 3CE9641C78C711995C9757D74F82AF6D /* AFSecurityPolicy.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2C852AD3BD5232EF28F71972509A9E9E /* WHToastConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = F1826A4CA1FAFA5742AB5E1F0AC01F21 /* WHToastConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2FC34B017174E5443FB20A15944C87D8 /* Pods-tenFaceLiveSDK_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B9CC4E30CF88D0761D5E067DED72D771 /* Pods-tenFaceLiveSDK_Example-dummy.m */; };
+		2AA7CB9EF0045DE224AF410D43EFF902 /* NetworkReachability.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F6B8965988AB3B50A6070374E235F0C /* NetworkReachability.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		313BD1D22D3DE3450A1B4727713A15E9 /* UIAlertView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 663011425512752DD98128BC35A80BD4 /* UIAlertView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		31F7C35C8863FA25A741A884E21BE7D0 /* Masonry.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FF33C21417AEE34E7BE8E7B3C51F0B5 /* Masonry.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		33263E341C1322500C5F2632B22EECA7 /* UIWebView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = ACE2AD7B1A24EA768C8933ED8A1A9A02 /* UIWebView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		34886E72D571CDFD9EE057EE7CFFD18C /* turn-right.gif in Resources */ = {isa = PBXBuildFile; fileRef = F77041289A388AD5B550F03D34D87292 /* turn-right.gif */; };
+		356DB853B15AF194E71BA31B55B46FDD /* NTESLDMainViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1B49198CD940FFEC6AF10762E16A53BC /* NTESLDMainViewController.mm */; };
 		37A3F447E3723760E69C1AC533341CF4 /* UIRefreshControl+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 59FB569790D384AF08AA44AC3A2BF22E /* UIRefreshControl+AFNetworking.m */; };
+		3BA0F84D59FFA994FE9F1575E3028A3D /* NetworkReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = F9EDC6A8528F6D33AC6B727CD2BA716C /* NetworkReachability.m */; };
 		3D0EFFE30E3193932A034220E3C4C0FA /* View+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 9EEB6DCF93DFBA45C21CCD1296A8BE1F /* View+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		40F68DEA67982D3B13DF8EC32D23C859 /* AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 04E63CCFBE2497771D08F586AFC8FAD3 /* AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		43F0FC80819E382B46D026AA3FE363BF /* NetworkReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 978A091E064DF008CC040BC2CFC93BD8 /* NetworkReachability.m */; };
+		426A43378D843AC3FB6A4E188F986C4A /* Pods-TenFaceLiveSDK_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FA536429C52CE92E06C979E05E9952C /* Pods-TenFaceLiveSDK_Tests-dummy.m */; };
+		42C446CAA068E67EFDFF784A3708F9FC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA65C3B39AE870586DEDD0129ACEA48C /* Foundation.framework */; };
 		43F3A74CC45BE08D52C8BCDC56F58617 /* UIButton+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 538D26F2E78157F84DDE72B23E983718 /* UIButton+AFNetworking.m */; };
-		45C1C4010A816AABAEE57D7E1F8AF087 /* NetworkReachability.h in Headers */ = {isa = PBXBuildFile; fileRef = 9349F40D5102AD715019D88521E078B7 /* NetworkReachability.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		49626F032298701350BCFD20CB77E10F /* WHToastConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 5662FC0207DC63C49D4C4B20AF64DB8C /* WHToastConfig.m */; };
 		499795646572C0F4982F952399B79430 /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D6617FC61C78A586C1B893EA1B75441 /* AFSecurityPolicy.m */; };
+		4AB322C1613415410D89ED10601BDC05 /* NTESLiveDetectView.h in Headers */ = {isa = PBXBuildFile; fileRef = BF7558F31C1DAC97C60ADE352D87C44E /* NTESLiveDetectView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4CC9B43AD90714A316815FAA71DC89A2 /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 02E1824B01EB438E142B434C972AA1FC /* MASConstraintMaker.m */; };
 		4D9D2707B9A1C9724DFCD9D69B993FA1 /* AFNetworking-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A52288F1B202CD1142CCFB4D37CB75E /* AFNetworking-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4E149934317AEC01048B753730F6EA9F /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D78E6797ACD5E42593885A34E059FE6 /* AFURLSessionManager.m */; };
+		4F3ADD632A9ED4F483BA8A7310FF2E76 /* Pods-TenFaceLiveSDK_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F5FAAF58014EE13DB2EF3D0766CC878 /* Pods-TenFaceLiveSDK_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		53305278F1654F968B4E02DF71B098BE /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = BDFAE9286AF15AB80285A6A6ED69A8DE /* MASViewAttribute.m */; };
-		53CCD2826BE4D3BCCB6EED13BC7B112B /* UIColor+NTESLiveDetect.h in Headers */ = {isa = PBXBuildFile; fileRef = 37D8CC5D6CFCE5A4FE2EB490BA484DC6 /* UIColor+NTESLiveDetect.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		53EC95B96212B86A7482BE9466EB41BF /* UIWebView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = F8901E61F753F2CEF9BC9C3C255634D9 /* UIWebView+AFNetworking.m */; };
 		54BEFE9F75005D327641073B838C6776 /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 8423C18D59CB8139FD03228B35CAC86E /* MASLayoutConstraint.m */; };
-		5539136BE5F26C4A37973723F3CC857B /* LDDemoDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = C6A602444E65626FB37C0E057C244C00 /* LDDemoDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		55EE16FB5825FBE117658EC062BEC697 /* UIImageView+NTESLDGif.m in Sources */ = {isa = PBXBuildFile; fileRef = 96A78F26F0733F1140C0D210171C4CC1 /* UIImageView+NTESLDGif.m */; };
 		567ABE0681AA82748435E32386DE12D7 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 839B1FD7475BDDA12EC892BE93970AF8 /* ViewController+MASAdditions.m */; };
+		569CABBA5A2946255DF4674CD9F937E5 /* UIColor+NTESLiveDetect.h in Headers */ = {isa = PBXBuildFile; fileRef = 578333E99E67547065479CE47FF2C4E1 /* UIColor+NTESLiveDetect.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		57595893801E77A08FC28462EA856C40 /* AFNetworking-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CFF0E530C0137CAC00F4C6634263279 /* AFNetworking-dummy.m */; };
-		585E2D551D230C56DA98D50BE4142DB0 /* NTESLiveDetectView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A4D486A6E9E3A6E72EF3EDF3E0DA95F /* NTESLiveDetectView.m */; };
-		58B3C6D02A137C9098E76626886FA437 /* NTESLDMainViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 39029173EADA5C2AFA768210523AEF39 /* NTESLDMainViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		58C91B4AB36E6B16421106CA634C58EF /* MBProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B59B40639889317F96E8B0CF0078B579 /* MBProgressHUD-dummy.m */; };
-		5917E8D92A97591D000B2EDC /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 5917E8CD2A97591D000B2EDC /* .gitkeep */; };
-		5917E8DA2A97591D000B2EDC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5917E8CE2A97591D000B2EDC /* Assets.xcassets */; };
-		5917E8DB2A97591D000B2EDC /* turn-right.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5917E8D02A97591D000B2EDC /* turn-right.wav */; };
-		5917E8DC2A97591D000B2EDC /* turn-left.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5917E8D12A97591D000B2EDC /* turn-left.wav */; };
-		5917E8DD2A97591D000B2EDC /* open-mouth.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5917E8D22A97591D000B2EDC /* open-mouth.wav */; };
-		5917E8DE2A97591D000B2EDC /* open-eyes.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5917E8D32A97591D000B2EDC /* open-eyes.wav */; };
-		5917E8DF2A97591D000B2EDC /* open-eyes.gif in Resources */ = {isa = PBXBuildFile; fileRef = 5917E8D52A97591D000B2EDC /* open-eyes.gif */; };
-		5917E8E02A97591D000B2EDC /* open-mouth.gif in Resources */ = {isa = PBXBuildFile; fileRef = 5917E8D62A97591D000B2EDC /* open-mouth.gif */; };
-		5917E8E12A97591D000B2EDC /* turn-left.gif in Resources */ = {isa = PBXBuildFile; fileRef = 5917E8D72A97591D000B2EDC /* turn-left.gif */; };
-		5917E8E22A97591D000B2EDC /* turn-right.gif in Resources */ = {isa = PBXBuildFile; fileRef = 5917E8D82A97591D000B2EDC /* turn-right.gif */; };
+		58EDE385159022927766B7E055B9C9D7 /* WHToastConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 5662FC0207DC63C49D4C4B20AF64DB8C /* WHToastConfig.m */; };
+		591E227FBAFADBC3B2BDB05523B58B52 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C4A739E25686D002CE698D67B49A4AB /* UIKit.framework */; };
 		5BAC1EF86D0E57E44E404B2796993561 /* MBProgressHUD-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C3A27DD2290046CFC3A13E305EFABF4 /* MBProgressHUD-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		60F3D36A688F462690BA47F91EFF1B2C /* NTESLDHomePageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2151EF8B48349023AD2E98FEA8F282AC /* NTESLDHomePageViewController.m */; };
 		61225B0B9AEC591476E30C9A575013B3 /* View+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = BB0A1357517932DDCEA678BB26BE267D /* View+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6195644CA3E3419A95951B95B12769B1 /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = A0F7262C2686D818D778FED124E66275 /* AFURLConnectionOperation.m */; };
 		63B554E188C8F0ECE4E2FE49DC187B71 /* AFURLSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 381188E68E3E96939AB837DAE83FAD5D /* AFURLSessionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6651F5F638D536EB051E81EE0546AFCB /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C4E19D49C865F1EB8F93B99628F3E04 /* SceneDelegate.m */; };
 		67E941CADB3CDDEEDF8CE4EE4A4A05BB /* MBProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 29EE40CA25FD1C2F810380EB645FB3D0 /* MBProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		68640167C952414C4146C49DC7F4D803 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA65C3B39AE870586DEDD0129ACEA48C /* Foundation.framework */; };
-		6A44ECEB808025DC9AB65230FB9E70BA /* WHToastView.m in Sources */ = {isa = PBXBuildFile; fileRef = F770D132C93B347AAF31A7178EF69119 /* WHToastView.m */; };
 		6A8840784D210166F0E75E0AF8E413AD /* UIButton+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 71BE405A1DFD85F2C80404D274D0DA51 /* UIButton+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6DA6530898EC420505935E4CBB869ADB /* UIKit+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = CFB9D9564DE6D221649597FC7925FCAE /* UIKit+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6E53094194AB822CE80D5F503C76BE83 /* NTESLDSuccessViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D078F28176815411B12E95912AD7CB4F /* NTESLDSuccessViewController.m */; };
-		6EB0EF1CF6838B325714E571BA652C34 /* NTESLiveDetectView.h in Headers */ = {isa = PBXBuildFile; fileRef = C18F4B9C380991F66E3A0A282AEE56E9 /* NTESLiveDetectView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6ED02164B5E06B799C50961364EEC1DC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA65C3B39AE870586DEDD0129ACEA48C /* Foundation.framework */; };
-		6FB89E0C3BC2DEEA74F18E92DD509C5F /* UIImageView+NTESLDGif.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B1E641FA121AE9F6FE6077B6D296F6F /* UIImageView+NTESLDGif.m */; };
+		708025BCBBF1F653ED7E4B70A87DCC08 /* turn-left.gif in Resources */ = {isa = PBXBuildFile; fileRef = 5480B8D78EDB7F8607ED37564A8A08E2 /* turn-left.gif */; };
 		714FB212B725F8BDF3683F38B7F6B4CE /* AFHTTPRequestOperationManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 501B118DFB2DC12E645A88B39C15F21E /* AFHTTPRequestOperationManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		715AB2C777F6FCAB5EE0C667A909B698 /* MASViewAttribute.h in Headers */ = {isa = PBXBuildFile; fileRef = A269C7B8D7018BDB2000582333636B1B /* MASViewAttribute.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		72CEF78CC6C2341AB78EC7ED7A3B2844 /* AFURLConnectionOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D9460706A5FC7A1F59D3949B15ED096 /* AFURLConnectionOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		733D1FF755A7E59F0218E2A9225E9ECA /* UIImage+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = CF6F2583CB1C1B18C05112BBF3CC8172 /* UIImage+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		746B0BD3442F7C333D7F7E2C518E9031 /* UIRefreshControl+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = EAC6C61C124655D8E15BBFDBE7C6E999 /* UIRefreshControl+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		78251F42EB680FB72F040A1986279CD2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA65C3B39AE870586DEDD0129ACEA48C /* Foundation.framework */; };
-		7AD290A437BF36682EF48EBD19564AFE /* Main.storyboard in Sources */ = {isa = PBXBuildFile; fileRef = D9CD52A12EA9D689A1DF6C74DE47234B /* Main.storyboard */; };
 		7B05A8DE072977F90AA84A0E98E23167 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 701BCDD18000C691651BC1F7E565DA10 /* MASConstraint.m */; };
-		7BC2AB39D3D5E78305DEDF46288D2B7D /* UIColor+NTESLiveDetect.m in Sources */ = {isa = PBXBuildFile; fileRef = 992BFB42D8347523B461152578D5256D /* UIColor+NTESLiveDetect.m */; };
 		7CBF2011432C597B6BC5A384EE6454B3 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABDA52A891B1276221CCDE57A2041AB9 /* MobileCoreServices.framework */; };
 		7E4206E2E57E51D8EDF9E49677C3DA3D /* AFHTTPRequestOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = C991408CAEA1BD1B649A6085E5E30980 /* AFHTTPRequestOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7F514C48A1433CC4E7666EED8526EB82 /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 79A62C556C1B0AD99372AE016415706F /* UIImageView+AFNetworking.m */; };
 		7FBDBBC09E7D8CE63696847366DCFEE3 /* AFURLResponseSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = FC1A5375C7D01693CCA82169F6CF469E /* AFURLResponseSerialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		81102F7637B6CB0284A6DBB9F09202E6 /* NTESTimeoutToastView.h in Headers */ = {isa = PBXBuildFile; fileRef = E1FA46C3EF1A648E829362EC12401756 /* NTESTimeoutToastView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8171D105E2C5CD3C1357D544942B4446 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C4A739E25686D002CE698D67B49A4AB /* UIKit.framework */; };
-		84F42D2E88711600636694A62D29D278 /* NTESTimeoutToastView.m in Sources */ = {isa = PBXBuildFile; fileRef = 68AA11C3A30B0DB6817F822E9639E7C6 /* NTESTimeoutToastView.m */; };
+		823D9596CA3247ABB46AC04CCA8ED85F /* NTESLDSuccessViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 35DA0E7942D18436C0B02C9E37E0D717 /* NTESLDSuccessViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		894AA3587AF5C3A6D545C4A4BA5B58AC /* UIActivityIndicatorView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 87DB7360CA840F4238E07D1BF1B8725C /* UIActivityIndicatorView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8978CFD60EBCF3B66BAC6CAB34249A15 /* Pods-tenFaceLiveSDK_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B5C73B5BFABE02B1022D976DDC701610 /* Pods-tenFaceLiveSDK_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8AE868BC3E2E6FC92F4717835180C47D /* NSArray+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 3BDA9959E89AAC8C36C493E469E3BCC2 /* NSArray+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8DD119229B94910925DC0DBC54AF06E8 /* NTESLDHomePageViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 127B132D390C4796FDFA52B725DFA707 /* NTESLDHomePageViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8FDDFF8B6E4748CFE3396196B97A0DB9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA65C3B39AE870586DEDD0129ACEA48C /* Foundation.framework */; };
+		8E43A399858247D625E6731FF4DD7BAE /* NTESLDHomePageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13322B0388CD560D9CF2610D81B6FBF6 /* NTESLDHomePageViewController.m */; };
 		96BE3ED0FDDA9CBA6D0DF772A7BA40E0 /* UIImageView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E977564CBDC93B04408C84B567A3528 /* UIImageView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		97328A6D629EDD7889FB3194C26619E4 /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D9BC9964C8461F9B195A5FFC9AA893A1 /* AFNetworkReachabilityManager.m */; };
 		98D637C604695D57419F1D6809F263D6 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E80AB229052D838ABE29307F6BF19EC /* Security.framework */; };
 		98E9E7DA23152B6ABA2CCE66175BEDA9 /* AFHTTPSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E032C2AC1EA06C9EE2C98389AFF2AFA /* AFHTTPSessionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9A165E13053AA27CADB96A8EB7BCAD25 /* NTESDottedLineProgress.m in Sources */ = {isa = PBXBuildFile; fileRef = 025AB15A8180EDA5E75EC93C7FD912BC /* NTESDottedLineProgress.m */; };
-		9A7AB1C8CB6BE21D01B97510C4A8650E /* WHToast-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9538B38181884811FBA6430F6679065E /* WHToast-dummy.m */; };
-		9C64B6179E95BF8E3EB00206F8701A1A /* NTESBaseViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 496BF4773C8E7D7A23D4BCA267F6E606 /* NTESBaseViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9D47B7065C2875A68044FD6A3A8B67A4 /* WHToast.h in Headers */ = {isa = PBXBuildFile; fileRef = 0258DA88C55137825A9C14AFBAC9BB70 /* WHToast.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9D5CE49B60B7844CB6625B7A83893159 /* UIImageView+NTESLDGif.h in Headers */ = {isa = PBXBuildFile; fileRef = C34089BC45A97B9ECED461CFA8CD57A1 /* UIImageView+NTESLDGif.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A1336977ADAAD492D6CFD089A8C6E358 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = B85B26763BC19461649E852A15157D74 /* View+MASAdditions.m */; };
+		A28A97AC73FEEBDE50591FC35E88CCF3 /* WHToastConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = F1826A4CA1FAFA5742AB5E1F0AC01F21 /* WHToastConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A2E2038CA330FE5402B529162FCCA6A1 /* TenFaceLiveSDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E68998DF56D6AF0C2CB5414BD619052 /* TenFaceLiveSDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A41AA45BCD642898558436AF46D198BC /* AFNetworkReachabilityManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 7639FC330572F05FD387FE0447D9801C /* AFNetworkReachabilityManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A78E978154F3F44329CEB710094A4734 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C4A739E25686D002CE698D67B49A4AB /* UIKit.framework */; };
+		A4F71346226BF216735296B7D2C21642 /* NTESDottedLineProgress.h in Headers */ = {isa = PBXBuildFile; fileRef = 46883168524BB91283ADFFC8DA2ED4E3 /* NTESDottedLineProgress.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A7D90D312F7D54E5E2A96CE0BD7AEB7A /* Pods-TenFaceLiveSDK_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 25D42E411D0A0E6331F13B95F7725DBB /* Pods-TenFaceLiveSDK_Example-dummy.m */; };
 		A83A6757F6C0003332D57B41FE24BEEA /* MASConstraint+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 81C4413CEFC7A93B7F5394EE5291B58C /* MASConstraint+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AF1F489CF5F69167C14AC18CF69C4309 /* Pods-tenFaceLiveSDK_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D8D92A552360362F92959A3DCA74354B /* Pods-tenFaceLiveSDK_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AF51DDD51E57D9B6C121EADDC2565FFB /* WHToast-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C597CDF9573700FB048388805B69CC09 /* WHToast-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AFAC1D4EBD53A048346210536741DF13 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C72AE11BFB9F7BFA9C3EB1DE6600C0E5 /* CoreGraphics.framework */; };
 		B10646B6AF73D470221EF25A5DEEEB6F /* ViewController+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 7BE41B340CA1C20143D6D371B9DAEAAC /* ViewController+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B133ED8999723B3EF59CA49BFC846FDA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA65C3B39AE870586DEDD0129ACEA48C /* Foundation.framework */; };
-		B1C6A463CFEA5AC2A3F08737629185B2 /* NTESBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC7BF9CE0EF26DC0A281F14DC3C821C2 /* NTESBaseViewController.m */; };
+		B1911501053879CB201841903F42188D /* SceneDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 409CFFB3611BD6438E6F99A7C0A109FE /* SceneDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B229A053EF37F95481FBD61C44EB0939 /* turn-left.wav in Resources */ = {isa = PBXBuildFile; fileRef = CF3E899F16781DBE26C1CF38284DB81C /* turn-left.wav */; };
 		B4BE7728D87333785F811FED48CF134E /* MASCompositeConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D27716C955E3955997B10518AC2EF9C /* MASCompositeConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B4FF3032C86287B3EB198AE9902F83A5 /* AFURLRequestSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = 07AB849AE35DED34C6E005DFBB833A1E /* AFURLRequestSerialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B52177FF72FDAC3EDB7195DE98F5501E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0E03AD40BB4366307E7EDD840AFC6F4 /* QuartzCore.framework */; };
 		B61AA5459C2B345AD6D84D8A5111C9CE /* Masonry-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 970DBDC0B5986119085E73B35BFAE665 /* Masonry-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B67A0B1855A78C232CA8CA4193480797 /* UIProgressView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = CB46FAF3CA771FF3F3EAA88049D2EDE5 /* UIProgressView+AFNetworking.m */; };
-		B9480B07DFBD2439372CAF63F09E680E /* NTESLDMainViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 225AC8E8F701D0CAC8F84E6A40F084D9 /* NTESLDMainViewController.mm */; };
 		B97B1932591A9DC33101F6DC39CACFA0 /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C117BA3255519803AF01E4683AD60D1 /* AFHTTPSessionManager.m */; };
+		B9CEE38BB59138E3098EAA59F59F1CD4 /* WHToastView.h in Headers */ = {isa = PBXBuildFile; fileRef = BF3D5D41BFE923B983A2FA16074C8B58 /* WHToastView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BE050DABC9BF806B3379AFD2367F4194 /* NSLayoutConstraint+MASDebugAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 7FCDF6678FCD3C9233B98FF8F0CFB78F /* NSLayoutConstraint+MASDebugAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BE32F7A8ED25F80F8FA9558A89EBEAAF /* AFNetworkActivityIndicatorManager.h in Headers */ = {isa = PBXBuildFile; fileRef = CA975BE1E67C71D3CF1230AAC180BBCC /* AFNetworkActivityIndicatorManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BEA99A49E5F8DA685E33DABA606041FF /* MASConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A6C9E28B105FA5A3C6D1A83A2A8B823 /* MASConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C0F22EC07524BAB739BDE67C7CB17B21 /* NTESLDSuccessViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D1716E2AC99C7EB2DF446D5CBC2B771 /* NTESLDSuccessViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BF1E528919565F2DF9A0F63117AFCEF9 /* open-mouth.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7B4D87B2E20A20409BB1694C03F6A38D /* open-mouth.wav */; };
+		C03F57502A21410533D09E2503F8DBCF /* WHToast.m in Sources */ = {isa = PBXBuildFile; fileRef = 66B48DF561851797C6B6EE2DCD50C95F /* WHToast.m */; };
+		C685B28F53CE236A6DB0FEDCABB46AD8 /* UIColor+NTESLiveDetect.m in Sources */ = {isa = PBXBuildFile; fileRef = B3FFE0FE7E9C03E6884204BEDB6C6A25 /* UIColor+NTESLiveDetect.m */; };
 		C7D83D99D755676EF8A09CC77845BAF4 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F58C2E69BA7BF33595D23C6BE0A1AA9 /* NSLayoutConstraint+MASDebugAdditions.m */; };
 		C9375F078B54A9030D4B9C2E73222A5D /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = D70419EAE6D03A77E749C8368AFD78A2 /* NSArray+MASAdditions.m */; };
+		CC3CCBDD3BE6C083194E94DCC5C68C10 /* open-eyes.gif in Resources */ = {isa = PBXBuildFile; fileRef = E3DB867B78E1C31EE86B14583BD4132C /* open-eyes.gif */; };
 		CC4E8765CAC02E51F101B700BDB09598 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C72AE11BFB9F7BFA9C3EB1DE6600C0E5 /* CoreGraphics.framework */; };
 		CECDB459AFB5AD0040AF86378F2DBF97 /* Masonry-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FCB4E8A3524F6E8F7391F0DCD95602A0 /* Masonry-dummy.m */; };
 		CEE7BDCC3F3073CBBF7A76BC6CF3E519 /* MASViewConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 712213B04C410CC53AF3E827A89A361A /* MASViewConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CF20CC7E23BD16017EB85C1F6D100F8A /* UIAlertView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = CFB37031DAD1DDE5E318497A7CFE1E76 /* UIAlertView+AFNetworking.m */; };
+		D3A43B3ADF141B9A20ED6D9099C39670 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B68F9FD5A668CE3790849E9DE2DE851C /* SceneDelegate.m */; };
+		D43777141F1DCCC7A69179B196A68019 /* TenFaceLiveSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2339425D464076A429808B7FB9D0FFEE /* TenFaceLiveSDK-dummy.m */; };
+		D4A5365A118D8BD8858EA71A93F913B3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA65C3B39AE870586DEDD0129ACEA48C /* Foundation.framework */; };
+		D648903F652EF860ADDA02A8A4DFFA50 /* open-mouth.gif in Resources */ = {isa = PBXBuildFile; fileRef = 6F9187630280AE4C14DE63930F0C8ACF /* open-mouth.gif */; };
+		DA25B6EB39A86F181A6E7A797F874923 /* WHToast.h in Headers */ = {isa = PBXBuildFile; fileRef = 0258DA88C55137825A9C14AFBAC9BB70 /* WHToast.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DA5DDD3A6A7A15CE73D07D218DD29992 /* NTESDottedLineProgress.m in Sources */ = {isa = PBXBuildFile; fileRef = E6AE14931088FC5329570BB31CC26257 /* NTESDottedLineProgress.m */; };
 		DEEA2648058B3E6F40892B4E254501F9 /* AFHTTPRequestOperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BB30A0635ED13F68D054B7B45F052E40 /* AFHTTPRequestOperationManager.m */; };
+		DF89BD95F6D26EB8B8121B6375A6594C /* LDDemoDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CBAE51CB808EF8EB2578B4A97FA414C /* LDDemoDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E11377D77F494E8D27302892123A6C88 /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BB54C3D29DA01250D8BED59097612EC /* AFURLRequestSerialization.m */; };
 		E53FCD0CD1526B53074ED4EEF00131E9 /* NSArray+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = DCB4C1A0AE4C2E7AF55DE0C664F4148D /* NSArray+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E56B9F5E3FAC67D71E8BFA4AA3692EEA /* NTESBaseViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = BFA6652381799CA22B11C8649F3FB8A5 /* NTESBaseViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E6FB269534400D40C1CE67D18EDD8A9A /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 3846245E6DD6B3B71428150F868D3847 /* MASViewConstraint.m */; };
-		E7EA4E3D857E6F019323C1509A8B123E /* tenFaceLiveSDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F97CEECF48110B5E9894DF2826AAE284 /* tenFaceLiveSDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EF43A7BDE40EA38F6D4D321ACAA40601 /* NTESToastView.h in Headers */ = {isa = PBXBuildFile; fileRef = 7465523D251CDD2195F466CADA16A6C9 /* NTESToastView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F284025F5FACD08445719631849CCD34 /* WHToast-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C597CDF9573700FB048388805B69CC09 /* WHToast-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F643F466984EAEA0DCABB375DE6E430E /* WHToastView.h in Headers */ = {isa = PBXBuildFile; fileRef = BF3D5D41BFE923B983A2FA16074C8B58 /* WHToastView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F7CE296734E112B6D768F4D946BFDEA1 /* tenFaceLiveSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C45ACF47DD24FD9DB73BADE9D9841BA6 /* tenFaceLiveSDK-dummy.m */; };
-		FF10B8D92116F37ABBDF4BF29DD62858 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E0EBA49D344D2DC2A7C93DC66F5A886 /* ReplaceMe.swift */; };
+		E729C58C85987858A3E666C1CD652D2E /* Main.storyboard in Sources */ = {isa = PBXBuildFile; fileRef = 43D0C7032DE40CE3F3CD9D086FE24857 /* Main.storyboard */; };
+		E8D9B46256CE56D34B91AD36A53FDF3F /* turn-right.wav in Resources */ = {isa = PBXBuildFile; fileRef = 64AD67937DC683C108107B0CC8E4E838 /* turn-right.wav */; };
+		EEA7C01187ED30DA50D6E485BC2E9493 /* WHToastView.m in Sources */ = {isa = PBXBuildFile; fileRef = F770D132C93B347AAF31A7178EF69119 /* WHToastView.m */; };
+		F0FBA4746D0CB4E7B0D885C9AB5FEF69 /* NTESLDHomePageViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 0BA22AF696145B091CD7D791044402C9 /* NTESLDHomePageViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F68F3E4BF0FA883D11986C82018B9E18 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8904199982654BE5F61482BE325A80EA /* ReplaceMe.swift */; };
+		FF90A0BCF2B721FB3A1113DD0EC86783 /* Pods-TenFaceLiveSDK_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 55E27E487CA6CA56C14657B9628A0B92 /* Pods-TenFaceLiveSDK_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		04404848AAC2A839700CB7623BBCF3F6 /* PBXContainerItemProxy */ = {
+		11F5252B7D8674ACA3A6F37602836E14 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 55AF53E6C77A10ED4985E04D74A8878E;
-			remoteInfo = Masonry;
+			remoteGlobalIDString = 0C59228DE05C956B3E209BBC5AA6DD5E;
+			remoteInfo = "Pods-TenFaceLiveSDK_Example";
 		};
-		0DE7B94509AFE0B089F5A92B259D7E37 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = DC2CADF0EE971CCA017237D74F044ECC;
-			remoteInfo = NTESLiveDetect;
-		};
-		0FD403E00C16FBAF14A90BE3948469C7 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = DCD0DEEDE9CB35945D67203F112697C6;
-			remoteInfo = WHToast;
-		};
-		2622AC304FAE6398E074CEDC3EC60CDB /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 0130B3724283586C0E9D2A112D4F2AA1;
-			remoteInfo = AFNetworking;
-		};
-		26A7E7F79CDF166FA9F4DD57D9195F37 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 9A76BF871C7ED6F135327898ADD3B416;
-			remoteInfo = "Pods-tenFaceLiveSDK_Example";
-		};
-		2E319C62AAE77D22CD406018D94F7B0E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 0515AC1115186B0F3EBFB78E8204A267;
-			remoteInfo = tenFaceLiveSDK;
-		};
-		65826163FE7BC1A3174F49909D89554E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = DC2CADF0EE971CCA017237D74F044ECC;
-			remoteInfo = NTESLiveDetect;
-		};
-		6C465C967AA185CC3419F6F83AB2E59F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 0130B3724283586C0E9D2A112D4F2AA1;
-			remoteInfo = AFNetworking;
-		};
-		74AF92753FAFA8EF7C5389F6F312FB83 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = DCD0DEEDE9CB35945D67203F112697C6;
-			remoteInfo = WHToast;
-		};
-		7AB866431E9CB4A8275C9BB2AC835122 /* PBXContainerItemProxy */ = {
+		1C7A566708DD3131D3E922469668C182 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 7F6F6C7839036FD656371F03D2E294BE;
 			remoteInfo = NTESBaseComponent;
 		};
-		A59FA3EDA2FE0AC1036FD4A1BB1447B5 /* PBXContainerItemProxy */ = {
+		272BBECC14236358350E7315F8E0C50C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 82B0A41D3031FF27D78E17B0A9A46FB0;
 			remoteInfo = MBProgressHUD;
 		};
-		C72D59E08DF1EDF1008BEAA4B8EDC30D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 7F6F6C7839036FD656371F03D2E294BE;
-			remoteInfo = NTESBaseComponent;
-		};
-		CD2E992F1FEE79A48F65C758B92572B3 /* PBXContainerItemProxy */ = {
+		3A862EE9718919736CA2D6E76C9D5E8A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 55AF53E6C77A10ED4985E04D74A8878E;
 			remoteInfo = Masonry;
 		};
-		ECE400DEA1B607012A7D3B7F4D877399 /* PBXContainerItemProxy */ = {
+		3FF708E8EA5FF3ABCFE7EDFD1816984C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DCD0DEEDE9CB35945D67203F112697C6;
+			remoteInfo = WHToast;
+		};
+		501AF41440C71475F822508C3BF3F93E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A34ED8D4D78117A83C1EEA6807312D68;
+			remoteInfo = "TenFaceLiveSDK-TenFaceLiveSDK";
+		};
+		60770F37697304C8FD031B95706F9A98 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DCD0DEEDE9CB35945D67203F112697C6;
+			remoteInfo = WHToast;
+		};
+		6CE7ED4316B7CFC4CA49938E49DDAE0D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 795FA77AC0379AC2369ACB8D6CE9745A;
+			remoteInfo = TenFaceLiveSDK;
+		};
+		72B4690858DEB658477E7CA0AC5375F6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 82B0A41D3031FF27D78E17B0A9A46FB0;
 			remoteInfo = MBProgressHUD;
+		};
+		824BC8C549635C18E910BF812E9998F5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0130B3724283586C0E9D2A112D4F2AA1;
+			remoteInfo = AFNetworking;
+		};
+		C1FE51480F04EF0CAA42E1751838EA76 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC2CADF0EE971CCA017237D74F044ECC;
+			remoteInfo = NTESLiveDetect;
+		};
+		C466CE9F503D3130E2138EB2DBA9C363 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7F6F6C7839036FD656371F03D2E294BE;
+			remoteInfo = NTESBaseComponent;
+		};
+		E250CF495A4A167624EF9C4092125487 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0130B3724283586C0E9D2A112D4F2AA1;
+			remoteInfo = AFNetworking;
+		};
+		E5A2168CF8965ED5702B96F1AE4D256F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC2CADF0EE971CCA017237D74F044ECC;
+			remoteInfo = NTESLiveDetect;
+		};
+		FA535569F393530B8DA0AF69E5BDAB8B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55AF53E6C77A10ED4985E04D74A8878E;
+			remoteInfo = Masonry;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0189890838CCBBE32BEA3EE4AA37DF4C /* Pods-tenFaceLiveSDK_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-tenFaceLiveSDK_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		019308C1992E159EEC7B47EE948178EC /* MBProgressHUD.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MBProgressHUD.modulemap; sourceTree = "<group>"; };
 		0258DA88C55137825A9C14AFBAC9BB70 /* WHToast.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WHToast.h; path = WHToast/WHToast.h; sourceTree = "<group>"; };
-		025AB15A8180EDA5E75EC93C7FD912BC /* NTESDottedLineProgress.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = NTESDottedLineProgress.m; sourceTree = "<group>"; };
 		02E1824B01EB438E142B434C972AA1FC /* MASConstraintMaker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraintMaker.m; path = Masonry/MASConstraintMaker.m; sourceTree = "<group>"; };
 		04E63CCFBE2497771D08F586AFC8FAD3 /* AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworking.h; path = AFNetworking/AFNetworking.h; sourceTree = "<group>"; };
-		06F15A37C1CFE9B187F1B41E93EAB302 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		07AB849AE35DED34C6E005DFBB833A1E /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLRequestSerialization.h; path = AFNetworking/AFURLRequestSerialization.h; sourceTree = "<group>"; };
-		07EBE5FF053235B9A90CB7961ED799DA /* Pods-tenFaceLiveSDK_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-tenFaceLiveSDK_Example"; path = Pods_tenFaceLiveSDK_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		081C952D681CA53C5208868606E86614 /* AFNetworking-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AFNetworking-Info.plist"; sourceTree = "<group>"; };
 		083B6B49521495B310CBDACC0373321A /* UIActivityIndicatorView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIActivityIndicatorView+AFNetworking.m"; path = "UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.m"; sourceTree = "<group>"; };
 		0A9D45F7EFC5E779724F600BF28F11FE /* WHToast-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "WHToast-Info.plist"; sourceTree = "<group>"; };
+		0BA22AF696145B091CD7D791044402C9 /* NTESLDHomePageViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = NTESLDHomePageViewController.h; sourceTree = "<group>"; };
 		0CFF0E530C0137CAC00F4C6634263279 /* AFNetworking-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AFNetworking-dummy.m"; sourceTree = "<group>"; };
+		0D228C19306EA398468BF7EE299F2FFE /* Pods-TenFaceLiveSDK_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TenFaceLiveSDK_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		0E032C2AC1EA06C9EE2C98389AFF2AFA /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFHTTPSessionManager.h; path = AFNetworking/AFHTTPSessionManager.h; sourceTree = "<group>"; };
-		0F1D58E29D682615ADE60745507F149E /* Pods-tenFaceLiveSDK_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-tenFaceLiveSDK_Tests.modulemap"; sourceTree = "<group>"; };
-		127B132D390C4796FDFA52B725DFA707 /* NTESLDHomePageViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = NTESLDHomePageViewController.h; sourceTree = "<group>"; };
-		1A4D486A6E9E3A6E72EF3EDF3E0DA95F /* NTESLiveDetectView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = NTESLiveDetectView.m; sourceTree = "<group>"; };
+		0FEBCF7A094C2045A5F7F54EC79DB2FA /* Pods-TenFaceLiveSDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TenFaceLiveSDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		11D9FD078F132904779B0C8152E3B7F0 /* Pods-TenFaceLiveSDK_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TenFaceLiveSDK_Example-frameworks.sh"; sourceTree = "<group>"; };
+		13322B0388CD560D9CF2610D81B6FBF6 /* NTESLDHomePageViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = NTESLDHomePageViewController.m; sourceTree = "<group>"; };
 		1A6C9E28B105FA5A3C6D1A83A2A8B823 /* MASConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraint.h; path = Masonry/MASConstraint.h; sourceTree = "<group>"; };
-		1C4E19D49C865F1EB8F93B99628F3E04 /* SceneDelegate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
-		1D1716E2AC99C7EB2DF446D5CBC2B771 /* NTESLDSuccessViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = NTESLDSuccessViewController.h; sourceTree = "<group>"; };
+		1B49198CD940FFEC6AF10762E16A53BC /* NTESLDMainViewController.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; path = NTESLDMainViewController.mm; sourceTree = "<group>"; };
 		1FFED36A657123030ABB700256D73F15 /* Masonry */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Masonry; path = Masonry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		20232FE6B960771C6D2693A4ADE1A3CB /* Pods-tenFaceLiveSDK_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-tenFaceLiveSDK_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		20ACB9E83B83434EC8A0F4753FB9A233 /* Pods-TenFaceLiveSDK_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TenFaceLiveSDK_Example-Info.plist"; sourceTree = "<group>"; };
 		2133387FA0EC2BDDCA00C44140819253 /* AFNetworkActivityIndicatorManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFNetworkActivityIndicatorManager.m; path = "UIKit+AFNetworking/AFNetworkActivityIndicatorManager.m"; sourceTree = "<group>"; };
-		2151EF8B48349023AD2E98FEA8F282AC /* NTESLDHomePageViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = NTESLDHomePageViewController.m; sourceTree = "<group>"; };
+		21729C03B1D8651FE837306CC46BC604 /* TenFaceLiveSDK-TenFaceLiveSDK */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "TenFaceLiveSDK-TenFaceLiveSDK"; path = TenFaceLiveSDK.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		219BCBBD0E8D3E57CD7E5095CE3FBCA2 /* UIProgressView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIProgressView+AFNetworking.h"; path = "UIKit+AFNetworking/UIProgressView+AFNetworking.h"; sourceTree = "<group>"; };
-		225AC8E8F701D0CAC8F84E6A40F084D9 /* NTESLDMainViewController.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; path = NTESLDMainViewController.mm; sourceTree = "<group>"; };
+		2339425D464076A429808B7FB9D0FFEE /* TenFaceLiveSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TenFaceLiveSDK-dummy.m"; sourceTree = "<group>"; };
+		25D42E411D0A0E6331F13B95F7725DBB /* Pods-TenFaceLiveSDK_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TenFaceLiveSDK_Example-dummy.m"; sourceTree = "<group>"; };
+		28EF398C271F455AFAC280A16EF0F902 /* Pods-TenFaceLiveSDK_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TenFaceLiveSDK_Tests-Info.plist"; sourceTree = "<group>"; };
 		29A7BBA9724E64BF58D2EB9D532366B5 /* Masonry-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Masonry-Info.plist"; sourceTree = "<group>"; };
 		29EE40CA25FD1C2F810380EB645FB3D0 /* MBProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
-		2A2B4FDA4077627BD4B586DFB4C7015A /* Pods-tenFaceLiveSDK_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-tenFaceLiveSDK_Example-frameworks.sh"; sourceTree = "<group>"; };
 		2A616965CC00C99BA1D6896BB74F339E /* Masonry.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Masonry.modulemap; sourceTree = "<group>"; };
-		2B1E641FA121AE9F6FE6077B6D296F6F /* UIImageView+NTESLDGif.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+NTESLDGif.m"; sourceTree = "<group>"; };
-		2D6E5957A059AE0217695E9D74F29F36 /* Pods-tenFaceLiveSDK_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-tenFaceLiveSDK_Tests-dummy.m"; sourceTree = "<group>"; };
-		2DB123616BF5CA3E66C3CA72F052858C /* Pods-tenFaceLiveSDK_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-tenFaceLiveSDK_Example.modulemap"; sourceTree = "<group>"; };
 		2E80AB229052D838ABE29307F6BF19EC /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		35DA0E7942D18436C0B02C9E37E0D717 /* NTESLDSuccessViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = NTESLDSuccessViewController.h; sourceTree = "<group>"; };
 		35DDBFF2D647A6C45C837AE0EA7CF958 /* MBProgressHUD.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MBProgressHUD.debug.xcconfig; sourceTree = "<group>"; };
 		37C422B8781FE469287F5A5800F92AED /* MASLayoutConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASLayoutConstraint.h; path = Masonry/MASLayoutConstraint.h; sourceTree = "<group>"; };
-		37D8CC5D6CFCE5A4FE2EB490BA484DC6 /* UIColor+NTESLiveDetect.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIColor+NTESLiveDetect.h"; sourceTree = "<group>"; };
+		380E1C27FF3087AA82986ECF38376322 /* TenFaceLiveSDK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TenFaceLiveSDK.modulemap; sourceTree = "<group>"; };
 		381188E68E3E96939AB837DAE83FAD5D /* AFURLSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLSessionManager.h; path = AFNetworking/AFURLSessionManager.h; sourceTree = "<group>"; };
 		3846245E6DD6B3B71428150F868D3847 /* MASViewConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewConstraint.m; path = Masonry/MASViewConstraint.m; sourceTree = "<group>"; };
-		389A75615BE4AA2A5D8137D98AC37D13 /* Pods-tenFaceLiveSDK_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-tenFaceLiveSDK_Tests-Info.plist"; sourceTree = "<group>"; };
-		39029173EADA5C2AFA768210523AEF39 /* NTESLDMainViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = NTESLDMainViewController.h; sourceTree = "<group>"; };
 		3BB54C3D29DA01250D8BED59097612EC /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLRequestSerialization.m; path = AFNetworking/AFURLRequestSerialization.m; sourceTree = "<group>"; };
 		3BDA9959E89AAC8C36C493E469E3BCC2 /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASAdditions.h"; path = "Masonry/NSArray+MASAdditions.h"; sourceTree = "<group>"; };
 		3C4A739E25686D002CE698D67B49A4AB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		3CE9641C78C711995C9757D74F82AF6D /* AFSecurityPolicy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFSecurityPolicy.h; path = AFNetworking/AFSecurityPolicy.h; sourceTree = "<group>"; };
+		3E68998DF56D6AF0C2CB5414BD619052 /* TenFaceLiveSDK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TenFaceLiveSDK-umbrella.h"; sourceTree = "<group>"; };
+		3FB12F0C752548F72A649AF5FBEB0FBD /* NTESTimeoutToastView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = NTESTimeoutToastView.h; sourceTree = "<group>"; };
 		3FF33C21417AEE34E7BE8E7B3C51F0B5 /* Masonry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Masonry.h; path = Masonry/Masonry.h; sourceTree = "<group>"; };
-		414B750F08D3D32212D38DC1A0BA5A95 /* tenFaceLiveSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = tenFaceLiveSDK.release.xcconfig; sourceTree = "<group>"; };
-		42376BB9C50A7C2618A3106CCD570281 /* NTESToastView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = NTESToastView.m; sourceTree = "<group>"; };
+		409CFFB3611BD6438E6F99A7C0A109FE /* SceneDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
 		435057A0BBCB13A3C972762376FDD634 /* MBProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD-prefix.pch"; sourceTree = "<group>"; };
-		44BFF1D7E753863376A1CEFC22809DA6 /* SceneDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
-		451AD23D5BC20BE1197A2AD5F04FD354 /* Pods-tenFaceLiveSDK_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-tenFaceLiveSDK_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		496BF4773C8E7D7A23D4BCA267F6E606 /* NTESBaseViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = NTESBaseViewController.h; sourceTree = "<group>"; };
+		43D0C7032DE40CE3F3CD9D086FE24857 /* Main.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		46883168524BB91283ADFFC8DA2ED4E3 /* NTESDottedLineProgress.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = NTESDottedLineProgress.h; sourceTree = "<group>"; };
 		4A52288F1B202CD1142CCFB4D37CB75E /* AFNetworking-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AFNetworking-umbrella.h"; sourceTree = "<group>"; };
 		4C095CDA9615F4BBA930DC1F3B797F1E /* MBProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		4C6F36C1FDD0F14F6BA6D19872B7C082 /* Pods-TenFaceLiveSDK_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TenFaceLiveSDK_Example-resources.sh"; sourceTree = "<group>"; };
 		4E977564CBDC93B04408C84B567A3528 /* UIImageView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+AFNetworking.h"; path = "UIKit+AFNetworking/UIImageView+AFNetworking.h"; sourceTree = "<group>"; };
+		4EAC8FD471AD6A731D098699384C409C /* UIImageView+NTESLDGif.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIImageView+NTESLDGif.h"; sourceTree = "<group>"; };
+		4F6B8965988AB3B50A6070374E235F0C /* NetworkReachability.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = NetworkReachability.h; sourceTree = "<group>"; };
+		4FA536429C52CE92E06C979E05E9952C /* Pods-TenFaceLiveSDK_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TenFaceLiveSDK_Tests-dummy.m"; sourceTree = "<group>"; };
 		501B118DFB2DC12E645A88B39C15F21E /* AFHTTPRequestOperationManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFHTTPRequestOperationManager.h; path = AFNetworking/AFHTTPRequestOperationManager.h; sourceTree = "<group>"; };
-		5034602CECB763B626522F0AE1B308D3 /* tenFaceLiveSDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "tenFaceLiveSDK-prefix.pch"; sourceTree = "<group>"; };
 		534EECD57C548CA638B190B9A7BF44C7 /* WHToast.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WHToast.release.xcconfig; sourceTree = "<group>"; };
 		538D26F2E78157F84DDE72B23E983718 /* UIButton+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+AFNetworking.m"; path = "UIKit+AFNetworking/UIButton+AFNetworking.m"; sourceTree = "<group>"; };
-		5482C1F3C81798DC1EFFBBD6C2F50D50 /* tenFaceLiveSDK */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = tenFaceLiveSDK; path = tenFaceLiveSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5480B8D78EDB7F8607ED37564A8A08E2 /* turn-left.gif */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.gif; path = "turn-left.gif"; sourceTree = "<group>"; };
 		55901F382DAFB3F73A00D199CB52F595 /* AFNetworking-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AFNetworking-prefix.pch"; sourceTree = "<group>"; };
+		55E27E487CA6CA56C14657B9628A0B92 /* Pods-TenFaceLiveSDK_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TenFaceLiveSDK_Tests-umbrella.h"; sourceTree = "<group>"; };
 		5662FC0207DC63C49D4C4B20AF64DB8C /* WHToastConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WHToastConfig.m; path = WHToast/WHToastConfig.m; sourceTree = "<group>"; };
-		587851FE04FDED1CA214A5280BD04D1B /* Pods-tenFaceLiveSDK_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-tenFaceLiveSDK_Example-Info.plist"; sourceTree = "<group>"; };
-		5917E8CD2A97591D000B2EDC /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
-		5917E8CE2A97591D000B2EDC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		5917E8D02A97591D000B2EDC /* turn-right.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "turn-right.wav"; sourceTree = "<group>"; };
-		5917E8D12A97591D000B2EDC /* turn-left.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "turn-left.wav"; sourceTree = "<group>"; };
-		5917E8D22A97591D000B2EDC /* open-mouth.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "open-mouth.wav"; sourceTree = "<group>"; };
-		5917E8D32A97591D000B2EDC /* open-eyes.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "open-eyes.wav"; sourceTree = "<group>"; };
-		5917E8D52A97591D000B2EDC /* open-eyes.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "open-eyes.gif"; sourceTree = "<group>"; };
-		5917E8D62A97591D000B2EDC /* open-mouth.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "open-mouth.gif"; sourceTree = "<group>"; };
-		5917E8D72A97591D000B2EDC /* turn-left.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "turn-left.gif"; sourceTree = "<group>"; };
-		5917E8D82A97591D000B2EDC /* turn-right.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "turn-right.gif"; sourceTree = "<group>"; };
+		578333E99E67547065479CE47FF2C4E1 /* UIColor+NTESLiveDetect.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIColor+NTESLiveDetect.h"; sourceTree = "<group>"; };
+		5827D960175A4968B1F8E38ACF5D7C7E /* NTESToastView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = NTESToastView.h; sourceTree = "<group>"; };
 		59FB569790D384AF08AA44AC3A2BF22E /* UIRefreshControl+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIRefreshControl+AFNetworking.m"; path = "UIKit+AFNetworking/UIRefreshControl+AFNetworking.m"; sourceTree = "<group>"; };
 		5BE77BEE398F777CB9141FFF4901880B /* MASCompositeConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASCompositeConstraint.m; path = Masonry/MASCompositeConstraint.m; sourceTree = "<group>"; };
-		5BED4FDA77F181C500812B129B049659 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		5C3A27DD2290046CFC3A13E305EFABF4 /* MBProgressHUD-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD-umbrella.h"; sourceTree = "<group>"; };
 		5D27716C955E3955997B10518AC2EF9C /* MASCompositeConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASCompositeConstraint.h; path = Masonry/MASCompositeConstraint.h; sourceTree = "<group>"; };
 		5D6617FC61C78A586C1B893EA1B75441 /* AFSecurityPolicy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFSecurityPolicy.m; path = AFNetworking/AFSecurityPolicy.m; sourceTree = "<group>"; };
 		5F58C2E69BA7BF33595D23C6BE0A1AA9 /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSLayoutConstraint+MASDebugAdditions.m"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		5F93473ACA823B749402FCF426541839 /* NTESLDMainViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = NTESLDMainViewController.h; sourceTree = "<group>"; };
 		60F2D5A3B1FF08ACD9ABCAE6B92FAB9D /* AFNetworking.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AFNetworking.debug.xcconfig; sourceTree = "<group>"; };
 		60F6CE0C327F88AE3F1770DEC2BED1B8 /* NTESLiveDetectBundle.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = NTESLiveDetectBundle.bundle; path = Assets/NTESLiveDetectBundle.bundle; sourceTree = "<group>"; };
-		61A19F54E4D0B262FCA7D24B7171433F /* Pods-tenFaceLiveSDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-tenFaceLiveSDK_Example.release.xcconfig"; sourceTree = "<group>"; };
+		61A32DA74C06F3ABEEE8FFBA89D274AF /* Pods-TenFaceLiveSDK_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TenFaceLiveSDK_Example.modulemap"; sourceTree = "<group>"; };
+		63BDEAB7516B47D1A6B69B0DBD243483 /* Pods-TenFaceLiveSDK_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-TenFaceLiveSDK_Example"; path = Pods_TenFaceLiveSDK_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		64AD67937DC683C108107B0CC8E4E838 /* turn-right.wav */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = audio.wav; path = "turn-right.wav"; sourceTree = "<group>"; };
 		6525D05FDA7840152FBCF9D1494682AE /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLResponseSerialization.m; path = AFNetworking/AFURLResponseSerialization.m; sourceTree = "<group>"; };
 		663011425512752DD98128BC35A80BD4 /* UIAlertView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIAlertView+AFNetworking.h"; path = "UIKit+AFNetworking/UIAlertView+AFNetworking.h"; sourceTree = "<group>"; };
 		66B48DF561851797C6B6EE2DCD50C95F /* WHToast.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WHToast.m; path = WHToast/WHToast.m; sourceTree = "<group>"; };
 		689A488CC306F48C610AA1BC039A5A78 /* Masonry.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Masonry.debug.xcconfig; sourceTree = "<group>"; };
-		68AA11C3A30B0DB6817F822E9639E7C6 /* NTESTimeoutToastView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = NTESTimeoutToastView.m; sourceTree = "<group>"; };
 		68D4CDDED4323E97F48A166B9F4B3106 /* MASUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASUtilities.h; path = Masonry/MASUtilities.h; sourceTree = "<group>"; };
-		699113FC943E6E20D678B963892F1E1A /* Pods-tenFaceLiveSDK_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-tenFaceLiveSDK_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		6A15CEB5398D2437599B585853FAA5AE /* Pods-tenFaceLiveSDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-tenFaceLiveSDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		6B630C75E8E7693F43830A14FCE1D28E /* TenFaceLiveSDK */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TenFaceLiveSDK; path = TenFaceLiveSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C117BA3255519803AF01E4683AD60D1 /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFHTTPSessionManager.m; path = AFNetworking/AFHTTPSessionManager.m; sourceTree = "<group>"; };
-		6EA1C0C81B9829227A749B5670BF9A8B /* Pods-tenFaceLiveSDK_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-tenFaceLiveSDK_Example-resources.sh"; sourceTree = "<group>"; };
+		6F9187630280AE4C14DE63930F0C8ACF /* open-mouth.gif */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.gif; path = "open-mouth.gif"; sourceTree = "<group>"; };
 		701BCDD18000C691651BC1F7E565DA10 /* MASConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraint.m; path = Masonry/MASConstraint.m; sourceTree = "<group>"; };
 		712213B04C410CC53AF3E827A89A361A /* MASViewConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewConstraint.h; path = Masonry/MASViewConstraint.h; sourceTree = "<group>"; };
 		71BE405A1DFD85F2C80404D274D0DA51 /* UIButton+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+AFNetworking.h"; path = "UIKit+AFNetworking/UIButton+AFNetworking.h"; sourceTree = "<group>"; };
-		7465523D251CDD2195F466CADA16A6C9 /* NTESToastView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = NTESToastView.h; sourceTree = "<group>"; };
-		756313F94EFDB08C9C17D1F21DDB7D14 /* tenFaceLiveSDK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = tenFaceLiveSDK.modulemap; sourceTree = "<group>"; };
+		75AD9F94835C71AB0A72D0F1D5614BF9 /* Pods-TenFaceLiveSDK_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TenFaceLiveSDK_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		7639FC330572F05FD387FE0447D9801C /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworkReachabilityManager.h; path = AFNetworking/AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
 		784DAF6990948E13BA2F642B7C1B92BF /* NTESBaseComponent.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NTESBaseComponent.debug.xcconfig; sourceTree = "<group>"; };
 		79A62C556C1B0AD99372AE016415706F /* UIImageView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+AFNetworking.m"; path = "UIKit+AFNetworking/UIImageView+AFNetworking.m"; sourceTree = "<group>"; };
+		7B4D87B2E20A20409BB1694C03F6A38D /* open-mouth.wav */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = audio.wav; path = "open-mouth.wav"; sourceTree = "<group>"; };
 		7BE41B340CA1C20143D6D371B9DAEAAC /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ViewController+MASAdditions.h"; path = "Masonry/ViewController+MASAdditions.h"; sourceTree = "<group>"; };
+		7C36FC4ACD7258DC42718C53977F7665 /* Pods-TenFaceLiveSDK_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TenFaceLiveSDK_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		7D37EA679A83FCE83CF396ECCB989707 /* NTESBaseComponent.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NTESBaseComponent.framework; path = Classes/NTESBaseComponent.framework; sourceTree = "<group>"; };
 		7DEFB3040503B06ABAE763AD705CEF40 /* MBProgressHUD-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MBProgressHUD-Info.plist"; sourceTree = "<group>"; };
 		7E6216A4F937BE7DA7B5E35372B30A1A /* MASConstraintMaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraintMaker.h; path = Masonry/MASConstraintMaker.h; sourceTree = "<group>"; };
 		7FCDF6678FCD3C9233B98FF8F0CFB78F /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSLayoutConstraint+MASDebugAdditions.h"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
 		8110E33D47511B656B1800915FFD6880 /* AFNetworking.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AFNetworking.release.xcconfig; sourceTree = "<group>"; };
-		813DD9902AD573C55BAD6B9F34358835 /* NTESDottedLineProgress.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = NTESDottedLineProgress.h; sourceTree = "<group>"; };
 		81C4413CEFC7A93B7F5394EE5291B58C /* MASConstraint+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MASConstraint+Private.h"; path = "Masonry/MASConstraint+Private.h"; sourceTree = "<group>"; };
 		839B1FD7475BDDA12EC892BE93970AF8 /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "ViewController+MASAdditions.m"; path = "Masonry/ViewController+MASAdditions.m"; sourceTree = "<group>"; };
 		8423C18D59CB8139FD03228B35CAC86E /* MASLayoutConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASLayoutConstraint.m; path = Masonry/MASLayoutConstraint.m; sourceTree = "<group>"; };
 		87DB7360CA840F4238E07D1BF1B8725C /* UIActivityIndicatorView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIActivityIndicatorView+AFNetworking.h"; path = "UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.h"; sourceTree = "<group>"; };
+		8834AC4D298761E0B2F1882D8AB54966 /* Pods-TenFaceLiveSDK_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TenFaceLiveSDK_Tests.modulemap"; sourceTree = "<group>"; };
 		88DB471C00B179918B1BDF1C80A48354 /* Masonry-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-prefix.pch"; sourceTree = "<group>"; };
+		8904199982654BE5F61482BE325A80EA /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = TenFaceLiveSDK/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		8B8FAB0D627B17EDE1366984278705D9 /* MBProgressHUD */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MBProgressHUD; path = MBProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CBAE51CB808EF8EB2578B4A97FA414C /* LDDemoDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LDDemoDefines.h; sourceTree = "<group>"; };
 		8D78E6797ACD5E42593885A34E059FE6 /* AFURLSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLSessionManager.m; path = AFNetworking/AFURLSessionManager.m; sourceTree = "<group>"; };
 		8D9460706A5FC7A1F59D3949B15ED096 /* AFURLConnectionOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLConnectionOperation.h; path = AFNetworking/AFURLConnectionOperation.h; sourceTree = "<group>"; };
 		8DE49BA67339EB6B84F0B9B7648C8050 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
-		8E0EBA49D344D2DC2A7C93DC66F5A886 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = tenFaceLiveSDK/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
-		9349F40D5102AD715019D88521E078B7 /* NetworkReachability.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = NetworkReachability.h; sourceTree = "<group>"; };
+		94EAF6E152A0520E629653308D7D4BCD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		9538B38181884811FBA6430F6679065E /* WHToast-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WHToast-dummy.m"; sourceTree = "<group>"; };
+		96A78F26F0733F1140C0D210171C4CC1 /* UIImageView+NTESLDGif.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+NTESLDGif.m"; sourceTree = "<group>"; };
 		970DBDC0B5986119085E73B35BFAE665 /* Masonry-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-umbrella.h"; sourceTree = "<group>"; };
-		978A091E064DF008CC040BC2CFC93BD8 /* NetworkReachability.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = NetworkReachability.m; sourceTree = "<group>"; };
-		992BFB42D8347523B461152578D5256D /* UIColor+NTESLiveDetect.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIColor+NTESLiveDetect.m"; sourceTree = "<group>"; };
-		99BDC93B739015C3BEF432B453779749 /* Pods-tenFaceLiveSDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-tenFaceLiveSDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		9C61A8E21095DEA08B21D6231AED1686 /* NTESLiveDetect.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NTESLiveDetect.debug.xcconfig; sourceTree = "<group>"; };
+		9C9BDA2E3126662CAB4A591AAA67FAEE /* open-eyes.wav */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = audio.wav; path = "open-eyes.wav"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9EEB6DCF93DFBA45C21CCD1296A8BE1F /* View+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASAdditions.h"; path = "Masonry/View+MASAdditions.h"; sourceTree = "<group>"; };
+		9F5FAAF58014EE13DB2EF3D0766CC878 /* Pods-TenFaceLiveSDK_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TenFaceLiveSDK_Example-umbrella.h"; sourceTree = "<group>"; };
 		A0F7262C2686D818D778FED124E66275 /* AFURLConnectionOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLConnectionOperation.m; path = AFNetworking/AFURLConnectionOperation.m; sourceTree = "<group>"; };
 		A269C7B8D7018BDB2000582333636B1B /* MASViewAttribute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewAttribute.h; path = Masonry/MASViewAttribute.h; sourceTree = "<group>"; };
 		A4FA15D44DF6BAC7550EDEED10862AA3 /* AFNetworking */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AFNetworking; path = AFNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6226659AE3B79CDB37B6C5A0B52881F /* WHToast.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = WHToast.modulemap; sourceTree = "<group>"; };
+		A7163F8E30E874BF5ACC7ABEFED833F9 /* Pods-TenFaceLiveSDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TenFaceLiveSDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		A79F0389577A3AC3E9E2EEA1289B0818 /* NTESBaseViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = NTESBaseViewController.m; sourceTree = "<group>"; };
+		A84803E7D9B1D740BFC15EB9C1D7A521 /* NTESLiveDetectView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = NTESLiveDetectView.m; sourceTree = "<group>"; };
 		ABDA52A891B1276221CCDE57A2041AB9 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/MobileCoreServices.framework; sourceTree = DEVELOPER_DIR; };
+		AC774B8F20A370D39F6282155C16B31B /* NTESLDSuccessViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = NTESLDSuccessViewController.m; sourceTree = "<group>"; };
 		ACE2AD7B1A24EA768C8933ED8A1A9A02 /* UIWebView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIWebView+AFNetworking.h"; path = "UIKit+AFNetworking/UIWebView+AFNetworking.h"; sourceTree = "<group>"; };
 		B1C0F0C29C51EA34A2A1A6EA40C71B84 /* NTESFaceARDetect.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NTESFaceARDetect.framework; path = Classes/NTESFaceARDetect.framework; sourceTree = "<group>"; };
-		B384A5545B1074857561EF16B2F09304 /* tenFaceLiveSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = tenFaceLiveSDK.debug.xcconfig; sourceTree = "<group>"; };
+		B3FFE0FE7E9C03E6884204BEDB6C6A25 /* UIColor+NTESLiveDetect.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIColor+NTESLiveDetect.m"; sourceTree = "<group>"; };
 		B48508E9C7FC431EBBFFA04B191C020B /* WHToast */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = WHToast; path = WHToast.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B59B40639889317F96E8B0CF0078B579 /* MBProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD-dummy.m"; sourceTree = "<group>"; };
-		B5C73B5BFABE02B1022D976DDC701610 /* Pods-tenFaceLiveSDK_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-tenFaceLiveSDK_Example-umbrella.h"; sourceTree = "<group>"; };
+		B62DBA35A05C903B7FA4DD66BB42AFDE /* tenFaceLiveSDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = tenFaceLiveSDK.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B68F9FD5A668CE3790849E9DE2DE851C /* SceneDelegate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		B6C10890B4D5D40116D07AA3080362A8 /* Pods-TenFaceLiveSDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TenFaceLiveSDK_Example.release.xcconfig"; sourceTree = "<group>"; };
 		B7AEB8FD5674D7A38A183FC5701BF7B1 /* WHToast-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WHToast-prefix.pch"; sourceTree = "<group>"; };
 		B85B26763BC19461649E852A15157D74 /* View+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "View+MASAdditions.m"; path = "Masonry/View+MASAdditions.m"; sourceTree = "<group>"; };
-		B9CC4E30CF88D0761D5E067DED72D771 /* Pods-tenFaceLiveSDK_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-tenFaceLiveSDK_Example-dummy.m"; sourceTree = "<group>"; };
+		B9E47375B08E33DA969935F95A503590 /* TenFaceLiveSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TenFaceLiveSDK.release.xcconfig; sourceTree = "<group>"; };
 		BB0A1357517932DDCEA678BB26BE267D /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASShorthandAdditions.h"; path = "Masonry/View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
 		BB30A0635ED13F68D054B7B45F052E40 /* AFHTTPRequestOperationManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFHTTPRequestOperationManager.m; path = AFNetworking/AFHTTPRequestOperationManager.m; sourceTree = "<group>"; };
+		BB52575AD5830DD1BFFAB64FCA3D3FD4 /* Pods-TenFaceLiveSDK_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TenFaceLiveSDK_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		BDFAE9286AF15AB80285A6A6ED69A8DE /* MASViewAttribute.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewAttribute.m; path = Masonry/MASViewAttribute.m; sourceTree = "<group>"; };
 		BEE3004AD0256F5812167C2F7FCF292C /* NTESLiveDetect.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NTESLiveDetect.framework; path = Classes/NTESLiveDetect.framework; sourceTree = "<group>"; };
 		BF3D5D41BFE923B983A2FA16074C8B58 /* WHToastView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WHToastView.h; path = WHToast/WHToastView.h; sourceTree = "<group>"; };
+		BF7558F31C1DAC97C60ADE352D87C44E /* NTESLiveDetectView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = NTESLiveDetectView.h; sourceTree = "<group>"; };
+		BFA6652381799CA22B11C8649F3FB8A5 /* NTESBaseViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = NTESBaseViewController.h; sourceTree = "<group>"; };
 		C0E03AD40BB4366307E7EDD840AFC6F4 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
-		C18F4B9C380991F66E3A0A282AEE56E9 /* NTESLiveDetectView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = NTESLiveDetectView.h; sourceTree = "<group>"; };
-		C34089BC45A97B9ECED461CFA8CD57A1 /* UIImageView+NTESLDGif.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIImageView+NTESLDGif.h"; sourceTree = "<group>"; };
-		C45ACF47DD24FD9DB73BADE9D9841BA6 /* tenFaceLiveSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "tenFaceLiveSDK-dummy.m"; sourceTree = "<group>"; };
 		C597CDF9573700FB048388805B69CC09 /* WHToast-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WHToast-umbrella.h"; sourceTree = "<group>"; };
-		C6A602444E65626FB37C0E057C244C00 /* LDDemoDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LDDemoDefines.h; sourceTree = "<group>"; };
 		C72AE11BFB9F7BFA9C3EB1DE6600C0E5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
 		C991408CAEA1BD1B649A6085E5E30980 /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFHTTPRequestOperation.h; path = AFNetworking/AFHTTPRequestOperation.h; sourceTree = "<group>"; };
-		C9E0FBB25C6ACDE3B35D1E13360BE653 /* Pods-tenFaceLiveSDK_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-tenFaceLiveSDK_Tests"; path = Pods_tenFaceLiveSDK_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA5FB2BDB7E9E76D56D72627CE357DBD /* TenFaceLiveSDK-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TenFaceLiveSDK-Info.plist"; sourceTree = "<group>"; };
 		CA975BE1E67C71D3CF1230AAC180BBCC /* AFNetworkActivityIndicatorManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworkActivityIndicatorManager.h; path = "UIKit+AFNetworking/AFNetworkActivityIndicatorManager.h"; sourceTree = "<group>"; };
 		CB46FAF3CA771FF3F3EAA88049D2EDE5 /* UIProgressView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIProgressView+AFNetworking.m"; path = "UIKit+AFNetworking/UIProgressView+AFNetworking.m"; sourceTree = "<group>"; };
+		CF080D4B67257AF636F4681EE840A12E /* Pods-TenFaceLiveSDK_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-TenFaceLiveSDK_Tests"; path = Pods_TenFaceLiveSDK_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF3E899F16781DBE26C1CF38284DB81C /* turn-left.wav */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = audio.wav; path = "turn-left.wav"; sourceTree = "<group>"; };
 		CF6F2583CB1C1B18C05112BBF3CC8172 /* UIImage+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+AFNetworking.h"; path = "UIKit+AFNetworking/UIImage+AFNetworking.h"; sourceTree = "<group>"; };
 		CFB37031DAD1DDE5E318497A7CFE1E76 /* UIAlertView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIAlertView+AFNetworking.m"; path = "UIKit+AFNetworking/UIAlertView+AFNetworking.m"; sourceTree = "<group>"; };
 		CFB9D9564DE6D221649597FC7925FCAE /* UIKit+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIKit+AFNetworking.h"; path = "UIKit+AFNetworking/UIKit+AFNetworking.h"; sourceTree = "<group>"; };
-		D078F28176815411B12E95912AD7CB4F /* NTESLDSuccessViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = NTESLDSuccessViewController.m; sourceTree = "<group>"; };
 		D1857FAE90E8A34AC41709EC3CEDFEA1 /* AFNetworking.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AFNetworking.modulemap; sourceTree = "<group>"; };
-		D403B7DEBD9F9EA2D6C07158F90614CB /* Pods-tenFaceLiveSDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-tenFaceLiveSDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		D49FFEDE9917CF608A1F558F1D35550D /* TenFaceLiveSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TenFaceLiveSDK.debug.xcconfig; sourceTree = "<group>"; };
+		D4A83B41F51E7CBDC37D31B5076F4C4C /* Pods-TenFaceLiveSDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TenFaceLiveSDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		D55FC5A329797EB0CE417FC4AC39BD92 /* NTESTimeoutToastView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = NTESTimeoutToastView.m; sourceTree = "<group>"; };
+		D69E047228CD620D47ACEEFB06C53324 /* ResourceBundle-TenFaceLiveSDK-TenFaceLiveSDK-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-TenFaceLiveSDK-TenFaceLiveSDK-Info.plist"; sourceTree = "<group>"; };
 		D70419EAE6D03A77E749C8368AFD78A2 /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+MASAdditions.m"; path = "Masonry/NSArray+MASAdditions.m"; sourceTree = "<group>"; };
-		D8D92A552360362F92959A3DCA74354B /* Pods-tenFaceLiveSDK_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-tenFaceLiveSDK_Tests-umbrella.h"; sourceTree = "<group>"; };
 		D9AA173733D24FCB7DB907111820BAEA /* Masonry.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Masonry.release.xcconfig; sourceTree = "<group>"; };
 		D9BC9964C8461F9B195A5FFC9AA893A1 /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFNetworkReachabilityManager.m; path = AFNetworking/AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
-		D9CD52A12EA9D689A1DF6C74DE47234B /* Main.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DA65C3B39AE870586DEDD0129ACEA48C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		DCB4C1A0AE4C2E7AF55DE0C664F4148D /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASShorthandAdditions.h"; path = "Masonry/NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
 		DCE3A339D04EE19AB57E4E9B63B02941 /* WHToast.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WHToast.debug.xcconfig; sourceTree = "<group>"; };
 		E01B81606136BD6C04E3BECA10A73CA9 /* NTESLiveDetect.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NTESLiveDetect.release.xcconfig; sourceTree = "<group>"; };
-		E1FA46C3EF1A648E829362EC12401756 /* NTESTimeoutToastView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = NTESTimeoutToastView.h; sourceTree = "<group>"; };
+		E3DB867B78E1C31EE86B14583BD4132C /* open-eyes.gif */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.gif; path = "open-eyes.gif"; sourceTree = "<group>"; };
+		E6AE14931088FC5329570BB31CC26257 /* NTESDottedLineProgress.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = NTESDottedLineProgress.m; sourceTree = "<group>"; };
+		E8A7F86D2591A133DE35A2EA132BDC8C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		EAC6C61C124655D8E15BBFDBE7C6E999 /* UIRefreshControl+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIRefreshControl+AFNetworking.h"; path = "UIKit+AFNetworking/UIRefreshControl+AFNetworking.h"; sourceTree = "<group>"; };
+		EB57561DF77D386D0CE2272C55687D7A /* NTESToastView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = NTESToastView.m; sourceTree = "<group>"; };
 		F1826A4CA1FAFA5742AB5E1F0AC01F21 /* WHToastConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WHToastConfig.h; path = WHToast/WHToastConfig.h; sourceTree = "<group>"; };
-		F32A87CC3B5D803BBB297ECF860FDFCA /* tenFaceLiveSDK-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "tenFaceLiveSDK-Info.plist"; sourceTree = "<group>"; };
+		F77041289A388AD5B550F03D34D87292 /* turn-right.gif */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.gif; path = "turn-right.gif"; sourceTree = "<group>"; };
 		F770D132C93B347AAF31A7178EF69119 /* WHToastView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WHToastView.m; path = WHToast/WHToastView.m; sourceTree = "<group>"; };
 		F8901E61F753F2CEF9BC9C3C255634D9 /* UIWebView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIWebView+AFNetworking.m"; path = "UIKit+AFNetworking/UIWebView+AFNetworking.m"; sourceTree = "<group>"; };
 		F976F4D628383EF61AD030C65017E4E4 /* NTESBaseComponent.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NTESBaseComponent.release.xcconfig; sourceTree = "<group>"; };
-		F97CEECF48110B5E9894DF2826AAE284 /* tenFaceLiveSDK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "tenFaceLiveSDK-umbrella.h"; sourceTree = "<group>"; };
-		FA84E339E227532B7E70A1D9F2862C58 /* tenFaceLiveSDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = tenFaceLiveSDK.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		F9EDC6A8528F6D33AC6B727CD2BA716C /* NetworkReachability.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = NetworkReachability.m; sourceTree = "<group>"; };
 		FACDCF7BCBDB51F7314C5B934DD4D4A7 /* MBProgressHUD.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MBProgressHUD.release.xcconfig; sourceTree = "<group>"; };
 		FC1A5375C7D01693CCA82169F6CF469E /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLResponseSerialization.h; path = AFNetworking/AFURLResponseSerialization.h; sourceTree = "<group>"; };
-		FC7BF9CE0EF26DC0A281F14DC3C821C2 /* NTESBaseViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = NTESBaseViewController.m; sourceTree = "<group>"; };
 		FCB4E8A3524F6E8F7391F0DCD95602A0 /* Masonry-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Masonry-dummy.m"; sourceTree = "<group>"; };
+		FE7D167C85AD1792E01E18727FAB6279 /* TenFaceLiveSDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TenFaceLiveSDK-prefix.pch"; sourceTree = "<group>"; };
 		FF7065651B6EED75D3A54180BFAABAEE /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFHTTPRequestOperation.m; path = AFNetworking/AFHTTPRequestOperation.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		6E3501440DBCF5421E3286E8BD85593A /* Frameworks */ = {
+		3DDD6894771720C86D2C49D16D998C54 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B133ED8999723B3EF59CA49BFC846FDA /* Foundation.framework in Frameworks */,
-				A78E978154F3F44329CEB710094A4734 /* UIKit.framework in Frameworks */,
+				2646298F13CA2C1DC21A19F30F7E5199 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B3BCE463FC1C332B923F95311DB6F73 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42C446CAA068E67EFDFF784A3708F9FC /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -481,11 +493,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B33191FCC1EA088976B3BF6B9E8F45C2 /* Frameworks */ = {
+		ACD3B8050329CAAEBC77056EBE9674AE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1B54ACAE6F2279FAD0D564BFD75184FE /* Foundation.framework in Frameworks */,
+				156455F8ECAAA8E5E1A23128205EF3BA /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -508,57 +520,54 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DC93349F0830A7ECF6D987CFA5C984BB /* Frameworks */ = {
+		D9105483752ECD0BFA3A775F518D5773 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8FDDFF8B6E4748CFE3396196B97A0DB9 /* Foundation.framework in Frameworks */,
+				D4A5365A118D8BD8858EA71A93F913B3 /* Foundation.framework in Frameworks */,
+				591E227FBAFADBC3B2BDB05523B58B52 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FA9FECD32EB009761DF47CD783098E23 /* Frameworks */ = {
+		F342F69F65BAC9343CCA482E515C08D4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				68640167C952414C4146C49DC7F4D803 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		05E9689A9A689509BCBE3A5FC13D43E7 /* Pods-tenFaceLiveSDK_Tests */ = {
+		011F3C1FE8F1317169F344EE241401DE /* Pods-TenFaceLiveSDK_Example */ = {
 			isa = PBXGroup;
 			children = (
-				0F1D58E29D682615ADE60745507F149E /* Pods-tenFaceLiveSDK_Tests.modulemap */,
-				20232FE6B960771C6D2693A4ADE1A3CB /* Pods-tenFaceLiveSDK_Tests-acknowledgements.markdown */,
-				0189890838CCBBE32BEA3EE4AA37DF4C /* Pods-tenFaceLiveSDK_Tests-acknowledgements.plist */,
-				2D6E5957A059AE0217695E9D74F29F36 /* Pods-tenFaceLiveSDK_Tests-dummy.m */,
-				389A75615BE4AA2A5D8137D98AC37D13 /* Pods-tenFaceLiveSDK_Tests-Info.plist */,
-				D8D92A552360362F92959A3DCA74354B /* Pods-tenFaceLiveSDK_Tests-umbrella.h */,
-				6A15CEB5398D2437599B585853FAA5AE /* Pods-tenFaceLiveSDK_Tests.debug.xcconfig */,
-				99BDC93B739015C3BEF432B453779749 /* Pods-tenFaceLiveSDK_Tests.release.xcconfig */,
+				61A32DA74C06F3ABEEE8FFBA89D274AF /* Pods-TenFaceLiveSDK_Example.modulemap */,
+				BB52575AD5830DD1BFFAB64FCA3D3FD4 /* Pods-TenFaceLiveSDK_Example-acknowledgements.markdown */,
+				0D228C19306EA398468BF7EE299F2FFE /* Pods-TenFaceLiveSDK_Example-acknowledgements.plist */,
+				25D42E411D0A0E6331F13B95F7725DBB /* Pods-TenFaceLiveSDK_Example-dummy.m */,
+				11D9FD078F132904779B0C8152E3B7F0 /* Pods-TenFaceLiveSDK_Example-frameworks.sh */,
+				20ACB9E83B83434EC8A0F4753FB9A233 /* Pods-TenFaceLiveSDK_Example-Info.plist */,
+				4C6F36C1FDD0F14F6BA6D19872B7C082 /* Pods-TenFaceLiveSDK_Example-resources.sh */,
+				9F5FAAF58014EE13DB2EF3D0766CC878 /* Pods-TenFaceLiveSDK_Example-umbrella.h */,
+				0FEBCF7A094C2045A5F7F54EC79DB2FA /* Pods-TenFaceLiveSDK_Example.debug.xcconfig */,
+				B6C10890B4D5D40116D07AA3080362A8 /* Pods-TenFaceLiveSDK_Example.release.xcconfig */,
 			);
-			name = "Pods-tenFaceLiveSDK_Tests";
-			path = "Target Support Files/Pods-tenFaceLiveSDK_Tests";
+			name = "Pods-TenFaceLiveSDK_Example";
+			path = "Target Support Files/Pods-TenFaceLiveSDK_Example";
 			sourceTree = "<group>";
 		};
-		0896A6CA083AC69E2D4D379E016DED5A /* Pods-tenFaceLiveSDK_Example */ = {
+		014BFC826F8AF3591466F8470AAAA933 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				2DB123616BF5CA3E66C3CA72F052858C /* Pods-tenFaceLiveSDK_Example.modulemap */,
-				451AD23D5BC20BE1197A2AD5F04FD354 /* Pods-tenFaceLiveSDK_Example-acknowledgements.markdown */,
-				699113FC943E6E20D678B963892F1E1A /* Pods-tenFaceLiveSDK_Example-acknowledgements.plist */,
-				B9CC4E30CF88D0761D5E067DED72D771 /* Pods-tenFaceLiveSDK_Example-dummy.m */,
-				2A2B4FDA4077627BD4B586DFB4C7015A /* Pods-tenFaceLiveSDK_Example-frameworks.sh */,
-				587851FE04FDED1CA214A5280BD04D1B /* Pods-tenFaceLiveSDK_Example-Info.plist */,
-				6EA1C0C81B9829227A749B5670BF9A8B /* Pods-tenFaceLiveSDK_Example-resources.sh */,
-				B5C73B5BFABE02B1022D976DDC701610 /* Pods-tenFaceLiveSDK_Example-umbrella.h */,
-				D403B7DEBD9F9EA2D6C07158F90614CB /* Pods-tenFaceLiveSDK_Example.debug.xcconfig */,
-				61A19F54E4D0B262FCA7D24B7171433F /* Pods-tenFaceLiveSDK_Example.release.xcconfig */,
+				BF7558F31C1DAC97C60ADE352D87C44E /* NTESLiveDetectView.h */,
+				A84803E7D9B1D740BFC15EB9C1D7A521 /* NTESLiveDetectView.m */,
+				3FB12F0C752548F72A649AF5FBEB0FBD /* NTESTimeoutToastView.h */,
+				D55FC5A329797EB0CE417FC4AC39BD92 /* NTESTimeoutToastView.m */,
+				4EAC8FD471AD6A731D098699384C409C /* UIImageView+NTESLDGif.h */,
+				96A78F26F0733F1140C0D210171C4CC1 /* UIImageView+NTESLDGif.m */,
 			);
-			name = "Pods-tenFaceLiveSDK_Example";
-			path = "Target Support Files/Pods-tenFaceLiveSDK_Example";
+			path = View;
 			sourceTree = "<group>";
 		};
 		0F82023E523AF87650BD9DCC687ED3DC /* WHToast */ = {
@@ -585,6 +594,21 @@
 			path = "../Target Support Files/NTESLiveDetect";
 			sourceTree = "<group>";
 		};
+		131D7F6E1F40AB64CB35A767141C3389 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A4FA15D44DF6BAC7550EDEED10862AA3 /* AFNetworking */,
+				1FFED36A657123030ABB700256D73F15 /* Masonry */,
+				8B8FAB0D627B17EDE1366984278705D9 /* MBProgressHUD */,
+				63BDEAB7516B47D1A6B69B0DBD243483 /* Pods-TenFaceLiveSDK_Example */,
+				CF080D4B67257AF636F4681EE840A12E /* Pods-TenFaceLiveSDK_Tests */,
+				6B630C75E8E7693F43830A14FCE1D28E /* TenFaceLiveSDK */,
+				21729C03B1D8651FE837306CC46BC604 /* TenFaceLiveSDK-TenFaceLiveSDK */,
+				B48508E9C7FC431EBBFFA04B191C020B /* WHToast */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		1FB917AC48DA9F1527F2D56873D3F1D1 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -601,6 +625,26 @@
 				130DF0E50BD5BD166FCE5CA86CB7CFD6 /* Support Files */,
 			);
 			path = NTESLiveDetect;
+			sourceTree = "<group>";
+		};
+		250FAB6B91F3923FAD0643E2D7DE41D2 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				69711E4D0BAF90F25BFBFCC410C198D6 /* TenFaceLiveSDK */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		256F2617527F1B3243EED35A8DA5192C /* WavMusic */ = {
+			isa = PBXGroup;
+			children = (
+				9C9BDA2E3126662CAB4A591AAA67FAEE /* open-eyes.wav */,
+				7B4D87B2E20A20409BB1694C03F6A38D /* open-mouth.wav */,
+				CF3E899F16781DBE26C1CF38284DB81C /* turn-left.wav */,
+				64AD67937DC683C108107B0CC8E4E838 /* turn-right.wav */,
+			);
+			name = WavMusic;
+			path = TenFaceLiveSDK/Assets/WavMusic;
 			sourceTree = "<group>";
 		};
 		331F0BB6F00F84F69CF54AE209DA8D87 /* iOS */ = {
@@ -636,17 +680,14 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		422040F2AEF518249546D19E77AB6BB6 /* View */ = {
+		46003C235DD134D8015F5734012489A3 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				C18F4B9C380991F66E3A0A282AEE56E9 /* NTESLiveDetectView.h */,
-				1A4D486A6E9E3A6E72EF3EDF3E0DA95F /* NTESLiveDetectView.m */,
-				E1FA46C3EF1A648E829362EC12401756 /* NTESTimeoutToastView.h */,
-				68AA11C3A30B0DB6817F822E9639E7C6 /* NTESTimeoutToastView.m */,
-				C34089BC45A97B9ECED461CFA8CD57A1 /* UIImageView+NTESLDGif.h */,
-				2B1E641FA121AE9F6FE6077B6D296F6F /* UIImageView+NTESLDGif.m */,
+				94EAF6E152A0520E629653308D7D4BCD /* LICENSE */,
+				E8A7F86D2591A133DE35A2EA132BDC8C /* README.md */,
+				B62DBA35A05C903B7FA4DD66BB42AFDE /* tenFaceLiveSDK.podspec */,
 			);
-			path = View;
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		477EEE6992607728F92026F6E219BD43 /* UIKit */ = {
@@ -689,40 +730,6 @@
 			path = "../Target Support Files/MBProgressHUD";
 			sourceTree = "<group>";
 		};
-		5917E8CC2A97591D000B2EDC /* Assets */ = {
-			isa = PBXGroup;
-			children = (
-				5917E8CD2A97591D000B2EDC /* .gitkeep */,
-				5917E8CE2A97591D000B2EDC /* Assets.xcassets */,
-				5917E8CF2A97591D000B2EDC /* WavMusic */,
-				5917E8D42A97591D000B2EDC /* GifPic */,
-			);
-			name = Assets;
-			path = tenFaceLiveSDK/Assets;
-			sourceTree = "<group>";
-		};
-		5917E8CF2A97591D000B2EDC /* WavMusic */ = {
-			isa = PBXGroup;
-			children = (
-				5917E8D02A97591D000B2EDC /* turn-right.wav */,
-				5917E8D12A97591D000B2EDC /* turn-left.wav */,
-				5917E8D22A97591D000B2EDC /* open-mouth.wav */,
-				5917E8D32A97591D000B2EDC /* open-eyes.wav */,
-			);
-			path = WavMusic;
-			sourceTree = "<group>";
-		};
-		5917E8D42A97591D000B2EDC /* GifPic */ = {
-			isa = PBXGroup;
-			children = (
-				5917E8D52A97591D000B2EDC /* open-eyes.gif */,
-				5917E8D62A97591D000B2EDC /* open-mouth.gif */,
-				5917E8D72A97591D000B2EDC /* turn-left.gif */,
-				5917E8D82A97591D000B2EDC /* turn-right.gif */,
-			);
-			path = GifPic;
-			sourceTree = "<group>";
-		};
 		5D48E0D9018D7BBCAA1BFD26BC121C4B /* Serialization */ = {
 			isa = PBXGroup;
 			children = (
@@ -734,19 +741,20 @@
 			name = Serialization;
 			sourceTree = "<group>";
 		};
-		5D83E5830C141EED3E6C768B7FC5ED68 /* Support Files */ = {
+		66EBDCE6019E4565010D0AA64ED10CAE /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				756313F94EFDB08C9C17D1F21DDB7D14 /* tenFaceLiveSDK.modulemap */,
-				C45ACF47DD24FD9DB73BADE9D9841BA6 /* tenFaceLiveSDK-dummy.m */,
-				F32A87CC3B5D803BBB297ECF860FDFCA /* tenFaceLiveSDK-Info.plist */,
-				5034602CECB763B626522F0AE1B308D3 /* tenFaceLiveSDK-prefix.pch */,
-				F97CEECF48110B5E9894DF2826AAE284 /* tenFaceLiveSDK-umbrella.h */,
-				B384A5545B1074857561EF16B2F09304 /* tenFaceLiveSDK.debug.xcconfig */,
-				414B750F08D3D32212D38DC1A0BA5A95 /* tenFaceLiveSDK.release.xcconfig */,
+				D69E047228CD620D47ACEEFB06C53324 /* ResourceBundle-TenFaceLiveSDK-TenFaceLiveSDK-Info.plist */,
+				380E1C27FF3087AA82986ECF38376322 /* TenFaceLiveSDK.modulemap */,
+				2339425D464076A429808B7FB9D0FFEE /* TenFaceLiveSDK-dummy.m */,
+				CA5FB2BDB7E9E76D56D72627CE357DBD /* TenFaceLiveSDK-Info.plist */,
+				FE7D167C85AD1792E01E18727FAB6279 /* TenFaceLiveSDK-prefix.pch */,
+				3E68998DF56D6AF0C2CB5414BD619052 /* TenFaceLiveSDK-umbrella.h */,
+				D49FFEDE9917CF608A1F558F1D35550D /* TenFaceLiveSDK.debug.xcconfig */,
+				B9E47375B08E33DA969935F95A503590 /* TenFaceLiveSDK.release.xcconfig */,
 			);
 			name = "Support Files";
-			path = "Example/Pods/Target Support Files/tenFaceLiveSDK";
+			path = "Example/Pods/Target Support Files/TenFaceLiveSDK";
 			sourceTree = "<group>";
 		};
 		6843FBA023F5DEADED4BE1148216FE0F /* Support Files */ = {
@@ -775,17 +783,31 @@
 			name = NSURLSession;
 			sourceTree = "<group>";
 		};
-		701E541A20B0EAEC9FE970AFACCA604A /* tenFaceLiveSDK */ = {
+		69711E4D0BAF90F25BFBFCC410C198D6 /* TenFaceLiveSDK */ = {
 			isa = PBXGroup;
 			children = (
-				5917E8CC2A97591D000B2EDC /* Assets */,
-				8E0EBA49D344D2DC2A7C93DC66F5A886 /* ReplaceMe.swift */,
-				F06457D9D517DD1046085D893D6124D7 /* Neteasy */,
-				9D2DFB05565225A9808E05C6FC5CEBB5 /* Pod */,
-				5D83E5830C141EED3E6C768B7FC5ED68 /* Support Files */,
+				8904199982654BE5F61482BE325A80EA /* ReplaceMe.swift */,
+				A5F314AA6E4F52B21C157BC7BE3797F1 /* GifPic */,
+				F3433E0B96CEBC2895CA7402399154C7 /* Neteasy */,
+				46003C235DD134D8015F5734012489A3 /* Pod */,
+				66EBDCE6019E4565010D0AA64ED10CAE /* Support Files */,
+				256F2617527F1B3243EED35A8DA5192C /* WavMusic */,
 			);
-			name = tenFaceLiveSDK;
+			name = TenFaceLiveSDK;
 			path = ../..;
+			sourceTree = "<group>";
+		};
+		7842FC0AB59E930B50B670BA2132B4B1 /* LiveDetct */ = {
+			isa = PBXGroup;
+			children = (
+				0BA22AF696145B091CD7D791044402C9 /* NTESLDHomePageViewController.h */,
+				13322B0388CD560D9CF2610D81B6FBF6 /* NTESLDHomePageViewController.m */,
+				5F93473ACA823B749402FCF426541839 /* NTESLDMainViewController.h */,
+				1B49198CD940FFEC6AF10762E16A53BC /* NTESLDMainViewController.mm */,
+				35DA0E7942D18436C0B02C9E37E0D717 /* NTESLDSuccessViewController.h */,
+				AC774B8F20A370D39F6282155C16B31B /* NTESLDSuccessViewController.m */,
+			);
+			path = LiveDetct;
 			sourceTree = "<group>";
 		};
 		80376B9B9A9CE864256A29D2D0C03A15 /* Reachability */ = {
@@ -814,6 +836,22 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		858E7F582C86425B8AA1049BF70924DB /* Pods-TenFaceLiveSDK_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				8834AC4D298761E0B2F1882D8AB54966 /* Pods-TenFaceLiveSDK_Tests.modulemap */,
+				75AD9F94835C71AB0A72D0F1D5614BF9 /* Pods-TenFaceLiveSDK_Tests-acknowledgements.markdown */,
+				7C36FC4ACD7258DC42718C53977F7665 /* Pods-TenFaceLiveSDK_Tests-acknowledgements.plist */,
+				4FA536429C52CE92E06C979E05E9952C /* Pods-TenFaceLiveSDK_Tests-dummy.m */,
+				28EF398C271F455AFAC280A16EF0F902 /* Pods-TenFaceLiveSDK_Tests-Info.plist */,
+				55E27E487CA6CA56C14657B9628A0B92 /* Pods-TenFaceLiveSDK_Tests-umbrella.h */,
+				A7163F8E30E874BF5ACC7ABEFED833F9 /* Pods-TenFaceLiveSDK_Tests.debug.xcconfig */,
+				D4A83B41F51E7CBDC37D31B5076F4C4C /* Pods-TenFaceLiveSDK_Tests.release.xcconfig */,
+			);
+			name = "Pods-TenFaceLiveSDK_Tests";
+			path = "Target Support Files/Pods-TenFaceLiveSDK_Tests";
+			sourceTree = "<group>";
+		};
 		890E9FD3815D93F44FF3A264C9CC6FC2 /* MBProgressHUD */ = {
 			isa = PBXGroup;
 			children = (
@@ -824,42 +862,19 @@
 			path = MBProgressHUD;
 			sourceTree = "<group>";
 		};
-		89A7B965C9A0C10142AFF04BE5CECECD /* LiveDetct */ = {
+		9C99371F5340E9B7EC81F81227032463 /* Util */ = {
 			isa = PBXGroup;
 			children = (
-				127B132D390C4796FDFA52B725DFA707 /* NTESLDHomePageViewController.h */,
-				2151EF8B48349023AD2E98FEA8F282AC /* NTESLDHomePageViewController.m */,
-				39029173EADA5C2AFA768210523AEF39 /* NTESLDMainViewController.h */,
-				225AC8E8F701D0CAC8F84E6A40F084D9 /* NTESLDMainViewController.mm */,
-				1D1716E2AC99C7EB2DF446D5CBC2B771 /* NTESLDSuccessViewController.h */,
-				D078F28176815411B12E95912AD7CB4F /* NTESLDSuccessViewController.m */,
-			);
-			path = LiveDetct;
-			sourceTree = "<group>";
-		};
-		9C699D4C98883AA280DC88E9AAF8C5A0 /* Util */ = {
-			isa = PBXGroup;
-			children = (
-				9349F40D5102AD715019D88521E078B7 /* NetworkReachability.h */,
-				978A091E064DF008CC040BC2CFC93BD8 /* NetworkReachability.m */,
-				813DD9902AD573C55BAD6B9F34358835 /* NTESDottedLineProgress.h */,
-				025AB15A8180EDA5E75EC93C7FD912BC /* NTESDottedLineProgress.m */,
-				7465523D251CDD2195F466CADA16A6C9 /* NTESToastView.h */,
-				42376BB9C50A7C2618A3106CCD570281 /* NTESToastView.m */,
-				37D8CC5D6CFCE5A4FE2EB490BA484DC6 /* UIColor+NTESLiveDetect.h */,
-				992BFB42D8347523B461152578D5256D /* UIColor+NTESLiveDetect.m */,
+				4F6B8965988AB3B50A6070374E235F0C /* NetworkReachability.h */,
+				F9EDC6A8528F6D33AC6B727CD2BA716C /* NetworkReachability.m */,
+				46883168524BB91283ADFFC8DA2ED4E3 /* NTESDottedLineProgress.h */,
+				E6AE14931088FC5329570BB31CC26257 /* NTESDottedLineProgress.m */,
+				5827D960175A4968B1F8E38ACF5D7C7E /* NTESToastView.h */,
+				EB57561DF77D386D0CE2272C55687D7A /* NTESToastView.m */,
+				578333E99E67547065479CE47FF2C4E1 /* UIColor+NTESLiveDetect.h */,
+				B3FFE0FE7E9C03E6884204BEDB6C6A25 /* UIColor+NTESLiveDetect.m */,
 			);
 			path = Util;
-			sourceTree = "<group>";
-		};
-		9D2DFB05565225A9808E05C6FC5CEBB5 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				06F15A37C1CFE9B187F1B41E93EAB302 /* LICENSE */,
-				5BED4FDA77F181C500812B129B049659 /* README.md */,
-				FA84E339E227532B7E70A1D9F2862C58 /* tenFaceLiveSDK.podspec */,
-			);
-			name = Pod;
 			sourceTree = "<group>";
 		};
 		A3E4763D75D705C9C04BD5F3E2D6608D /* Security */ = {
@@ -869,6 +884,18 @@
 				5D6617FC61C78A586C1B893EA1B75441 /* AFSecurityPolicy.m */,
 			);
 			name = Security;
+			sourceTree = "<group>";
+		};
+		A5F314AA6E4F52B21C157BC7BE3797F1 /* GifPic */ = {
+			isa = PBXGroup;
+			children = (
+				E3DB867B78E1C31EE86B14583BD4132C /* open-eyes.gif */,
+				6F9187630280AE4C14DE63930F0C8ACF /* open-mouth.gif */,
+				5480B8D78EDB7F8607ED37564A8A08E2 /* turn-left.gif */,
+				F77041289A388AD5B550F03D34D87292 /* turn-right.gif */,
+			);
+			name = GifPic;
+			path = TenFaceLiveSDK/Assets/GifPic;
 			sourceTree = "<group>";
 		};
 		B14C6FCFDBA9F4E5AF500D4240817B83 /* Pods */ = {
@@ -884,11 +911,20 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		C76B39590098FF463F1A091933C47991 /* BaseVC */ = {
+		C76B5ABFD489D7DE3E410791F6AAB45E /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				496BF4773C8E7D7A23D4BCA267F6E606 /* NTESBaseViewController.h */,
-				FC7BF9CE0EF26DC0A281F14DC3C821C2 /* NTESBaseViewController.m */,
+				011F3C1FE8F1317169F344EE241401DE /* Pods-TenFaceLiveSDK_Example */,
+				858E7F582C86425B8AA1049BF70924DB /* Pods-TenFaceLiveSDK_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CC3E3C0F261C78E411BD4B8630C99A9A /* BaseVC */ = {
+			isa = PBXGroup;
+			children = (
+				BFA6652381799CA22B11C8649F3FB8A5 /* NTESBaseViewController.h */,
+				A79F0389577A3AC3E9E2EEA1289B0818 /* NTESBaseViewController.m */,
 			);
 			path = BaseVC;
 			sourceTree = "<group>";
@@ -912,43 +948,12 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				D8D528465118620CFAFB844D217644A8 /* Development Pods */,
+				250FAB6B91F3923FAD0643E2D7DE41D2 /* Development Pods */,
 				8275CCB4E8732497B1021FCBC240F3C2 /* Frameworks */,
 				B14C6FCFDBA9F4E5AF500D4240817B83 /* Pods */,
-				D1D126BF64700DD56C8CF711811D4AA2 /* Products */,
-				D4E0B4A47BB9CA9AA93579F8FFEC230D /* Targets Support Files */,
+				131D7F6E1F40AB64CB35A767141C3389 /* Products */,
+				C76B5ABFD489D7DE3E410791F6AAB45E /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		D1D126BF64700DD56C8CF711811D4AA2 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				A4FA15D44DF6BAC7550EDEED10862AA3 /* AFNetworking */,
-				1FFED36A657123030ABB700256D73F15 /* Masonry */,
-				8B8FAB0D627B17EDE1366984278705D9 /* MBProgressHUD */,
-				07EBE5FF053235B9A90CB7961ED799DA /* Pods-tenFaceLiveSDK_Example */,
-				C9E0FBB25C6ACDE3B35D1E13360BE653 /* Pods-tenFaceLiveSDK_Tests */,
-				5482C1F3C81798DC1EFFBBD6C2F50D50 /* tenFaceLiveSDK */,
-				B48508E9C7FC431EBBFFA04B191C020B /* WHToast */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		D4E0B4A47BB9CA9AA93579F8FFEC230D /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				0896A6CA083AC69E2D4D379E016DED5A /* Pods-tenFaceLiveSDK_Example */,
-				05E9689A9A689509BCBE3A5FC13D43E7 /* Pods-tenFaceLiveSDK_Tests */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		D8D528465118620CFAFB844D217644A8 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				701E541A20B0EAEC9FE970AFACCA604A /* tenFaceLiveSDK */,
-			);
-			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		E023E6EAE001EC9F72CED441E5386643 /* Support Files */ = {
@@ -974,20 +979,20 @@
 			name = Resources;
 			sourceTree = "<group>";
 		};
-		F06457D9D517DD1046085D893D6124D7 /* Neteasy */ = {
+		F3433E0B96CEBC2895CA7402399154C7 /* Neteasy */ = {
 			isa = PBXGroup;
 			children = (
-				C6A602444E65626FB37C0E057C244C00 /* LDDemoDefines.h */,
-				5313D9ECC67367BC211A29AC5772BF03 /* Main.storyboard */,
-				44BFF1D7E753863376A1CEFC22809DA6 /* SceneDelegate.h */,
-				1C4E19D49C865F1EB8F93B99628F3E04 /* SceneDelegate.m */,
-				C76B39590098FF463F1A091933C47991 /* BaseVC */,
-				89A7B965C9A0C10142AFF04BE5CECECD /* LiveDetct */,
-				9C699D4C98883AA280DC88E9AAF8C5A0 /* Util */,
-				422040F2AEF518249546D19E77AB6BB6 /* View */,
+				8CBAE51CB808EF8EB2578B4A97FA414C /* LDDemoDefines.h */,
+				9B56F86165634B0708C4814D1C8D0629 /* Main.storyboard */,
+				409CFFB3611BD6438E6F99A7C0A109FE /* SceneDelegate.h */,
+				B68F9FD5A668CE3790849E9DE2DE851C /* SceneDelegate.m */,
+				CC3E3C0F261C78E411BD4B8630C99A9A /* BaseVC */,
+				7842FC0AB59E930B50B670BA2132B4B1 /* LiveDetct */,
+				9C99371F5340E9B7EC81F81227032463 /* Util */,
+				014BFC826F8AF3591466F8470AAAA933 /* View */,
 			);
 			name = Neteasy;
-			path = tenFaceLiveSDK/Classes/Neteasy;
+			path = TenFaceLiveSDK/Classes/Neteasy;
 			sourceTree = "<group>";
 		};
 		F9EF51C86C5437BC07D51442DCA64B11 /* Masonry */ = {
@@ -1054,49 +1059,49 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		1E49F76CA83BEA19B9E8B1A0541A012F /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8978CFD60EBCF3B66BAC6CAB34249A15 /* Pods-tenFaceLiveSDK_Example-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		29784851A682E205C0124EB2133E79F1 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5539136BE5F26C4A37973723F3CC857B /* LDDemoDefines.h in Headers */,
-				45C1C4010A816AABAEE57D7E1F8AF087 /* NetworkReachability.h in Headers */,
-				9C64B6179E95BF8E3EB00206F8701A1A /* NTESBaseViewController.h in Headers */,
-				0A2E160F42FEF4D743492840464DE273 /* NTESDottedLineProgress.h in Headers */,
-				8DD119229B94910925DC0DBC54AF06E8 /* NTESLDHomePageViewController.h in Headers */,
-				58B3C6D02A137C9098E76626886FA437 /* NTESLDMainViewController.h in Headers */,
-				C0F22EC07524BAB739BDE67C7CB17B21 /* NTESLDSuccessViewController.h in Headers */,
-				6EB0EF1CF6838B325714E571BA652C34 /* NTESLiveDetectView.h in Headers */,
-				81102F7637B6CB0284A6DBB9F09202E6 /* NTESTimeoutToastView.h in Headers */,
-				EF43A7BDE40EA38F6D4D321ACAA40601 /* NTESToastView.h in Headers */,
-				004DD49B2AC4F7DA020C430CABCF5739 /* SceneDelegate.h in Headers */,
-				E7EA4E3D857E6F019323C1509A8B123E /* tenFaceLiveSDK-umbrella.h in Headers */,
-				53CCD2826BE4D3BCCB6EED13BC7B112B /* UIColor+NTESLiveDetect.h in Headers */,
-				9D5CE49B60B7844CB6625B7A83893159 /* UIImageView+NTESLDGif.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		500E5487E5F7F1DB55F119EDB956F9A1 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				AF1F489CF5F69167C14AC18CF69C4309 /* Pods-tenFaceLiveSDK_Tests-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		5D82C29ACD851E6EA219B34A73C961F5 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				67E941CADB3CDDEEDF8CE4EE4A4A05BB /* MBProgressHUD.h in Headers */,
 				5BAC1EF86D0E57E44E404B2796993561 /* MBProgressHUD-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73177A97D5DF7B6F5830045413CD99AB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F3ADD632A9ED4F483BA8A7310FF2E76 /* Pods-TenFaceLiveSDK_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		791BFF839BFAB68B4EABCCF60CDCDBB1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF89BD95F6D26EB8B8121B6375A6594C /* LDDemoDefines.h in Headers */,
+				2AA7CB9EF0045DE224AF410D43EFF902 /* NetworkReachability.h in Headers */,
+				E56B9F5E3FAC67D71E8BFA4AA3692EEA /* NTESBaseViewController.h in Headers */,
+				A4F71346226BF216735296B7D2C21642 /* NTESDottedLineProgress.h in Headers */,
+				F0FBA4746D0CB4E7B0D885C9AB5FEF69 /* NTESLDHomePageViewController.h in Headers */,
+				207D9FFEFD8CE2B33FE85C888625EDC9 /* NTESLDMainViewController.h in Headers */,
+				823D9596CA3247ABB46AC04CCA8ED85F /* NTESLDSuccessViewController.h in Headers */,
+				4AB322C1613415410D89ED10601BDC05 /* NTESLiveDetectView.h in Headers */,
+				21EE6DF71AFAE9C08C78066F92FDE72C /* NTESTimeoutToastView.h in Headers */,
+				0A9E35313EBD14723B0F8C453C76ACB6 /* NTESToastView.h in Headers */,
+				B1911501053879CB201841903F42188D /* SceneDelegate.h in Headers */,
+				A2E2038CA330FE5402B529162FCCA6A1 /* TenFaceLiveSDK-umbrella.h in Headers */,
+				569CABBA5A2946255DF4674CD9F937E5 /* UIColor+NTESLiveDetect.h in Headers */,
+				024C05A9AAB69D5AC14F8A71493ECC6F /* UIImageView+NTESLDGif.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A99480095658A0E7CA94C893936FD12 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF90A0BCF2B721FB3A1113DD0EC86783 /* Pods-TenFaceLiveSDK_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1120,17 +1125,6 @@
 				3D0EFFE30E3193932A034220E3C4C0FA /* View+MASAdditions.h in Headers */,
 				61225B0B9AEC591476E30C9A575013B3 /* View+MASShorthandAdditions.h in Headers */,
 				B10646B6AF73D470221EF25A5DEEEB6F /* ViewController+MASAdditions.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C6ED79BED4682A85F37A3F3991ACE2CE /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9D47B7065C2875A68044FD6A3A8B67A4 /* WHToast.h in Headers */,
-				F284025F5FACD08445719631849CCD34 /* WHToast-umbrella.h in Headers */,
-				2C852AD3BD5232EF28F71972509A9E9E /* WHToastConfig.h in Headers */,
-				F643F466984EAEA0DCABB375DE6E430E /* WHToastView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1162,6 +1156,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		FCB12951ECDE708BD0BA4E52A79965FA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA25B6EB39A86F181A6E7A797F874923 /* WHToast.h in Headers */,
+				AF51DDD51E57D9B6C121EADDC2565FFB /* WHToast-umbrella.h in Headers */,
+				A28A97AC73FEEBDE50591FC35E88CCF3 /* WHToastConfig.h in Headers */,
+				B9CEE38BB59138E3098EAA59F59F1CD4 /* WHToastView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
@@ -1183,46 +1188,48 @@
 			productReference = A4FA15D44DF6BAC7550EDEED10862AA3 /* AFNetworking */;
 			productType = "com.apple.product-type.framework";
 		};
-		0515AC1115186B0F3EBFB78E8204A267 /* tenFaceLiveSDK */ = {
+		0C59228DE05C956B3E209BBC5AA6DD5E /* Pods-TenFaceLiveSDK_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A8C505A01931A0F5165469387FBE9BD5 /* Build configuration list for PBXNativeTarget "tenFaceLiveSDK" */;
+			buildConfigurationList = D8AF6FA83C829147ED3256F9981F6A47 /* Build configuration list for PBXNativeTarget "Pods-TenFaceLiveSDK_Example" */;
 			buildPhases = (
-				29784851A682E205C0124EB2133E79F1 /* Headers */,
-				A089367358A286E41855E425EC6E19D8 /* Sources */,
-				FA9FECD32EB009761DF47CD783098E23 /* Frameworks */,
-				82E884673D16C0512206471A8F4980D4 /* Resources */,
+				73177A97D5DF7B6F5830045413CD99AB /* Headers */,
+				E6B9EF5A664D2ACE3423F54D36A55CB1 /* Sources */,
+				ACD3B8050329CAAEBC77056EBE9674AE /* Frameworks */,
+				31EE26E2079DE67D2805287681E64898 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				531CDD854BACB6A70E4686F9588C4929 /* PBXTargetDependency */,
-				1DED762ADAF1D825CD39957C96C67E12 /* PBXTargetDependency */,
-				33DA1DFD9510130DDD590C2468D73518 /* PBXTargetDependency */,
-				5EFA04EFA77AE7C1795F79A078C96D7E /* PBXTargetDependency */,
-				AA11CBE7A8574847A60E7B080B998404 /* PBXTargetDependency */,
+				8B407889393E4846EC939841C8809AEB /* PBXTargetDependency */,
+				C2BE146C0B77B6895481E000135BAA4E /* PBXTargetDependency */,
+				E7C64DF03A3228F2628528CC1DF53C25 /* PBXTargetDependency */,
+				91FEF6D7A674FD6569F81EE1A5DC3B04 /* PBXTargetDependency */,
+				EC551B085A603F0C5D1B997DA78B97A6 /* PBXTargetDependency */,
+				549545F20C6FBF2A92F73CB2D4FD5CFE /* PBXTargetDependency */,
+				4A77602C1FFF41DC0B6E28F45C40CAC7 /* PBXTargetDependency */,
 			);
-			name = tenFaceLiveSDK;
-			productName = tenFaceLiveSDK;
-			productReference = 5482C1F3C81798DC1EFFBBD6C2F50D50 /* tenFaceLiveSDK */;
+			name = "Pods-TenFaceLiveSDK_Example";
+			productName = Pods_TenFaceLiveSDK_Example;
+			productReference = 63BDEAB7516B47D1A6B69B0DBD243483 /* Pods-TenFaceLiveSDK_Example */;
 			productType = "com.apple.product-type.framework";
 		};
-		26AFB486BCFF93A3091443F028D03B2C /* Pods-tenFaceLiveSDK_Tests */ = {
+		2DC1DB8EB43D7274BDFF8CCA47639268 /* Pods-TenFaceLiveSDK_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0F19A63695FA62F2BD2B16A0ACCABBAD /* Build configuration list for PBXNativeTarget "Pods-tenFaceLiveSDK_Tests" */;
+			buildConfigurationList = F6106147599F46914E0F61E736A63C4C /* Build configuration list for PBXNativeTarget "Pods-TenFaceLiveSDK_Tests" */;
 			buildPhases = (
-				500E5487E5F7F1DB55F119EDB956F9A1 /* Headers */,
-				AC4A5FC0EE6E777D0EC72D0F559BEC89 /* Sources */,
-				DC93349F0830A7ECF6D987CFA5C984BB /* Frameworks */,
-				819789807E8FD946D2F80D6F4D0FB5EE /* Resources */,
+				7A99480095658A0E7CA94C893936FD12 /* Headers */,
+				07443DE4B3D6FFCFADB0B41B15BB4456 /* Sources */,
+				6B3BCE463FC1C332B923F95311DB6F73 /* Frameworks */,
+				047F4D4DD5949EEA4179E1CF6C46826F /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				8EAF54070B700C48FC56E73D9AB24E3D /* PBXTargetDependency */,
+				5A6A289A487601BB74D14D3D3D8E552C /* PBXTargetDependency */,
 			);
-			name = "Pods-tenFaceLiveSDK_Tests";
-			productName = Pods_tenFaceLiveSDK_Tests;
-			productReference = C9E0FBB25C6ACDE3B35D1E13360BE653 /* Pods-tenFaceLiveSDK_Tests */;
+			name = "Pods-TenFaceLiveSDK_Tests";
+			productName = Pods_TenFaceLiveSDK_Tests;
+			productReference = CF080D4B67257AF636F4681EE840A12E /* Pods-TenFaceLiveSDK_Tests */;
 			productType = "com.apple.product-type.framework";
 		};
 		55AF53E6C77A10ED4985E04D74A8878E /* Masonry */ = {
@@ -1243,6 +1250,30 @@
 			productReference = 1FFED36A657123030ABB700256D73F15 /* Masonry */;
 			productType = "com.apple.product-type.framework";
 		};
+		795FA77AC0379AC2369ACB8D6CE9745A /* TenFaceLiveSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C639B80D06E6F6BA5948AA214D56C93 /* Build configuration list for PBXNativeTarget "TenFaceLiveSDK" */;
+			buildPhases = (
+				791BFF839BFAB68B4EABCCF60CDCDBB1 /* Headers */,
+				7172E78145CF4AB663065A8A4232202B /* Sources */,
+				3DDD6894771720C86D2C49D16D998C54 /* Frameworks */,
+				D1D0F48945855B242609638C06BEB912 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E6700128398979C6CFBD3FEF645615A3 /* PBXTargetDependency */,
+				B50ED9F9FD06F9ECDB83741D13D3351C /* PBXTargetDependency */,
+				A65E5DE8AAA89423C173546A458B4EE0 /* PBXTargetDependency */,
+				929186F2C37D575A264DFD9092EEA197 /* PBXTargetDependency */,
+				73ED5145D7C17A9DCAC6685C4D8431CD /* PBXTargetDependency */,
+				039C948D650CC50A686CE632D6EBB9D8 /* PBXTargetDependency */,
+			);
+			name = TenFaceLiveSDK;
+			productName = TenFaceLiveSDK;
+			productReference = 6B630C75E8E7693F43830A14FCE1D28E /* TenFaceLiveSDK */;
+			productType = "com.apple.product-type.framework";
+		};
 		82B0A41D3031FF27D78E17B0A9A46FB0 /* MBProgressHUD */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = A7BD2681E97C00DCC2EF91B0EBA76110 /* Build configuration list for PBXNativeTarget "MBProgressHUD" */;
@@ -1261,39 +1292,31 @@
 			productReference = 8B8FAB0D627B17EDE1366984278705D9 /* MBProgressHUD */;
 			productType = "com.apple.product-type.framework";
 		};
-		9A76BF871C7ED6F135327898ADD3B416 /* Pods-tenFaceLiveSDK_Example */ = {
+		A34ED8D4D78117A83C1EEA6807312D68 /* TenFaceLiveSDK-TenFaceLiveSDK */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 04E7AC8F66451BAB24C7158D46ED4E38 /* Build configuration list for PBXNativeTarget "Pods-tenFaceLiveSDK_Example" */;
+			buildConfigurationList = 15A519E63FB8C32D79F61B3A1DAD66D2 /* Build configuration list for PBXNativeTarget "TenFaceLiveSDK-TenFaceLiveSDK" */;
 			buildPhases = (
-				1E49F76CA83BEA19B9E8B1A0541A012F /* Headers */,
-				AF03A1F30D02DEAD83C33461DDEAD6C5 /* Sources */,
-				B33191FCC1EA088976B3BF6B9E8F45C2 /* Frameworks */,
-				A63413B8DAE98C9F9B25FC8E81708BAD /* Resources */,
+				0B2F3A8E0D11B5D27C495C20202FDA68 /* Sources */,
+				F342F69F65BAC9343CCA482E515C08D4 /* Frameworks */,
+				E0776DAD1192961CB2A7A50ABCCCB756 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				C36DB38AD27AEF66D684BA8C444417DA /* PBXTargetDependency */,
-				FF500D1E1A1031002F937B896FFE57B5 /* PBXTargetDependency */,
-				724A83383B93A15A40AAB795976E8F2F /* PBXTargetDependency */,
-				9D3C65D155CA41227D2F2B5BB7D00DF7 /* PBXTargetDependency */,
-				9AD985AFB3E10743A0EC91F656D1AE6F /* PBXTargetDependency */,
-				948F08068B502CC27607399CC83A91F8 /* PBXTargetDependency */,
-				D59157E392B1DC23A11F237F5FB34B74 /* PBXTargetDependency */,
 			);
-			name = "Pods-tenFaceLiveSDK_Example";
-			productName = Pods_tenFaceLiveSDK_Example;
-			productReference = 07EBE5FF053235B9A90CB7961ED799DA /* Pods-tenFaceLiveSDK_Example */;
-			productType = "com.apple.product-type.framework";
+			name = "TenFaceLiveSDK-TenFaceLiveSDK";
+			productName = TenFaceLiveSDK;
+			productReference = 21729C03B1D8651FE837306CC46BC604 /* TenFaceLiveSDK-TenFaceLiveSDK */;
+			productType = "com.apple.product-type.bundle";
 		};
 		DCD0DEEDE9CB35945D67203F112697C6 /* WHToast */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9F12A4B0466D417AFDE9ECA7E3E3D4B5 /* Build configuration list for PBXNativeTarget "WHToast" */;
+			buildConfigurationList = ED711695B19B1BF7F07DFB8B5F80EDF5 /* Build configuration list for PBXNativeTarget "WHToast" */;
 			buildPhases = (
-				C6ED79BED4682A85F37A3F3991ACE2CE /* Headers */,
-				C6116F40F71F47B4C64AC1B45A08D690 /* Sources */,
-				6E3501440DBCF5421E3286E8BD85593A /* Frameworks */,
-				46BC52AF695AF7EAA25B431D718B7A8B /* Resources */,
+				FCB12951ECDE708BD0BA4E52A79965FA /* Headers */,
+				E80B572F29850C692C7593578BD36A5B /* Sources */,
+				D9105483752ECD0BFA3A775F518D5773 /* Frameworks */,
+				BF0A3DBCDB116B23006AE8A297C09D59 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -1316,13 +1339,16 @@
 					0130B3724283586C0E9D2A112D4F2AA1 = {
 						DevelopmentTeam = TJM8W7CS7Y;
 					};
-					0515AC1115186B0F3EBFB78E8204A267 = {
+					0C59228DE05C956B3E209BBC5AA6DD5E = {
 						DevelopmentTeam = TJM8W7CS7Y;
 					};
-					26AFB486BCFF93A3091443F028D03B2C = {
+					2DC1DB8EB43D7274BDFF8CCA47639268 = {
 						DevelopmentTeam = TJM8W7CS7Y;
 					};
 					55AF53E6C77A10ED4985E04D74A8878E = {
+						DevelopmentTeam = TJM8W7CS7Y;
+					};
+					795FA77AC0379AC2369ACB8D6CE9745A = {
 						DevelopmentTeam = TJM8W7CS7Y;
 					};
 					7F6F6C7839036FD656371F03D2E294BE = {
@@ -1331,7 +1357,7 @@
 					82B0A41D3031FF27D78E17B0A9A46FB0 = {
 						DevelopmentTeam = TJM8W7CS7Y;
 					};
-					9A76BF871C7ED6F135327898ADD3B416 = {
+					A34ED8D4D78117A83C1EEA6807312D68 = {
 						DevelopmentTeam = TJM8W7CS7Y;
 					};
 					DC2CADF0EE971CCA017237D74F044ECC = {
@@ -1351,7 +1377,7 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = D1D126BF64700DD56C8CF711811D4AA2 /* Products */;
+			productRefGroup = 131D7F6E1F40AB64CB35A767141C3389 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -1360,23 +1386,31 @@
 				82B0A41D3031FF27D78E17B0A9A46FB0 /* MBProgressHUD */,
 				7F6F6C7839036FD656371F03D2E294BE /* NTESBaseComponent */,
 				DC2CADF0EE971CCA017237D74F044ECC /* NTESLiveDetect */,
-				9A76BF871C7ED6F135327898ADD3B416 /* Pods-tenFaceLiveSDK_Example */,
-				26AFB486BCFF93A3091443F028D03B2C /* Pods-tenFaceLiveSDK_Tests */,
-				0515AC1115186B0F3EBFB78E8204A267 /* tenFaceLiveSDK */,
+				0C59228DE05C956B3E209BBC5AA6DD5E /* Pods-TenFaceLiveSDK_Example */,
+				2DC1DB8EB43D7274BDFF8CCA47639268 /* Pods-TenFaceLiveSDK_Tests */,
+				795FA77AC0379AC2369ACB8D6CE9745A /* TenFaceLiveSDK */,
+				A34ED8D4D78117A83C1EEA6807312D68 /* TenFaceLiveSDK-TenFaceLiveSDK */,
 				DCD0DEEDE9CB35945D67203F112697C6 /* WHToast */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		4522D50300D635138BEDBF5E60D39B53 /* Resources */ = {
+		047F4D4DD5949EEA4179E1CF6C46826F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		46BC52AF695AF7EAA25B431D718B7A8B /* Resources */ = {
+		31EE26E2079DE67D2805287681E64898 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4522D50300D635138BEDBF5E60D39B53 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1390,31 +1424,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		819789807E8FD946D2F80D6F4D0FB5EE /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		82E884673D16C0512206471A8F4980D4 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5917E8DB2A97591D000B2EDC /* turn-right.wav in Resources */,
-				5917E8DA2A97591D000B2EDC /* Assets.xcassets in Resources */,
-				5917E8DE2A97591D000B2EDC /* open-eyes.wav in Resources */,
-				5917E8DF2A97591D000B2EDC /* open-eyes.gif in Resources */,
-				5917E8DD2A97591D000B2EDC /* open-mouth.wav in Resources */,
-				5917E8DC2A97591D000B2EDC /* turn-left.wav in Resources */,
-				5917E8E12A97591D000B2EDC /* turn-left.gif in Resources */,
-				5917E8E02A97591D000B2EDC /* open-mouth.gif in Resources */,
-				5917E8E22A97591D000B2EDC /* turn-right.gif in Resources */,
-				5917E8D92A97591D000B2EDC /* .gitkeep in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A63413B8DAE98C9F9B25FC8E81708BAD /* Resources */ = {
+		BF0A3DBCDB116B23006AE8A297C09D59 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1428,9 +1438,46 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D1D0F48945855B242609638C06BEB912 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0776DAD1192961CB2A7A50ABCCCB756 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC3CCBDD3BE6C083194E94DCC5C68C10 /* open-eyes.gif in Resources */,
+				1B843B52FDF56974837DB53AF6979D04 /* open-eyes.wav in Resources */,
+				D648903F652EF860ADDA02A8A4DFFA50 /* open-mouth.gif in Resources */,
+				BF1E528919565F2DF9A0F63117AFCEF9 /* open-mouth.wav in Resources */,
+				708025BCBBF1F653ED7E4B70A87DCC08 /* turn-left.gif in Resources */,
+				B229A053EF37F95481FBD61C44EB0939 /* turn-left.wav in Resources */,
+				34886E72D571CDFD9EE057EE7CFFD18C /* turn-right.gif in Resources */,
+				E8D9B46256CE56D34B91AD36A53FDF3F /* turn-right.wav in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		07443DE4B3D6FFCFADB0B41B15BB4456 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				426A43378D843AC3FB6A4E188F986C4A /* Pods-TenFaceLiveSDK_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B2F3A8E0D11B5D27C495C20202FDA68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		3003736003A11F9793D9EA6DC169AED7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1449,34 +1496,34 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		7172E78145CF4AB663065A8A4232202B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E729C58C85987858A3E666C1CD652D2E /* Main.storyboard in Sources */,
+				3BA0F84D59FFA994FE9F1575E3028A3D /* NetworkReachability.m in Sources */,
+				1CADB9306480BE2A11BA0BECF42D3B9E /* NTESBaseViewController.m in Sources */,
+				DA5DDD3A6A7A15CE73D07D218DD29992 /* NTESDottedLineProgress.m in Sources */,
+				8E43A399858247D625E6731FF4DD7BAE /* NTESLDHomePageViewController.m in Sources */,
+				356DB853B15AF194E71BA31B55B46FDD /* NTESLDMainViewController.mm in Sources */,
+				211C7075C87454B901D601DFCB462C41 /* NTESLDSuccessViewController.m in Sources */,
+				189934040EF5E82B9CB316B7D9878714 /* NTESLiveDetectView.m in Sources */,
+				213DBF242FA440088DCEC74EE3FCB7CB /* NTESTimeoutToastView.m in Sources */,
+				0D095C43B0B060E4DA0A48D1FEAE7A78 /* NTESToastView.m in Sources */,
+				F68F3E4BF0FA883D11986C82018B9E18 /* ReplaceMe.swift in Sources */,
+				D3A43B3ADF141B9A20ED6D9099C39670 /* SceneDelegate.m in Sources */,
+				D43777141F1DCCC7A69179B196A68019 /* TenFaceLiveSDK-dummy.m in Sources */,
+				C685B28F53CE236A6DB0FEDCABB46AD8 /* UIColor+NTESLiveDetect.m in Sources */,
+				55EE16FB5825FBE117658EC062BEC697 /* UIImageView+NTESLDGif.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		7E957D4020E4C4BC633BF50F7F51E5F6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				0097064E7F7D3F413161738CC5C25EEC /* MBProgressHUD.m in Sources */,
 				58C91B4AB36E6B16421106CA634C58EF /* MBProgressHUD-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A089367358A286E41855E425EC6E19D8 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				7AD290A437BF36682EF48EBD19564AFE /* Main.storyboard in Sources */,
-				43F0FC80819E382B46D026AA3FE363BF /* NetworkReachability.m in Sources */,
-				B1C6A463CFEA5AC2A3F08737629185B2 /* NTESBaseViewController.m in Sources */,
-				9A165E13053AA27CADB96A8EB7BCAD25 /* NTESDottedLineProgress.m in Sources */,
-				60F3D36A688F462690BA47F91EFF1B2C /* NTESLDHomePageViewController.m in Sources */,
-				B9480B07DFBD2439372CAF63F09E680E /* NTESLDMainViewController.mm in Sources */,
-				6E53094194AB822CE80D5F503C76BE83 /* NTESLDSuccessViewController.m in Sources */,
-				585E2D551D230C56DA98D50BE4142DB0 /* NTESLiveDetectView.m in Sources */,
-				84F42D2E88711600636694A62D29D278 /* NTESTimeoutToastView.m in Sources */,
-				1F05F5288D636430197AC7FD849BB3B1 /* NTESToastView.m in Sources */,
-				FF10B8D92116F37ABBDF4BF29DD62858 /* ReplaceMe.swift in Sources */,
-				6651F5F638D536EB051E81EE0546AFCB /* SceneDelegate.m in Sources */,
-				F7CE296734E112B6D768F4D946BFDEA1 /* tenFaceLiveSDK-dummy.m in Sources */,
-				7BC2AB39D3D5E78305DEDF46288D2B7D /* UIColor+NTESLiveDetect.m in Sources */,
-				6FB89E0C3BC2DEEA74F18E92DD509C5F /* UIImageView+NTESLDGif.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1505,127 +1552,125 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AC4A5FC0EE6E777D0EC72D0F559BEC89 /* Sources */ = {
+		E6B9EF5A664D2ACE3423F54D36A55CB1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				27FB3ED58CD1171A82F6E3C3B152DD5C /* Pods-tenFaceLiveSDK_Tests-dummy.m in Sources */,
+				A7D90D312F7D54E5E2A96CE0BD7AEB7A /* Pods-TenFaceLiveSDK_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AF03A1F30D02DEAD83C33461DDEAD6C5 /* Sources */ = {
+		E80B572F29850C692C7593578BD36A5B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2FC34B017174E5443FB20A15944C87D8 /* Pods-tenFaceLiveSDK_Example-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C6116F40F71F47B4C64AC1B45A08D690 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				062AE9C3A609FC7D09C4B262453520AD /* WHToast.m in Sources */,
-				9A7AB1C8CB6BE21D01B97510C4A8650E /* WHToast-dummy.m in Sources */,
-				49626F032298701350BCFD20CB77E10F /* WHToastConfig.m in Sources */,
-				6A44ECEB808025DC9AB65230FB9E70BA /* WHToastView.m in Sources */,
+				C03F57502A21410533D09E2503F8DBCF /* WHToast.m in Sources */,
+				19BE6EEB00B7B3916F1C7FF7A693AF65 /* WHToast-dummy.m in Sources */,
+				58EDE385159022927766B7E055B9C9D7 /* WHToastConfig.m in Sources */,
+				EEA7C01187ED30DA50D6E485BC2E9493 /* WHToastView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		1DED762ADAF1D825CD39957C96C67E12 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = MBProgressHUD;
-			target = 82B0A41D3031FF27D78E17B0A9A46FB0 /* MBProgressHUD */;
-			targetProxy = A59FA3EDA2FE0AC1036FD4A1BB1447B5 /* PBXContainerItemProxy */;
-		};
-		33DA1DFD9510130DDD590C2468D73518 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = Masonry;
-			target = 55AF53E6C77A10ED4985E04D74A8878E /* Masonry */;
-			targetProxy = 04404848AAC2A839700CB7623BBCF3F6 /* PBXContainerItemProxy */;
-		};
-		531CDD854BACB6A70E4686F9588C4929 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = AFNetworking;
-			target = 0130B3724283586C0E9D2A112D4F2AA1 /* AFNetworking */;
-			targetProxy = 6C465C967AA185CC3419F6F83AB2E59F /* PBXContainerItemProxy */;
-		};
-		5EFA04EFA77AE7C1795F79A078C96D7E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = NTESLiveDetect;
-			target = DC2CADF0EE971CCA017237D74F044ECC /* NTESLiveDetect */;
-			targetProxy = 0DE7B94509AFE0B089F5A92B259D7E37 /* PBXContainerItemProxy */;
-		};
-		724A83383B93A15A40AAB795976E8F2F /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = Masonry;
-			target = 55AF53E6C77A10ED4985E04D74A8878E /* Masonry */;
-			targetProxy = CD2E992F1FEE79A48F65C758B92572B3 /* PBXContainerItemProxy */;
-		};
-		8EAF54070B700C48FC56E73D9AB24E3D /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-tenFaceLiveSDK_Example";
-			target = 9A76BF871C7ED6F135327898ADD3B416 /* Pods-tenFaceLiveSDK_Example */;
-			targetProxy = 26A7E7F79CDF166FA9F4DD57D9195F37 /* PBXContainerItemProxy */;
-		};
-		948F08068B502CC27607399CC83A91F8 /* PBXTargetDependency */ = {
+		039C948D650CC50A686CE632D6EBB9D8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = WHToast;
 			target = DCD0DEEDE9CB35945D67203F112697C6 /* WHToast */;
-			targetProxy = 0FD403E00C16FBAF14A90BE3948469C7 /* PBXContainerItemProxy */;
+			targetProxy = 60770F37697304C8FD031B95706F9A98 /* PBXContainerItemProxy */;
 		};
-		97FA936A1A588AEF04AB8CB1E9DBF87C /* PBXTargetDependency */ = {
+		34C9E1582596713A67F04F9FD000FD82 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = NTESBaseComponent;
 			target = 7F6F6C7839036FD656371F03D2E294BE /* NTESBaseComponent */;
-			targetProxy = 7AB866431E9CB4A8275C9BB2AC835122 /* PBXContainerItemProxy */;
+			targetProxy = C466CE9F503D3130E2138EB2DBA9C363 /* PBXContainerItemProxy */;
 		};
-		9AD985AFB3E10743A0EC91F656D1AE6F /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = NTESLiveDetect;
-			target = DC2CADF0EE971CCA017237D74F044ECC /* NTESLiveDetect */;
-			targetProxy = 65826163FE7BC1A3174F49909D89554E /* PBXContainerItemProxy */;
-		};
-		9D3C65D155CA41227D2F2B5BB7D00DF7 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = NTESBaseComponent;
-			target = 7F6F6C7839036FD656371F03D2E294BE /* NTESBaseComponent */;
-			targetProxy = C72D59E08DF1EDF1008BEAA4B8EDC30D /* PBXContainerItemProxy */;
-		};
-		AA11CBE7A8574847A60E7B080B998404 /* PBXTargetDependency */ = {
+		4A77602C1FFF41DC0B6E28F45C40CAC7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = WHToast;
 			target = DCD0DEEDE9CB35945D67203F112697C6 /* WHToast */;
-			targetProxy = 74AF92753FAFA8EF7C5389F6F312FB83 /* PBXContainerItemProxy */;
+			targetProxy = 3FF708E8EA5FF3ABCFE7EDFD1816984C /* PBXContainerItemProxy */;
 		};
-		C36DB38AD27AEF66D684BA8C444417DA /* PBXTargetDependency */ = {
+		549545F20C6FBF2A92F73CB2D4FD5CFE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TenFaceLiveSDK;
+			target = 795FA77AC0379AC2369ACB8D6CE9745A /* TenFaceLiveSDK */;
+			targetProxy = 6CE7ED4316B7CFC4CA49938E49DDAE0D /* PBXContainerItemProxy */;
+		};
+		5A6A289A487601BB74D14D3D3D8E552C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-TenFaceLiveSDK_Example";
+			target = 0C59228DE05C956B3E209BBC5AA6DD5E /* Pods-TenFaceLiveSDK_Example */;
+			targetProxy = 11F5252B7D8674ACA3A6F37602836E14 /* PBXContainerItemProxy */;
+		};
+		73ED5145D7C17A9DCAC6685C4D8431CD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "TenFaceLiveSDK-TenFaceLiveSDK";
+			target = A34ED8D4D78117A83C1EEA6807312D68 /* TenFaceLiveSDK-TenFaceLiveSDK */;
+			targetProxy = 501AF41440C71475F822508C3BF3F93E /* PBXContainerItemProxy */;
+		};
+		8B407889393E4846EC939841C8809AEB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = AFNetworking;
 			target = 0130B3724283586C0E9D2A112D4F2AA1 /* AFNetworking */;
-			targetProxy = 2622AC304FAE6398E074CEDC3EC60CDB /* PBXContainerItemProxy */;
+			targetProxy = 824BC8C549635C18E910BF812E9998F5 /* PBXContainerItemProxy */;
 		};
-		D59157E392B1DC23A11F237F5FB34B74 /* PBXTargetDependency */ = {
+		91FEF6D7A674FD6569F81EE1A5DC3B04 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = tenFaceLiveSDK;
-			target = 0515AC1115186B0F3EBFB78E8204A267 /* tenFaceLiveSDK */;
-			targetProxy = 2E319C62AAE77D22CD406018D94F7B0E /* PBXContainerItemProxy */;
+			name = NTESBaseComponent;
+			target = 7F6F6C7839036FD656371F03D2E294BE /* NTESBaseComponent */;
+			targetProxy = 1C7A566708DD3131D3E922469668C182 /* PBXContainerItemProxy */;
 		};
-		FF500D1E1A1031002F937B896FFE57B5 /* PBXTargetDependency */ = {
+		929186F2C37D575A264DFD9092EEA197 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = NTESLiveDetect;
+			target = DC2CADF0EE971CCA017237D74F044ECC /* NTESLiveDetect */;
+			targetProxy = E5A2168CF8965ED5702B96F1AE4D256F /* PBXContainerItemProxy */;
+		};
+		A65E5DE8AAA89423C173546A458B4EE0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Masonry;
+			target = 55AF53E6C77A10ED4985E04D74A8878E /* Masonry */;
+			targetProxy = 3A862EE9718919736CA2D6E76C9D5E8A /* PBXContainerItemProxy */;
+		};
+		B50ED9F9FD06F9ECDB83741D13D3351C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = MBProgressHUD;
 			target = 82B0A41D3031FF27D78E17B0A9A46FB0 /* MBProgressHUD */;
-			targetProxy = ECE400DEA1B607012A7D3B7F4D877399 /* PBXContainerItemProxy */;
+			targetProxy = 72B4690858DEB658477E7CA0AC5375F6 /* PBXContainerItemProxy */;
+		};
+		C2BE146C0B77B6895481E000135BAA4E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MBProgressHUD;
+			target = 82B0A41D3031FF27D78E17B0A9A46FB0 /* MBProgressHUD */;
+			targetProxy = 272BBECC14236358350E7315F8E0C50C /* PBXContainerItemProxy */;
+		};
+		E6700128398979C6CFBD3FEF645615A3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AFNetworking;
+			target = 0130B3724283586C0E9D2A112D4F2AA1 /* AFNetworking */;
+			targetProxy = E250CF495A4A167624EF9C4092125487 /* PBXContainerItemProxy */;
+		};
+		E7C64DF03A3228F2628528CC1DF53C25 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Masonry;
+			target = 55AF53E6C77A10ED4985E04D74A8878E /* Masonry */;
+			targetProxy = FA535569F393530B8DA0AF69E5BDAB8B /* PBXContainerItemProxy */;
+		};
+		EC551B085A603F0C5D1B997DA78B97A6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = NTESLiveDetect;
+			target = DC2CADF0EE971CCA017237D74F044ECC /* NTESLiveDetect */;
+			targetProxy = C1FE51480F04EF0CAA42E1751838EA76 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		5313D9ECC67367BC211A29AC5772BF03 /* Main.storyboard */ = {
+		9B56F86165634B0708C4814D1C8D0629 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				D9CD52A12EA9D689A1DF6C74DE47234B /* Main.storyboard */,
+				43D0C7032DE40CE3F3CD9D086FE24857 /* Main.storyboard */,
 			);
 			name = Main.storyboard;
 			path = .;
@@ -1666,9 +1711,9 @@
 			};
 			name = Debug;
 		};
-		10E427683D8291FD7BBFF7BFC3044277 /* Release */ = {
+		0E84CA0E1036F1F703D29F8BBF7CE81D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 61A19F54E4D0B262FCA7D24B7171433F /* Pods-tenFaceLiveSDK_Example.release.xcconfig */;
+			baseConfigurationReference = D4A83B41F51E7CBDC37D31B5076F4C4C /* Pods-TenFaceLiveSDK_Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
@@ -1682,12 +1727,12 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-tenFaceLiveSDK_Example/Pods-tenFaceLiveSDK_Example-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-TenFaceLiveSDK_Tests/Pods-TenFaceLiveSDK_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-tenFaceLiveSDK_Example/Pods-tenFaceLiveSDK_Example.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-TenFaceLiveSDK_Tests/Pods-TenFaceLiveSDK_Tests.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -1734,9 +1779,9 @@
 			};
 			name = Debug;
 		};
-		27DCEAD301540990F6EC387C7AC204E5 /* Debug */ = {
+		2B0701111EA29B302CFFB816F93AE215 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DCE3A339D04EE19AB57E4E9B63B02941 /* WHToast.debug.xcconfig */;
+			baseConfigurationReference = D49FFEDE9917CF608A1F558F1D35550D /* TenFaceLiveSDK.debug.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -1749,14 +1794,15 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/WHToast/WHToast-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/WHToast/WHToast-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/TenFaceLiveSDK/TenFaceLiveSDK-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TenFaceLiveSDK/TenFaceLiveSDK-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/WHToast/WHToast.modulemap";
-				PRODUCT_MODULE_NAME = WHToast;
-				PRODUCT_NAME = WHToast;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/TenFaceLiveSDK/TenFaceLiveSDK.modulemap";
+				PRODUCT_MODULE_NAME = TenFaceLiveSDK;
+				PRODUCT_NAME = TenFaceLiveSDK;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
@@ -1800,44 +1846,9 @@
 			};
 			name = Release;
 		};
-		4B9D8788452C653A214900AFD940ACF0 /* Release */ = {
+		446769FAE9B9F11C48AEB29FB0F4FC94 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 414B750F08D3D32212D38DC1A0BA5A95 /* tenFaceLiveSDK.release.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = TJM8W7CS7Y;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/tenFaceLiveSDK/tenFaceLiveSDK-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/tenFaceLiveSDK/tenFaceLiveSDK-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/tenFaceLiveSDK/tenFaceLiveSDK.modulemap";
-				PRODUCT_MODULE_NAME = tenFaceLiveSDK;
-				PRODUCT_NAME = tenFaceLiveSDK;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		5AB74122FED36552326E3C072F556686 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6A15CEB5398D2437599B585853FAA5AE /* Pods-tenFaceLiveSDK_Tests.debug.xcconfig */;
+			baseConfigurationReference = A7163F8E30E874BF5ACC7ABEFED833F9 /* Pods-TenFaceLiveSDK_Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
@@ -1851,12 +1862,12 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-tenFaceLiveSDK_Tests/Pods-tenFaceLiveSDK_Tests-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-TenFaceLiveSDK_Tests/Pods-TenFaceLiveSDK_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-tenFaceLiveSDK_Tests/Pods-tenFaceLiveSDK_Tests.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-TenFaceLiveSDK_Tests/Pods-TenFaceLiveSDK_Tests.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -1869,6 +1880,40 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		51D1C84DF47A893B115F3E90F70A1863 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 534EECD57C548CA638B190B9A7BF44C7 /* WHToast.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = TJM8W7CS7Y;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/WHToast/WHToast-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WHToast/WHToast-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WHToast/WHToast.modulemap";
+				PRODUCT_MODULE_NAME = WHToast;
+				PRODUCT_NAME = WHToast;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 		67A5D402DFF37CAF252A88F32566D1B4 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -1885,9 +1930,9 @@
 			};
 			name = Debug;
 		};
-		756C27B2B5DEED350181644A411CD5F9 /* Debug */ = {
+		8034B818E8B90DFBAD00D37F2AEE0305 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D403B7DEBD9F9EA2D6C07158F90614CB /* Pods-tenFaceLiveSDK_Example.debug.xcconfig */;
+			baseConfigurationReference = B6C10890B4D5D40116D07AA3080362A8 /* Pods-TenFaceLiveSDK_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
@@ -1901,12 +1946,12 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-tenFaceLiveSDK_Example/Pods-tenFaceLiveSDK_Example-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-TenFaceLiveSDK_Example/Pods-TenFaceLiveSDK_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-tenFaceLiveSDK_Example/Pods-tenFaceLiveSDK_Example.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-TenFaceLiveSDK_Example/Pods-TenFaceLiveSDK_Example.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -1915,10 +1960,11 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 		8708C823E7F51636751CB2DB26E37851 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -1935,6 +1981,39 @@
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
+		};
+		890312F92177987D05E2EAF92A5BF271 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DCE3A339D04EE19AB57E4E9B63B02941 /* WHToast.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = TJM8W7CS7Y;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/WHToast/WHToast-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WHToast/WHToast-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WHToast/WHToast.modulemap";
+				PRODUCT_MODULE_NAME = WHToast;
+				PRODUCT_NAME = WHToast;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		8C323E972FEFC72C7AC6EDF1593C30E6 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -1966,6 +2045,24 @@
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8EDBC2AC85E4DEFE990C7B9135416DC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B9E47375B08E33DA969935F95A503590 /* TenFaceLiveSDK.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/TenFaceLiveSDK";
+				DEVELOPMENT_TEAM = TJM8W7CS7Y;
+				IBSC_MODULE = TenFaceLiveSDK;
+				INFOPLIST_FILE = "Target Support Files/TenFaceLiveSDK/ResourceBundle-TenFaceLiveSDK-TenFaceLiveSDK-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_NAME = TenFaceLiveSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
 			};
 			name = Release;
 		};
@@ -2030,40 +2127,6 @@
 			};
 			name = Release;
 		};
-		95B258D45370C756F4D7FBD0F72C0897 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 534EECD57C548CA638B190B9A7BF44C7 /* WHToast.release.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = TJM8W7CS7Y;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/WHToast/WHToast-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/WHToast/WHToast-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/WHToast/WHToast.modulemap";
-				PRODUCT_MODULE_NAME = WHToast;
-				PRODUCT_NAME = WHToast;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		96F578914B36DDF036398F6C1F0A1455 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 689A488CC306F48C610AA1BC039A5A78 /* Masonry.debug.xcconfig */;
@@ -2111,6 +2174,41 @@
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
+		};
+		A23AADFBCDE88DEDDE678FC9E48B0B66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0FEBCF7A094C2045A5F7F54EC79DB2FA /* Pods-TenFaceLiveSDK_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = TJM8W7CS7Y;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TenFaceLiveSDK_Example/Pods-TenFaceLiveSDK_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TenFaceLiveSDK_Example/Pods-TenFaceLiveSDK_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		B4EFE046ACF8F37157F6E322C7FCFC28 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -2193,9 +2291,27 @@
 			};
 			name = Debug;
 		};
-		E502254D352D3DBEF33F82D396F1043D /* Debug */ = {
+		E45C3B51686CB198E5D4967D4C5D6799 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B384A5545B1074857561EF16B2F09304 /* tenFaceLiveSDK.debug.xcconfig */;
+			baseConfigurationReference = D49FFEDE9917CF608A1F558F1D35550D /* TenFaceLiveSDK.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/TenFaceLiveSDK";
+				DEVELOPMENT_TEAM = TJM8W7CS7Y;
+				IBSC_MODULE = TenFaceLiveSDK;
+				INFOPLIST_FILE = "Target Support Files/TenFaceLiveSDK/ResourceBundle-TenFaceLiveSDK-TenFaceLiveSDK-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_NAME = TenFaceLiveSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		E8498230C5A957EF06F76B1D02D1787E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B9E47375B08E33DA969935F95A503590 /* TenFaceLiveSDK.release.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -2208,54 +2324,19 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/tenFaceLiveSDK/tenFaceLiveSDK-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/tenFaceLiveSDK/tenFaceLiveSDK-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/TenFaceLiveSDK/TenFaceLiveSDK-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TenFaceLiveSDK/TenFaceLiveSDK-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/tenFaceLiveSDK/tenFaceLiveSDK.modulemap";
-				PRODUCT_MODULE_NAME = tenFaceLiveSDK;
-				PRODUCT_NAME = tenFaceLiveSDK;
+				MODULEMAP_FILE = "Target Support Files/TenFaceLiveSDK/TenFaceLiveSDK.modulemap";
+				PRODUCT_MODULE_NAME = TenFaceLiveSDK;
+				PRODUCT_NAME = TenFaceLiveSDK;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		E5D03E7C3E1676C4B339AA30126077C4 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 99BDC93B739015C3BEF432B453779749 /* Pods-tenFaceLiveSDK_Tests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = TJM8W7CS7Y;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-tenFaceLiveSDK_Tests/Pods-tenFaceLiveSDK_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-tenFaceLiveSDK_Tests/Pods-tenFaceLiveSDK_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -2299,29 +2380,11 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		04E7AC8F66451BAB24C7158D46ED4E38 /* Build configuration list for PBXNativeTarget "Pods-tenFaceLiveSDK_Example" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				756C27B2B5DEED350181644A411CD5F9 /* Debug */,
-				10E427683D8291FD7BBFF7BFC3044277 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		0DF2C0E84B654AEFFC55CFAF0F4196F4 /* Build configuration list for PBXAggregateTarget "NTESBaseComponent" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				67A5D402DFF37CAF252A88F32566D1B4 /* Debug */,
 				A09BA3C180AAC408727C2DDD94D985D1 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		0F19A63695FA62F2BD2B16A0ACCABBAD /* Build configuration list for PBXNativeTarget "Pods-tenFaceLiveSDK_Tests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				5AB74122FED36552326E3C072F556686 /* Debug */,
-				E5D03E7C3E1676C4B339AA30126077C4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -2335,20 +2398,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		15A519E63FB8C32D79F61B3A1DAD66D2 /* Build configuration list for PBXNativeTarget "TenFaceLiveSDK-TenFaceLiveSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E45C3B51686CB198E5D4967D4C5D6799 /* Debug */,
+				8EDBC2AC85E4DEFE990C7B9135416DC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C639B80D06E6F6BA5948AA214D56C93 /* Build configuration list for PBXNativeTarget "TenFaceLiveSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B0701111EA29B302CFFB816F93AE215 /* Debug */,
+				E8498230C5A957EF06F76B1D02D1787E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B4EFE046ACF8F37157F6E322C7FCFC28 /* Debug */,
 				903A0004D3E6651EFD5D2E16214D101B /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		9F12A4B0466D417AFDE9ECA7E3E3D4B5 /* Build configuration list for PBXNativeTarget "WHToast" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				27DCEAD301540990F6EC387C7AC204E5 /* Debug */,
-				95B258D45370C756F4D7FBD0F72C0897 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -2371,20 +2443,38 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A8C505A01931A0F5165469387FBE9BD5 /* Build configuration list for PBXNativeTarget "tenFaceLiveSDK" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				E502254D352D3DBEF33F82D396F1043D /* Debug */,
-				4B9D8788452C653A214900AFD940ACF0 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		B61E8ABD6FC78810EA49DC0E9646BF83 /* Build configuration list for PBXNativeTarget "AFNetworking" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0A03FEE8027470F022344EB87BF62499 /* Debug */,
 				3124707452E56D687776E9434A192814 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D8AF6FA83C829147ED3256F9981F6A47 /* Build configuration list for PBXNativeTarget "Pods-TenFaceLiveSDK_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A23AADFBCDE88DEDDE678FC9E48B0B66 /* Debug */,
+				8034B818E8B90DFBAD00D37F2AEE0305 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED711695B19B1BF7F07DFB8B5F80EDF5 /* Build configuration list for PBXNativeTarget "WHToast" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				890312F92177987D05E2EAF92A5BF271 /* Debug */,
+				51D1C84DF47A893B115F3E90F70A1863 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6106147599F46914E0F61E736A63C4C /* Build configuration list for PBXNativeTarget "Pods-TenFaceLiveSDK_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				446769FAE9B9F11C48AEB29FB0F4FC94 /* Debug */,
+				0E84CA0E1036F1F703D29F8BBF7CE81D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

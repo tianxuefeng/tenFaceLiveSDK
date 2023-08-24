@@ -1,5 +1,5 @@
-framework module Pods_tenFaceLiveSDK_Example {
-  umbrella header "Pods-tenFaceLiveSDK_Example-umbrella.h"
+framework module Pods_TenFaceLiveSDK_Example {
+  umbrella header "Pods-TenFaceLiveSDK_Example-umbrella.h"
 
   export *
   module * { export * }
