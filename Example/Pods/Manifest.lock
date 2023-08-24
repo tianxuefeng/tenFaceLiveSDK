@@ -30,7 +30,7 @@ PODS:
     - Masonry
     - MBProgressHUD
     - NTESLiveDetect (= 3.1.2)
-    - WHToast
+    - WHToast (~> 0.1.0)
   - WHToast (0.1.0)
 
 DEPENDENCIES:
@@ -55,7 +55,7 @@ SPEC CHECKSUMS:
   MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
   NTESBaseComponent: 7b310e7e80bb6c27183176188b98356d200dbbc5
   NTESLiveDetect: 11d03f95eb9f72b476ab3a0c6aab6eca55b8eda9
-  tenFaceLiveSDK: fcbdefe9625d0abc7980d3350231282a4e94fd09
+  tenFaceLiveSDK: eb8a9bbdb4c36025f3b5ecaf18295f382053e34d
   WHToast: 7d393091940215c2b8bcf78422d1855f9bfa3975
 
 PODFILE CHECKSUM: 20ea925bfe0a5da85f8d966484e83b93420bf604

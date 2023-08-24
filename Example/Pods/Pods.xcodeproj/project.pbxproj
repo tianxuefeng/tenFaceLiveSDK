@@ -76,15 +76,16 @@
 		585E2D551D230C56DA98D50BE4142DB0 /* NTESLiveDetectView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A4D486A6E9E3A6E72EF3EDF3E0DA95F /* NTESLiveDetectView.m */; };
 		58B3C6D02A137C9098E76626886FA437 /* NTESLDMainViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 39029173EADA5C2AFA768210523AEF39 /* NTESLDMainViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		58C91B4AB36E6B16421106CA634C58EF /* MBProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B59B40639889317F96E8B0CF0078B579 /* MBProgressHUD-dummy.m */; };
-		5917E8C22A9757DC000B2EDC /* turn-right.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5917E8B72A9757DC000B2EDC /* turn-right.wav */; };
-		5917E8C32A9757DC000B2EDC /* turn-left.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5917E8B82A9757DC000B2EDC /* turn-left.wav */; };
-		5917E8C42A9757DC000B2EDC /* open-mouth.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5917E8B92A9757DC000B2EDC /* open-mouth.wav */; };
-		5917E8C52A9757DC000B2EDC /* open-eyes.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5917E8BA2A9757DC000B2EDC /* open-eyes.wav */; };
-		5917E8C62A9757DC000B2EDC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5917E8BB2A9757DC000B2EDC /* Assets.xcassets */; };
-		5917E8C82A9757DC000B2EDC /* open-eyes.gif in Resources */ = {isa = PBXBuildFile; fileRef = 5917E8BE2A9757DC000B2EDC /* open-eyes.gif */; };
-		5917E8C92A9757DC000B2EDC /* open-mouth.gif in Resources */ = {isa = PBXBuildFile; fileRef = 5917E8BF2A9757DC000B2EDC /* open-mouth.gif */; };
-		5917E8CA2A9757DC000B2EDC /* turn-left.gif in Resources */ = {isa = PBXBuildFile; fileRef = 5917E8C02A9757DC000B2EDC /* turn-left.gif */; };
-		5917E8CB2A9757DC000B2EDC /* turn-right.gif in Resources */ = {isa = PBXBuildFile; fileRef = 5917E8C12A9757DC000B2EDC /* turn-right.gif */; };
+		5917E8D92A97591D000B2EDC /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 5917E8CD2A97591D000B2EDC /* .gitkeep */; };
+		5917E8DA2A97591D000B2EDC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5917E8CE2A97591D000B2EDC /* Assets.xcassets */; };
+		5917E8DB2A97591D000B2EDC /* turn-right.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5917E8D02A97591D000B2EDC /* turn-right.wav */; };
+		5917E8DC2A97591D000B2EDC /* turn-left.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5917E8D12A97591D000B2EDC /* turn-left.wav */; };
+		5917E8DD2A97591D000B2EDC /* open-mouth.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5917E8D22A97591D000B2EDC /* open-mouth.wav */; };
+		5917E8DE2A97591D000B2EDC /* open-eyes.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5917E8D32A97591D000B2EDC /* open-eyes.wav */; };
+		5917E8DF2A97591D000B2EDC /* open-eyes.gif in Resources */ = {isa = PBXBuildFile; fileRef = 5917E8D52A97591D000B2EDC /* open-eyes.gif */; };
+		5917E8E02A97591D000B2EDC /* open-mouth.gif in Resources */ = {isa = PBXBuildFile; fileRef = 5917E8D62A97591D000B2EDC /* open-mouth.gif */; };
+		5917E8E12A97591D000B2EDC /* turn-left.gif in Resources */ = {isa = PBXBuildFile; fileRef = 5917E8D72A97591D000B2EDC /* turn-left.gif */; };
+		5917E8E22A97591D000B2EDC /* turn-right.gif in Resources */ = {isa = PBXBuildFile; fileRef = 5917E8D82A97591D000B2EDC /* turn-right.gif */; };
 		5BAC1EF86D0E57E44E404B2796993561 /* MBProgressHUD-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C3A27DD2290046CFC3A13E305EFABF4 /* MBProgressHUD-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		60F3D36A688F462690BA47F91EFF1B2C /* NTESLDHomePageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2151EF8B48349023AD2E98FEA8F282AC /* NTESLDHomePageViewController.m */; };
 		61225B0B9AEC591476E30C9A575013B3 /* View+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = BB0A1357517932DDCEA678BB26BE267D /* View+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -333,15 +334,16 @@
 		55901F382DAFB3F73A00D199CB52F595 /* AFNetworking-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AFNetworking-prefix.pch"; sourceTree = "<group>"; };
 		5662FC0207DC63C49D4C4B20AF64DB8C /* WHToastConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WHToastConfig.m; path = WHToast/WHToastConfig.m; sourceTree = "<group>"; };
 		587851FE04FDED1CA214A5280BD04D1B /* Pods-tenFaceLiveSDK_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-tenFaceLiveSDK_Example-Info.plist"; sourceTree = "<group>"; };
-		5917E8B72A9757DC000B2EDC /* turn-right.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "turn-right.wav"; sourceTree = "<group>"; };
-		5917E8B82A9757DC000B2EDC /* turn-left.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "turn-left.wav"; sourceTree = "<group>"; };
-		5917E8B92A9757DC000B2EDC /* open-mouth.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "open-mouth.wav"; sourceTree = "<group>"; };
-		5917E8BA2A9757DC000B2EDC /* open-eyes.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "open-eyes.wav"; sourceTree = "<group>"; };
-		5917E8BB2A9757DC000B2EDC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../Assets/Assets.xcassets; sourceTree = "<group>"; };
-		5917E8BE2A9757DC000B2EDC /* open-eyes.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "open-eyes.gif"; sourceTree = "<group>"; };
-		5917E8BF2A9757DC000B2EDC /* open-mouth.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "open-mouth.gif"; sourceTree = "<group>"; };
-		5917E8C02A9757DC000B2EDC /* turn-left.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "turn-left.gif"; sourceTree = "<group>"; };
-		5917E8C12A9757DC000B2EDC /* turn-right.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "turn-right.gif"; sourceTree = "<group>"; };
+		5917E8CD2A97591D000B2EDC /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		5917E8CE2A97591D000B2EDC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5917E8D02A97591D000B2EDC /* turn-right.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "turn-right.wav"; sourceTree = "<group>"; };
+		5917E8D12A97591D000B2EDC /* turn-left.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "turn-left.wav"; sourceTree = "<group>"; };
+		5917E8D22A97591D000B2EDC /* open-mouth.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "open-mouth.wav"; sourceTree = "<group>"; };
+		5917E8D32A97591D000B2EDC /* open-eyes.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "open-eyes.wav"; sourceTree = "<group>"; };
+		5917E8D52A97591D000B2EDC /* open-eyes.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "open-eyes.gif"; sourceTree = "<group>"; };
+		5917E8D62A97591D000B2EDC /* open-mouth.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "open-mouth.gif"; sourceTree = "<group>"; };
+		5917E8D72A97591D000B2EDC /* turn-left.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "turn-left.gif"; sourceTree = "<group>"; };
+		5917E8D82A97591D000B2EDC /* turn-right.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "turn-right.gif"; sourceTree = "<group>"; };
 		59FB569790D384AF08AA44AC3A2BF22E /* UIRefreshControl+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIRefreshControl+AFNetworking.m"; path = "UIKit+AFNetworking/UIRefreshControl+AFNetworking.m"; sourceTree = "<group>"; };
 		5BE77BEE398F777CB9141FFF4901880B /* MASCompositeConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASCompositeConstraint.m; path = Masonry/MASCompositeConstraint.m; sourceTree = "<group>"; };
 		5BED4FDA77F181C500812B129B049659 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
@@ -687,28 +689,38 @@
 			path = "../Target Support Files/MBProgressHUD";
 			sourceTree = "<group>";
 		};
-		5917E8B62A9757DC000B2EDC /* WavMusic */ = {
+		5917E8CC2A97591D000B2EDC /* Assets */ = {
 			isa = PBXGroup;
 			children = (
-				5917E8B72A9757DC000B2EDC /* turn-right.wav */,
-				5917E8B82A9757DC000B2EDC /* turn-left.wav */,
-				5917E8B92A9757DC000B2EDC /* open-mouth.wav */,
-				5917E8BA2A9757DC000B2EDC /* open-eyes.wav */,
+				5917E8CD2A97591D000B2EDC /* .gitkeep */,
+				5917E8CE2A97591D000B2EDC /* Assets.xcassets */,
+				5917E8CF2A97591D000B2EDC /* WavMusic */,
+				5917E8D42A97591D000B2EDC /* GifPic */,
 			);
-			name = WavMusic;
-			path = ../../Assets/WavMusic;
+			name = Assets;
+			path = tenFaceLiveSDK/Assets;
 			sourceTree = "<group>";
 		};
-		5917E8BC2A9757DC000B2EDC /* GifPic */ = {
+		5917E8CF2A97591D000B2EDC /* WavMusic */ = {
 			isa = PBXGroup;
 			children = (
-				5917E8BE2A9757DC000B2EDC /* open-eyes.gif */,
-				5917E8BF2A9757DC000B2EDC /* open-mouth.gif */,
-				5917E8C02A9757DC000B2EDC /* turn-left.gif */,
-				5917E8C12A9757DC000B2EDC /* turn-right.gif */,
+				5917E8D02A97591D000B2EDC /* turn-right.wav */,
+				5917E8D12A97591D000B2EDC /* turn-left.wav */,
+				5917E8D22A97591D000B2EDC /* open-mouth.wav */,
+				5917E8D32A97591D000B2EDC /* open-eyes.wav */,
 			);
-			name = GifPic;
-			path = ../../Assets/GifPic;
+			path = WavMusic;
+			sourceTree = "<group>";
+		};
+		5917E8D42A97591D000B2EDC /* GifPic */ = {
+			isa = PBXGroup;
+			children = (
+				5917E8D52A97591D000B2EDC /* open-eyes.gif */,
+				5917E8D62A97591D000B2EDC /* open-mouth.gif */,
+				5917E8D72A97591D000B2EDC /* turn-left.gif */,
+				5917E8D82A97591D000B2EDC /* turn-right.gif */,
+			);
+			path = GifPic;
 			sourceTree = "<group>";
 		};
 		5D48E0D9018D7BBCAA1BFD26BC121C4B /* Serialization */ = {
@@ -766,6 +778,7 @@
 		701E541A20B0EAEC9FE970AFACCA604A /* tenFaceLiveSDK */ = {
 			isa = PBXGroup;
 			children = (
+				5917E8CC2A97591D000B2EDC /* Assets */,
 				8E0EBA49D344D2DC2A7C93DC66F5A886 /* ReplaceMe.swift */,
 				F06457D9D517DD1046085D893D6124D7 /* Neteasy */,
 				9D2DFB05565225A9808E05C6FC5CEBB5 /* Pod */,
@@ -964,9 +977,6 @@
 		F06457D9D517DD1046085D893D6124D7 /* Neteasy */ = {
 			isa = PBXGroup;
 			children = (
-				5917E8BB2A9757DC000B2EDC /* Assets.xcassets */,
-				5917E8BC2A9757DC000B2EDC /* GifPic */,
-				5917E8B62A9757DC000B2EDC /* WavMusic */,
 				C6A602444E65626FB37C0E057C244C00 /* LDDemoDefines.h */,
 				5313D9ECC67367BC211A29AC5772BF03 /* Main.storyboard */,
 				44BFF1D7E753863376A1CEFC22809DA6 /* SceneDelegate.h */,
@@ -1391,15 +1401,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5917E8C42A9757DC000B2EDC /* open-mouth.wav in Resources */,
-				5917E8C32A9757DC000B2EDC /* turn-left.wav in Resources */,
-				5917E8CA2A9757DC000B2EDC /* turn-left.gif in Resources */,
-				5917E8C82A9757DC000B2EDC /* open-eyes.gif in Resources */,
-				5917E8CB2A9757DC000B2EDC /* turn-right.gif in Resources */,
-				5917E8C52A9757DC000B2EDC /* open-eyes.wav in Resources */,
-				5917E8C22A9757DC000B2EDC /* turn-right.wav in Resources */,
-				5917E8C62A9757DC000B2EDC /* Assets.xcassets in Resources */,
-				5917E8C92A9757DC000B2EDC /* open-mouth.gif in Resources */,
+				5917E8DB2A97591D000B2EDC /* turn-right.wav in Resources */,
+				5917E8DA2A97591D000B2EDC /* Assets.xcassets in Resources */,
+				5917E8DE2A97591D000B2EDC /* open-eyes.wav in Resources */,
+				5917E8DF2A97591D000B2EDC /* open-eyes.gif in Resources */,
+				5917E8DD2A97591D000B2EDC /* open-mouth.wav in Resources */,
+				5917E8DC2A97591D000B2EDC /* turn-left.wav in Resources */,
+				5917E8E12A97591D000B2EDC /* turn-left.gif in Resources */,
+				5917E8E02A97591D000B2EDC /* open-mouth.gif in Resources */,
+				5917E8E22A97591D000B2EDC /* turn-right.gif in Resources */,
+				5917E8D92A97591D000B2EDC /* .gitkeep in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

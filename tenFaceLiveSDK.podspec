@@ -32,11 +32,11 @@ TODO: Add long description of the pod here.
 
   s.source_files = 'tenFaceLiveSDK/Classes/**/*'
 
-  #s.resources = "Assets/**/*"
+  s.resources = "Assets/**/*"
   #s.resources             = 'tenFaceLiveSDK/*.{png,gif,wav,bundle}'
    
    #s.resource = "tenFaceLiveSDK.bundle"
-   #s.resource_bundles = {'tenFaceLiveSDK' => ['tenFaceLiveSDK/MyAssets/**/*', 'tenFaceLiveSDK/Assets/GifPic/*.gif', 'tenFaceLiveSDK/Assets/WavMusic/*.wav'] }
+   s.resource_bundles = {'tenFaceLiveSDK' => ['tenFaceLiveSDK/MyAssets/**/*', 'tenFaceLiveSDK/Assets/GifPic/*.gif', 'tenFaceLiveSDK/Assets/WavMusic/*.wav'] }
    
    #s.resource_bundles = {'testBundle' => ['tenFaceLiveSDK/Assets/**/*', 'tenFaceLiveSDK/Assets/GifPic/*.gif', 'tenFaceLiveSDK/Assets/WavMusic/*.wav'] }
 
@@ -46,7 +46,7 @@ TODO: Add long description of the pod here.
   s.static_framework = true
   
    s.dependency 'AFNetworking', '~> 2.3'
-   s.dependency 'WHToast'#,'~>0.1.0'
+   s.dependency 'WHToast', '~>0.1.0'
    s.dependency 'Masonry'
    s.dependency 'NTESLiveDetect', '= 3.1.2'
    s.dependency 'MBProgressHUD'
