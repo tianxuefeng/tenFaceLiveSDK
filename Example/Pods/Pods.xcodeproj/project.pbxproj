@@ -15,6 +15,7 @@
 			dependencies = (
 			);
 			name = NTESBaseComponent;
+			productName = NTESBaseComponent;
 		};
 		DC2CADF0EE971CCA017237D74F044ECC /* NTESLiveDetect */ = {
 			isa = PBXAggregateTarget;
@@ -25,6 +26,7 @@
 				97FA936A1A588AEF04AB8CB1E9DBF87C /* PBXTargetDependency */,
 			);
 			name = NTESLiveDetect;
+			productName = NTESLiveDetect;
 		};
 /* End PBXAggregateTarget section */
 
@@ -74,6 +76,15 @@
 		585E2D551D230C56DA98D50BE4142DB0 /* NTESLiveDetectView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A4D486A6E9E3A6E72EF3EDF3E0DA95F /* NTESLiveDetectView.m */; };
 		58B3C6D02A137C9098E76626886FA437 /* NTESLDMainViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 39029173EADA5C2AFA768210523AEF39 /* NTESLDMainViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		58C91B4AB36E6B16421106CA634C58EF /* MBProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B59B40639889317F96E8B0CF0078B579 /* MBProgressHUD-dummy.m */; };
+		5917E8C22A9757DC000B2EDC /* turn-right.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5917E8B72A9757DC000B2EDC /* turn-right.wav */; };
+		5917E8C32A9757DC000B2EDC /* turn-left.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5917E8B82A9757DC000B2EDC /* turn-left.wav */; };
+		5917E8C42A9757DC000B2EDC /* open-mouth.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5917E8B92A9757DC000B2EDC /* open-mouth.wav */; };
+		5917E8C52A9757DC000B2EDC /* open-eyes.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5917E8BA2A9757DC000B2EDC /* open-eyes.wav */; };
+		5917E8C62A9757DC000B2EDC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5917E8BB2A9757DC000B2EDC /* Assets.xcassets */; };
+		5917E8C82A9757DC000B2EDC /* open-eyes.gif in Resources */ = {isa = PBXBuildFile; fileRef = 5917E8BE2A9757DC000B2EDC /* open-eyes.gif */; };
+		5917E8C92A9757DC000B2EDC /* open-mouth.gif in Resources */ = {isa = PBXBuildFile; fileRef = 5917E8BF2A9757DC000B2EDC /* open-mouth.gif */; };
+		5917E8CA2A9757DC000B2EDC /* turn-left.gif in Resources */ = {isa = PBXBuildFile; fileRef = 5917E8C02A9757DC000B2EDC /* turn-left.gif */; };
+		5917E8CB2A9757DC000B2EDC /* turn-right.gif in Resources */ = {isa = PBXBuildFile; fileRef = 5917E8C12A9757DC000B2EDC /* turn-right.gif */; };
 		5BAC1EF86D0E57E44E404B2796993561 /* MBProgressHUD-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C3A27DD2290046CFC3A13E305EFABF4 /* MBProgressHUD-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		60F3D36A688F462690BA47F91EFF1B2C /* NTESLDHomePageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2151EF8B48349023AD2E98FEA8F282AC /* NTESLDHomePageViewController.m */; };
 		61225B0B9AEC591476E30C9A575013B3 /* View+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = BB0A1357517932DDCEA678BB26BE267D /* View+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -265,7 +276,7 @@
 		025AB15A8180EDA5E75EC93C7FD912BC /* NTESDottedLineProgress.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = NTESDottedLineProgress.m; sourceTree = "<group>"; };
 		02E1824B01EB438E142B434C972AA1FC /* MASConstraintMaker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraintMaker.m; path = Masonry/MASConstraintMaker.m; sourceTree = "<group>"; };
 		04E63CCFBE2497771D08F586AFC8FAD3 /* AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworking.h; path = AFNetworking/AFNetworking.h; sourceTree = "<group>"; };
-		06F15A37C1CFE9B187F1B41E93EAB302 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		06F15A37C1CFE9B187F1B41E93EAB302 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		07AB849AE35DED34C6E005DFBB833A1E /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLRequestSerialization.h; path = AFNetworking/AFURLRequestSerialization.h; sourceTree = "<group>"; };
 		07EBE5FF053235B9A90CB7961ED799DA /* Pods-tenFaceLiveSDK_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-tenFaceLiveSDK_Example"; path = Pods_tenFaceLiveSDK_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		081C952D681CA53C5208868606E86614 /* AFNetworking-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AFNetworking-Info.plist"; sourceTree = "<group>"; };
@@ -284,7 +295,7 @@
 		2133387FA0EC2BDDCA00C44140819253 /* AFNetworkActivityIndicatorManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFNetworkActivityIndicatorManager.m; path = "UIKit+AFNetworking/AFNetworkActivityIndicatorManager.m"; sourceTree = "<group>"; };
 		2151EF8B48349023AD2E98FEA8F282AC /* NTESLDHomePageViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = NTESLDHomePageViewController.m; sourceTree = "<group>"; };
 		219BCBBD0E8D3E57CD7E5095CE3FBCA2 /* UIProgressView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIProgressView+AFNetworking.h"; path = "UIKit+AFNetworking/UIProgressView+AFNetworking.h"; sourceTree = "<group>"; };
-		225AC8E8F701D0CAC8F84E6A40F084D9 /* NTESLDMainViewController.mm */ = {isa = PBXFileReference; includeInIndex = 1; path = NTESLDMainViewController.mm; sourceTree = "<group>"; };
+		225AC8E8F701D0CAC8F84E6A40F084D9 /* NTESLDMainViewController.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; path = NTESLDMainViewController.mm; sourceTree = "<group>"; };
 		29A7BBA9724E64BF58D2EB9D532366B5 /* Masonry-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Masonry-Info.plist"; sourceTree = "<group>"; };
 		29EE40CA25FD1C2F810380EB645FB3D0 /* MBProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
 		2A2B4FDA4077627BD4B586DFB4C7015A /* Pods-tenFaceLiveSDK_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-tenFaceLiveSDK_Example-frameworks.sh"; sourceTree = "<group>"; };
@@ -322,9 +333,18 @@
 		55901F382DAFB3F73A00D199CB52F595 /* AFNetworking-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AFNetworking-prefix.pch"; sourceTree = "<group>"; };
 		5662FC0207DC63C49D4C4B20AF64DB8C /* WHToastConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WHToastConfig.m; path = WHToast/WHToastConfig.m; sourceTree = "<group>"; };
 		587851FE04FDED1CA214A5280BD04D1B /* Pods-tenFaceLiveSDK_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-tenFaceLiveSDK_Example-Info.plist"; sourceTree = "<group>"; };
+		5917E8B72A9757DC000B2EDC /* turn-right.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "turn-right.wav"; sourceTree = "<group>"; };
+		5917E8B82A9757DC000B2EDC /* turn-left.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "turn-left.wav"; sourceTree = "<group>"; };
+		5917E8B92A9757DC000B2EDC /* open-mouth.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "open-mouth.wav"; sourceTree = "<group>"; };
+		5917E8BA2A9757DC000B2EDC /* open-eyes.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "open-eyes.wav"; sourceTree = "<group>"; };
+		5917E8BB2A9757DC000B2EDC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../Assets/Assets.xcassets; sourceTree = "<group>"; };
+		5917E8BE2A9757DC000B2EDC /* open-eyes.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "open-eyes.gif"; sourceTree = "<group>"; };
+		5917E8BF2A9757DC000B2EDC /* open-mouth.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "open-mouth.gif"; sourceTree = "<group>"; };
+		5917E8C02A9757DC000B2EDC /* turn-left.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "turn-left.gif"; sourceTree = "<group>"; };
+		5917E8C12A9757DC000B2EDC /* turn-right.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "turn-right.gif"; sourceTree = "<group>"; };
 		59FB569790D384AF08AA44AC3A2BF22E /* UIRefreshControl+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIRefreshControl+AFNetworking.m"; path = "UIKit+AFNetworking/UIRefreshControl+AFNetworking.m"; sourceTree = "<group>"; };
 		5BE77BEE398F777CB9141FFF4901880B /* MASCompositeConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASCompositeConstraint.m; path = Masonry/MASCompositeConstraint.m; sourceTree = "<group>"; };
-		5BED4FDA77F181C500812B129B049659 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		5BED4FDA77F181C500812B129B049659 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		5C3A27DD2290046CFC3A13E305EFABF4 /* MBProgressHUD-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD-umbrella.h"; sourceTree = "<group>"; };
 		5D27716C955E3955997B10518AC2EF9C /* MASCompositeConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASCompositeConstraint.h; path = Masonry/MASCompositeConstraint.h; sourceTree = "<group>"; };
 		5D6617FC61C78A586C1B893EA1B75441 /* AFSecurityPolicy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFSecurityPolicy.m; path = AFNetworking/AFSecurityPolicy.m; sourceTree = "<group>"; };
@@ -374,7 +394,7 @@
 		992BFB42D8347523B461152578D5256D /* UIColor+NTESLiveDetect.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIColor+NTESLiveDetect.m"; sourceTree = "<group>"; };
 		99BDC93B739015C3BEF432B453779749 /* Pods-tenFaceLiveSDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-tenFaceLiveSDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		9C61A8E21095DEA08B21D6231AED1686 /* NTESLiveDetect.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NTESLiveDetect.debug.xcconfig; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9EEB6DCF93DFBA45C21CCD1296A8BE1F /* View+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASAdditions.h"; path = "Masonry/View+MASAdditions.h"; sourceTree = "<group>"; };
 		A0F7262C2686D818D778FED124E66275 /* AFURLConnectionOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLConnectionOperation.m; path = AFNetworking/AFURLConnectionOperation.m; sourceTree = "<group>"; };
 		A269C7B8D7018BDB2000582333636B1B /* MASViewAttribute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewAttribute.h; path = Masonry/MASViewAttribute.h; sourceTree = "<group>"; };
@@ -429,7 +449,7 @@
 		F8901E61F753F2CEF9BC9C3C255634D9 /* UIWebView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIWebView+AFNetworking.m"; path = "UIKit+AFNetworking/UIWebView+AFNetworking.m"; sourceTree = "<group>"; };
 		F976F4D628383EF61AD030C65017E4E4 /* NTESBaseComponent.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NTESBaseComponent.release.xcconfig; sourceTree = "<group>"; };
 		F97CEECF48110B5E9894DF2826AAE284 /* tenFaceLiveSDK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "tenFaceLiveSDK-umbrella.h"; sourceTree = "<group>"; };
-		FA84E339E227532B7E70A1D9F2862C58 /* tenFaceLiveSDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = tenFaceLiveSDK.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		FA84E339E227532B7E70A1D9F2862C58 /* tenFaceLiveSDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = tenFaceLiveSDK.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		FACDCF7BCBDB51F7314C5B934DD4D4A7 /* MBProgressHUD.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MBProgressHUD.release.xcconfig; sourceTree = "<group>"; };
 		FC1A5375C7D01693CCA82169F6CF469E /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLResponseSerialization.h; path = AFNetworking/AFURLResponseSerialization.h; sourceTree = "<group>"; };
 		FC7BF9CE0EF26DC0A281F14DC3C821C2 /* NTESBaseViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = NTESBaseViewController.m; sourceTree = "<group>"; };
@@ -550,7 +570,6 @@
 				F770D132C93B347AAF31A7178EF69119 /* WHToastView.m */,
 				E023E6EAE001EC9F72CED441E5386643 /* Support Files */,
 			);
-			name = WHToast;
 			path = WHToast;
 			sourceTree = "<group>";
 		};
@@ -579,7 +598,6 @@
 				E76A2B53181881742434DEEE10820B47 /* Resources */,
 				130DF0E50BD5BD166FCE5CA86CB7CFD6 /* Support Files */,
 			);
-			name = NTESLiveDetect;
 			path = NTESLiveDetect;
 			sourceTree = "<group>";
 		};
@@ -626,7 +644,6 @@
 				C34089BC45A97B9ECED461CFA8CD57A1 /* UIImageView+NTESLDGif.h */,
 				2B1E641FA121AE9F6FE6077B6D296F6F /* UIImageView+NTESLDGif.m */,
 			);
-			name = View;
 			path = View;
 			sourceTree = "<group>";
 		};
@@ -668,6 +685,30 @@
 			);
 			name = "Support Files";
 			path = "../Target Support Files/MBProgressHUD";
+			sourceTree = "<group>";
+		};
+		5917E8B62A9757DC000B2EDC /* WavMusic */ = {
+			isa = PBXGroup;
+			children = (
+				5917E8B72A9757DC000B2EDC /* turn-right.wav */,
+				5917E8B82A9757DC000B2EDC /* turn-left.wav */,
+				5917E8B92A9757DC000B2EDC /* open-mouth.wav */,
+				5917E8BA2A9757DC000B2EDC /* open-eyes.wav */,
+			);
+			name = WavMusic;
+			path = ../../Assets/WavMusic;
+			sourceTree = "<group>";
+		};
+		5917E8BC2A9757DC000B2EDC /* GifPic */ = {
+			isa = PBXGroup;
+			children = (
+				5917E8BE2A9757DC000B2EDC /* open-eyes.gif */,
+				5917E8BF2A9757DC000B2EDC /* open-mouth.gif */,
+				5917E8C02A9757DC000B2EDC /* turn-left.gif */,
+				5917E8C12A9757DC000B2EDC /* turn-right.gif */,
+			);
+			name = GifPic;
+			path = ../../Assets/GifPic;
 			sourceTree = "<group>";
 		};
 		5D48E0D9018D7BBCAA1BFD26BC121C4B /* Serialization */ = {
@@ -749,7 +790,6 @@
 				1FB917AC48DA9F1527F2D56873D3F1D1 /* Frameworks */,
 				34B5DFF716BC0796C4AD1D2EA4ABCE1E /* Support Files */,
 			);
-			name = NTESBaseComponent;
 			path = NTESBaseComponent;
 			sourceTree = "<group>";
 		};
@@ -768,7 +808,6 @@
 				4C095CDA9615F4BBA930DC1F3B797F1E /* MBProgressHUD.m */,
 				578EE2624BDD39E9BE4982A54DA75C46 /* Support Files */,
 			);
-			name = MBProgressHUD;
 			path = MBProgressHUD;
 			sourceTree = "<group>";
 		};
@@ -782,7 +821,6 @@
 				1D1716E2AC99C7EB2DF446D5CBC2B771 /* NTESLDSuccessViewController.h */,
 				D078F28176815411B12E95912AD7CB4F /* NTESLDSuccessViewController.m */,
 			);
-			name = LiveDetct;
 			path = LiveDetct;
 			sourceTree = "<group>";
 		};
@@ -798,7 +836,6 @@
 				37D8CC5D6CFCE5A4FE2EB490BA484DC6 /* UIColor+NTESLiveDetect.h */,
 				992BFB42D8347523B461152578D5256D /* UIColor+NTESLiveDetect.m */,
 			);
-			name = Util;
 			path = Util;
 			sourceTree = "<group>";
 		};
@@ -840,7 +877,6 @@
 				496BF4773C8E7D7A23D4BCA267F6E606 /* NTESBaseViewController.h */,
 				FC7BF9CE0EF26DC0A281F14DC3C821C2 /* NTESBaseViewController.m */,
 			);
-			name = BaseVC;
 			path = BaseVC;
 			sourceTree = "<group>";
 		};
@@ -928,6 +964,9 @@
 		F06457D9D517DD1046085D893D6124D7 /* Neteasy */ = {
 			isa = PBXGroup;
 			children = (
+				5917E8BB2A9757DC000B2EDC /* Assets.xcassets */,
+				5917E8BC2A9757DC000B2EDC /* GifPic */,
+				5917E8B62A9757DC000B2EDC /* WavMusic */,
 				C6A602444E65626FB37C0E057C244C00 /* LDDemoDefines.h */,
 				5313D9ECC67367BC211A29AC5772BF03 /* Main.storyboard */,
 				44BFF1D7E753863376A1CEFC22809DA6 /* SceneDelegate.h */,
@@ -971,7 +1010,6 @@
 				839B1FD7475BDDA12EC892BE93970AF8 /* ViewController+MASAdditions.m */,
 				CEBC64881DE3B844A09004D16040BC03 /* Support Files */,
 			);
-			name = Masonry;
 			path = Masonry;
 			sourceTree = "<group>";
 		};
@@ -987,7 +1025,6 @@
 				6843FBA023F5DEADED4BE1148216FE0F /* Support Files */,
 				477EEE6992607728F92026F6E219BD43 /* UIKit */,
 			);
-			name = AFNetworking;
 			path = AFNetworking;
 			sourceTree = "<group>";
 		};
@@ -1265,6 +1302,35 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1300;
 				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					0130B3724283586C0E9D2A112D4F2AA1 = {
+						DevelopmentTeam = TJM8W7CS7Y;
+					};
+					0515AC1115186B0F3EBFB78E8204A267 = {
+						DevelopmentTeam = TJM8W7CS7Y;
+					};
+					26AFB486BCFF93A3091443F028D03B2C = {
+						DevelopmentTeam = TJM8W7CS7Y;
+					};
+					55AF53E6C77A10ED4985E04D74A8878E = {
+						DevelopmentTeam = TJM8W7CS7Y;
+					};
+					7F6F6C7839036FD656371F03D2E294BE = {
+						DevelopmentTeam = TJM8W7CS7Y;
+					};
+					82B0A41D3031FF27D78E17B0A9A46FB0 = {
+						DevelopmentTeam = TJM8W7CS7Y;
+					};
+					9A76BF871C7ED6F135327898ADD3B416 = {
+						DevelopmentTeam = TJM8W7CS7Y;
+					};
+					DC2CADF0EE971CCA017237D74F044ECC = {
+						DevelopmentTeam = TJM8W7CS7Y;
+					};
+					DCD0DEEDE9CB35945D67203F112697C6 = {
+						DevelopmentTeam = TJM8W7CS7Y;
+					};
+				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -1325,6 +1391,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5917E8C42A9757DC000B2EDC /* open-mouth.wav in Resources */,
+				5917E8C32A9757DC000B2EDC /* turn-left.wav in Resources */,
+				5917E8CA2A9757DC000B2EDC /* turn-left.gif in Resources */,
+				5917E8C82A9757DC000B2EDC /* open-eyes.gif in Resources */,
+				5917E8CB2A9757DC000B2EDC /* turn-right.gif in Resources */,
+				5917E8C52A9757DC000B2EDC /* open-eyes.wav in Resources */,
+				5917E8C22A9757DC000B2EDC /* turn-right.wav in Resources */,
+				5917E8C62A9757DC000B2EDC /* Assets.xcassets in Resources */,
+				5917E8C92A9757DC000B2EDC /* open-mouth.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1938,8 +2013,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
