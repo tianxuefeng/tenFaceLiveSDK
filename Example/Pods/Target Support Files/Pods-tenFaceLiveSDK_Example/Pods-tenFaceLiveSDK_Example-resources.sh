@@ -98,11 +98,9 @@ EOM
 }
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_resource "${PODS_ROOT}/NTESLiveDetect/Assets/NTESLiveDetectBundle.bundle"
-  install_resource "${PODS_CONFIGURATION_BUILD_DIR}/tenFaceLiveSDK/tenFaceLiveSDK.bundle"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_resource "${PODS_ROOT}/NTESLiveDetect/Assets/NTESLiveDetectBundle.bundle"
-  install_resource "${PODS_CONFIGURATION_BUILD_DIR}/tenFaceLiveSDK/tenFaceLiveSDK.bundle"
 fi
 
 mkdir -p "${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}"

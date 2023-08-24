@@ -305,12 +305,10 @@
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-tenFaceLiveSDK_Example/Pods-tenFaceLiveSDK_Example-resources.sh",
 				"${PODS_ROOT}/NTESLiveDetect/Assets/NTESLiveDetectBundle.bundle",
-				"${PODS_CONFIGURATION_BUILD_DIR}/tenFaceLiveSDK/tenFaceLiveSDK.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/NTESLiveDetectBundle.bundle",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/tenFaceLiveSDK.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
