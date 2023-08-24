@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'tenFaceLiveSDK'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'A short description of tenFaceLiveSDK.'
 
 # This description is used to generate tags and improve search results.
@@ -34,10 +34,9 @@ TODO: Add long description of the pod here.
   
 #s.resource_bundles = { 'ASMessenger' => ['Pod/Assets/**/*'] }
    
-   s.resources = "tenFaceLiveSDK/Assets/**/*"
+   #s.resources = "tenFaceLiveSDK/Assets/**/*"
 
-   #s.resource_bundles = {
-       #'tenFaceLiveSDK' => ['tenFaceLiveSDK/*/*.{wav,gif,xcassets}'] }
+   s.resource_bundles = {'tenFaceLiveSDK' => ['tenFaceLiveSDK/Assets/**/*', 'tenFaceLiveSDK/Assets/GifPic/*.gif', 'tenFaceLiveSDK/Assets/WavMusic/*.wav'] }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'

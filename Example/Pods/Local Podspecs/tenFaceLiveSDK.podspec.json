@@ -1,6 +1,6 @@
 {
   "name": "tenFaceLiveSDK",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "summary": "A short description of tenFaceLiveSDK.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/xiao fu/tenFaceLiveSDK",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/xiao fu/tenFaceLiveSDK.git",
-    "tag": "0.1.0"
+    "tag": "0.1.1"
   },
   "platforms": {
     "ios": "11.0"
@@ -21,7 +21,9 @@
   "source_files": "tenFaceLiveSDK/Classes/**/*",
   "resource_bundles": {
     "tenFaceLiveSDK": [
-      "tenFaceLiveSDK/Assets/**/*"
+      "tenFaceLiveSDK/Assets/**/*",
+      "tenFaceLiveSDK/Assets/GifPic/*.gif",
+      "tenFaceLiveSDK/Assets/WavMusic/*.wav"
     ]
   },
   "static_framework": true,
