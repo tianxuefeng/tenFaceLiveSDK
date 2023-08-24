@@ -75,9 +75,7 @@ static NSOperationQueue *_queue;
 - (void)viewDidAppear:(BOOL)animated {
     [super viewDidAppear:animated];
     
-   NSString *path = [[NSBundle mainBundle] bundlePath];
-    NSLog(@"NSBundle path:%@", path);
-    
+    NSLog(@"%@", [NSBundle mainBundle]);
 }
 
 - (void)viewWillDisappear:(BOOL)animated {
@@ -210,7 +208,9 @@ static NSOperationQueue *_queue;
                // [_delegate Success];
                 [_delegate Success:token];
             }
-            [self.navigationController popViewControllerAnimated:true];
+            //[self.navigationController popViewControllerAnimated:true];
+            //[self dismissViewControllerAnimated:true completion:nil];
+            [self backBarButtonPressed];
             NSLog(@"活体检测通过");
         }
             break;
@@ -289,6 +289,9 @@ static NSOperationQueue *_queue;
         [[UIScreen mainScreen] setBrightness:weakSelf.value];
         if ([weakSelf.navigationController.topViewController isKindOfClass:[self class]]) {
            [weakSelf.navigationController popViewControllerAnimated:YES];
+        }else{
+            //Added by xuefeng
+            [self dismissViewControllerAnimated:true completion:{}];
         }
     });
 }

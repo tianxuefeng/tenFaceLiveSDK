@@ -31,12 +31,14 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '11.0'
 
   s.source_files = 'tenFaceLiveSDK/Classes/**/*'
-  
-#s.resource_bundles = { 'ASMessenger' => ['Pod/Assets/**/*'] }
-   
-   #s.resources = "tenFaceLiveSDK/Assets/**/*"
 
-   s.resource_bundles = {'tenFaceLiveSDK' => ['tenFaceLiveSDK/Assets/**/*', 'tenFaceLiveSDK/Assets/GifPic/*.gif', 'tenFaceLiveSDK/Assets/WavMusic/*.wav'] }
+  #s.resources = "Assets/**/*"
+  #s.resources             = 'tenFaceLiveSDK/*.{png,gif,wav,bundle}'
+   
+   #s.resource = "tenFaceLiveSDK.bundle"
+   #s.resource_bundles = {'tenFaceLiveSDK' => ['tenFaceLiveSDK/MyAssets/**/*', 'tenFaceLiveSDK/Assets/GifPic/*.gif', 'tenFaceLiveSDK/Assets/WavMusic/*.wav'] }
+   
+   #s.resource_bundles = {'testBundle' => ['tenFaceLiveSDK/Assets/**/*', 'tenFaceLiveSDK/Assets/GifPic/*.gif', 'tenFaceLiveSDK/Assets/WavMusic/*.wav'] }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'

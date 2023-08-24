@@ -16,13 +16,15 @@ class ViewController: UIViewController, TeneasyLiveDetectDelegate {
         let vc = NTESLDMainViewController()
         vc.delegate = self
         vc.faceBusinessID = "6dfd0b99eb5b4bd698ca63d76c85ef5e"
-        self.navigationController?.pushViewController(vc, animated: true)
+        //需要把vc添加进navigation controller才可以push
+        //self.navigationController?.pushViewController(vc, animated: true)
         //下面的可以
-        //self.present(vc, animated: true)
+        self.present(vc, animated: true)
     }
     
     func success(_ token: String) {
-        print("成功")
+        print("成功\(token)")
+        NTESToastView.showNotice("通过")
     }
     
     func failed() {

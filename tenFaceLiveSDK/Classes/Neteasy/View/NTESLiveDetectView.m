@@ -207,8 +207,10 @@
 - (void)__initBackBarButton {
     _backBarButton = [UIButton buttonWithType:UIButtonTypeCustom];
     [_backBarButton addTarget:self action:@selector(doBack) forControlEvents:UIControlEventTouchUpInside];
-    [_backBarButton setImage:[UIImage imageNamed:@"ico_back"] forState:UIControlStateNormal];
-    [_backBarButton setImage:[UIImage imageNamed:@"ico_back"] forState:UIControlStateHighlighted];
+  
+    [_backBarButton setImage:[UIImage imageNamed:@"ico_back" inBundle:[self myBundle] compatibleWithTraitCollection:nil] forState:UIControlStateNormal];
+    [_backBarButton setImage:[UIImage imageNamed:@"ico_back" inBundle:[self myBundle] compatibleWithTraitCollection:nil] forState:UIControlStateHighlighted];
+    
     [self addSubview:_backBarButton];
     [_backBarButton mas_makeConstraints:^(MASConstraintMaker *make) {
         make.left.equalTo(self).offset(20*KWidthScale);
@@ -387,14 +389,15 @@
     // 0——正面，1——右转，2——左转，3——张嘴，4——眨眼
     self.frontImage.hidden = YES;
     self.actionImage.hidden = NO;
-    NSString *gifImagePath = [[NSBundle mainBundle] pathForResource:imageName ofType:@"gif"];
+
+    NSString *gifImagePath = [[self myBundle] pathForResource:imageName ofType:@"gif"];
     NSURL *gifImageUrl = [NSURL fileURLWithPath:gifImagePath];
     [self.actionImage yh_setImage:gifImageUrl];
 }
 
 - (void)playActionMusic:(NSString *)musicName {
     // 0——正面，1——右转，2——左转，3——张嘴，4——眨眼
-    NSURL *fileUrl = [[NSBundle mainBundle] URLForResource:musicName withExtension:@"wav"];
+    NSURL *fileUrl = [[self myBundle] URLForResource:musicName withExtension:@"wav"];
     self.player = [[AVAudioPlayer alloc] initWithContentsOfURL:fileUrl error:nil];
     if (self.player) {
         [self.player prepareToPlay];
@@ -439,10 +442,17 @@
 - (void)openVoiceButton {
     self.shouldPlay = !self.shouldPlay;
     if (self.shouldPlay) {
+        
         [self.voiceButton setImage:[UIImage imageNamed:@"ico_voice_open"] forState:UIControlStateNormal];
     } else {
         [self.voiceButton  setImage:[UIImage imageNamed:@"ico_voice_close"] forState:UIControlStateNormal];
     }
+}
+
+-(NSBundle *)myBundle{
+    NSString *myBundlePath = [[NSBundle mainBundle] pathForResource:@"tenFaceLiveSDK" ofType:@"bundle"];
+    NSBundle *bundle = [NSBundle bundleWithPath:myBundlePath];
+    return bundle;
 }
 
 - (void)doBack {
