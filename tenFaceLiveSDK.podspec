@@ -46,7 +46,7 @@ TODO: Add long description of the pod here.
   s.static_framework = true
   
    s.dependency 'AFNetworking', '~> 2.3'
-   s.dependency 'WHToast', '~>0.1.0'
+   s.dependency 'WHToast'#, '~>0.1.0'
    s.dependency 'Masonry'
    s.dependency 'NTESLiveDetect', '= 3.1.2'
    s.dependency 'MBProgressHUD'
